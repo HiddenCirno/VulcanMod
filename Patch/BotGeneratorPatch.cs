@@ -1,11 +1,21 @@
-using System.Reflection;
-using System;
+using EternalCycleServer;
+using HarmonyLib;
+using JetBrains.Annotations;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 using SPTarkov.DI.Annotations;
+using SPTarkov.Reflection.Patching;
+using SPTarkov.Server.Core.Constants;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Generators;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Eft.Bot;
+using SPTarkov.Server.Core.Models.Eft.Common;
+using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Logging;
+using SPTarkov.Server.Core.Models.Spt.Bots;
+using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Routers;
@@ -14,20 +24,12 @@ using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
 using SPTarkov.Server.Core.Utils.Cloners;
-using SPTarkov.Reflection.Patching;
+using System;
 using System.Reflection;
-using EternalCycleServer;
-using SPTarkov.Server.Core.Models.Common;
-using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using SPTarkov.Server.Core.Models.Spt.Bots;
-using HarmonyLib;
-using SPTarkov.Server.Core.Models.Eft.Bot;
-using SPTarkov.Server.Core.Models.Spt.Config;
-using SPTarkov.Server.Core.Models.Eft.Common;
-using System.Text;
-using JetBrains.Annotations;
-using SPTarkov.Server.Core.Constants;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.Arm;
+using System.Text;
 
 namespace VulcanInfinity
 {
@@ -362,6 +364,125 @@ namespace VulcanInfinity
 
                 return true;
             }
+
+            [PatchPostfix]
+            public static void Postfix(BotGenerator __instance, MongoId sessionId, BotBase bot, BotType botJsonTemplate, BotGenerationDetails botGenerationDetails, ref BotBase __result)
+            {
+                var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
+                var botLevelGenerator = ServiceLocator.ServiceProvider.GetService<BotLevelGenerator>();
+                var botEquipmentFilterService = ServiceLocator.ServiceProvider.GetService<BotEquipmentFilterService>();
+                var botNameService = ServiceLocator.ServiceProvider.GetService<BotNameService>();
+                var databaseService = ServiceLocator.ServiceProvider.GetService<DatabaseService>();
+                var seasonalEventService = ServiceLocator.ServiceProvider.GetService<SeasonalEventService>();
+                var weightedRandomHelper = ServiceLocator.ServiceProvider.GetService<WeightedRandomHelper>();
+                var botInventoryGenerator = ServiceLocator.ServiceProvider.GetService<BotInventoryGenerator>();
+                var presetHelper = ServiceLocator.ServiceProvider.GetService<PresetHelper>();
+                var jsonUtil = ServiceLocator.ServiceProvider.GetService<JsonUtil>();
+                var imageRouter = ServiceLocator.ServiceProvider.GetService<ImageRouter>();
+                var itemHelper = ServiceLocator.ServiceProvider.GetService<ItemHelper>();
+                var cloner = ServiceLocator.ServiceProvider.GetService<ICloner>();
+                var modHelper = ServiceLocator.ServiceProvider.GetService<ModHelper>();
+                var configServer = ServiceLocator.ServiceProvider.GetService<ConfigServer>();
+                var botConfig = configServer.GetConfig<BotConfig>();
+
+                var context = new ContextManager.LoadModContext
+                {
+                    DB = databaseService,
+                    JsonUtil = jsonUtil,
+                    ConfigServer = configServer,
+                    ModHelper = modHelper,
+                    Logger = Utils.commonLogger,
+                    ImageRouter = imageRouter,
+                    PresetHelper = presetHelper,
+                    ItemHelper = itemHelper,
+                    Cloner = cloner
+                };
+
+                var botRoleLowercase = botGenerationDetails.Role.ToLowerInvariant();
+                var botRole = __result.Info.Settings.Role;
+                var botRoleLower = botRole.ToLower();
+                var botNickName = __result.Info.Nickname;
+                switch (botRoleLower)
+                {
+                    case "bossbully":
+                        AddLootToInventory(__result.Inventory, "宿舍楼管理员钥匙".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_VORON, "Pockets", __result, context);
+                        break;
+                    case "bosstagilla":
+                        AddLootToInventory(__result.Inventory, "仿制工厂钥匙".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_ARK, "Pockets", __result, context);
+                        break;
+                    case "bosstagillaagro":
+                        AddLootToInventory(__result.Inventory, ItemTpl.KEY_ARIADNE_SYMBOL, "Pockets", __result, context);
+                        break;
+                    case "bosssanitar":
+                        AddLootToInventory(__result.Inventory, "疗养院管理员钥匙".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_HEARTBEAT, "Pockets", __result, context);
+                        break;
+                    case "bosskilla":
+                        AddLootToInventory(__result.Inventory, "仿制11SR".ConvertHashID(), "Pockets", __result, context);
+                        break;
+                    case "bossgluhar":
+                        AddLootToInventory(__result.Inventory, "储备站管理员钥匙".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, ItemTpl.INFO_MINEFIELD_MAP_RESERVE, "Pockets", __result, context);
+                        break;
+                    case "bosskojaniy":
+                        {
+                            AddLootToInventory(__result.Inventory, ItemTpl.INFO_MINEFIELD_MAP_WOODS, "Pockets", __result, context);
+                        }
+                        break;
+                    case "bossboar":
+                        {
+                            AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_ONYX, "Pockets", __result, context);
+                        }
+                        break;
+                    case "sectantpriest":
+                        AddLootToInventory(__result.Inventory, "通用符号钥匙".ConvertHashID(), "Pockets", __result, context);
+                        break;
+                }
+                if (botNickName == "Obsidian")
+                {
+                    AddLootToInventory(__result.Inventory, "实验室管理员钥匙卡".ConvertHashID(), "Pockets", __result, context);
+                    AddLootToInventory(__result.Inventory, "黑L4G24夜视仪支架".ConvertHashID(), "Backpack", __result, context);
+                    AddLootToInventory(__result.Inventory, "PVS31A".ConvertHashID(), "Backpack", __result, context);
+
+                }
+                if (alterBossName.Contains(botNickName))
+                {
+                    AddLootToInventory(__result.Inventory, "封装英雄之证".ConvertHashID(), "Pockets", __result, context);
+                    if (__result.Inventory != null && __result.Inventory.Items != null && bot.Inventory.Items.Count > 0)
+                    {
+                        __result.Inventory.Items.ForEach(item =>
+                        {
+                            if (item.SlotId == "FirstPrimaryWeapon" || item.SlotId == "SecondPrimaryWeapon" || item.SlotId == "Holster")
+                            {
+                                if (item.Upd != null && item.Upd.Repairable != null)
+                                {
+                                    item.Upd.Repairable.Durability = 100;
+                                    item.Upd.Repairable.MaxDurability = 100;
+                                }
+                            }
+                        });
+                    }
+                }
+                if (botNickName == "Obsidian" || botRoleLowercase == "arenafighterevent")
+                {
+                    if (__result.Inventory != null && __result.Inventory.Items != null && __result.Inventory.Items.Count > 0)
+                    {
+                        __result.Inventory.Items.ForEach(item =>
+                        {
+                            if (item.SlotId == "FirstPrimaryWeapon" || item.SlotId == "SecondPrimaryWeapon" || item.SlotId == "Holster")
+                            {
+                                if (item.Upd != null && item.Upd.Repairable != null)
+                                {
+                                    item.Upd.Repairable.Durability = 100;
+                                    item.Upd.Repairable.MaxDurability = 100;
+                                }
+                            }
+                        });
+                    }
+                }
+            }
         }
         public class AddDogtagToBotPatch : AbstractPatch
         {
@@ -538,15 +659,16 @@ namespace VulcanInfinity
 
             return latinString.ToString();
         }
-        public static void AddLootToInventory(BotBaseInventory inventory, MongoId itemid, string slot, BotBase bot, ISptLogger<BotGenerator> logger, ContextManager.LoadModContext context)
+        public static void AddLootToInventory(BotBaseInventory inventory, MongoId itemid, string slot, BotBase bot, ContextManager.LoadModContext context)
         {
+            var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
             //这个方法默认只支持1x1战利品, 因此不再做旋转检测
             var container = inventory.Items.FirstOrDefault(x => x.SlotId == slot);
             var haveitem = inventory.Items.FirstOrDefault(x => x.Template == itemid);
             var containerMap = new Dictionary<string, int[,]>();
             if (container == null || haveitem != null)
             {
-                logger.LogWithColor($"错误: 无法在{bot.Info.Settings.Role}身上找到{slot}, 或者{itemid}已经存在", LogTextColor.Yellow);
+                //logger.LogWithColor($"警告: 无法在{bot.Info.Settings.Role}身上找到{slot}, 或者{itemid}已经存在", LogTextColor.Yellow);
                 return;
             }
             var containerItem = ItemUtils.GetItem(container.Template, context);
@@ -590,10 +712,10 @@ namespace VulcanInfinity
             var targetlocation = FindPlacementSpace(containerMap, logger);
             if (targetlocation == null)
             {
-                logger.LogWithColor($"错误: 无法在{bot.Info.Settings.Role}的{slot}上找到有效空间", LogTextColor.Yellow);
+                //logger.LogWithColor($"警告: 无法在{bot.Info.Settings.Role}的{slot}上找到有效空间", LogTextColor.Yellow);
                 return;
             }
-            logger.LogWithColor($"成功在{bot.Info.Settings.Role}的{slot}添加了{itemid}", LogTextColor.Yellow);
+            //logger.LogWithColor($"成功在{bot.Info.Settings.Role}的{slot}添加了{itemid}", LogTextColor.Yellow);
             inventory.Items.Add(new Item
             {
                 Id = new MongoId(),
@@ -619,7 +741,7 @@ namespace VulcanInfinity
                     {
                         if (map[x, y] == 0)
                         {
-                            logger.LogWithColor($"坐标查找成功", LogTextColor.Green);
+                            //logger.LogWithColor($"坐标查找成功", LogTextColor.Green);
                             return new KeyValuePair<string, ItemLocation>(container.Key, new ItemLocation
                             {
                                 X = y,
@@ -630,7 +752,7 @@ namespace VulcanInfinity
                     }
                 }
             }
-            logger.LogWithColor($"错误: 空间已满", LogTextColor.Yellow);
+            //logger.LogWithColor($"警告: 空间已满", LogTextColor.Yellow);
             // 如果没有找到空格子，则返回 null
             return null;
         }
