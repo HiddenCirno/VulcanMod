@@ -47,7 +47,7 @@ public record VulcanInfinity : AbstractModMetadata
     /// <summary>
     /// The name of your mod
     /// </summary>
-    public override string Name { get; init; } = "火神重工-无限";
+    public override string Name { get; init; } = "火神重工";
 
     /// <summary>
     /// Who created the mod (you!)
@@ -114,9 +114,7 @@ public class Core(
     public Task OnLoad()
     {
         Utils.commonLogger.Info("不破其旧，无以立新！");
-        Thread.Sleep(500);
         Utils.commonLogger.Info("我知晓所有的道路，它们都通往同一个地方。");
-        Thread.Sleep(500);
         var modConfig = ConfigManager.GetConfig();
         var coreconfigs = configServer.GetConfig<CoreConfig>();
         //coreconfigs.Fixes.RemoveInvalidTradersFromProfile = true;
