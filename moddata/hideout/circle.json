@@ -617,5 +617,39 @@
         ],
         "time": 3600,
         "repeatable": false
+    },
+    {
+        "requires": [
+            "SiegeR"
+        ],
+        "rewards": [
+            "SiegeR复制品"
+        ],
+        "time": 3600,
+        "repeatable": true
+    },
+    {
+        "requires": [
+            "灰美重"
+        ],
+        "rewards": [
+            "灰美重复制品"
+        ],
+        "time": 3600,
+        "repeatable": true
+    },
+    {
+        "requires": [
+            "小腰包",
+            "金块",
+            "金块",
+            "金块",
+            "金块"
+        ],
+        "rewards": [
+            "Reshala背包"
+        ],
+        "time": 3600,
+        "repeatable": true
     }
 ]

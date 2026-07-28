@@ -32173,5 +32173,407 @@
             "isMoney": false,
             "BlackListType": 0
         }
+    },
+    "PKP250发弹盒": {
+        "_id": "PKP250发弹盒",
+        "_targetid": "646372518610c40fc20204e8",
+        "_name": "PKP250发弹盒",
+        "_props": {
+            "BackgroundColor": "violet",
+            "CanSellOnRagfair": false,
+            "Cartridges": [
+                {
+                    "_id": "PKP250发弹盒_内部空间",
+                    "_max_count": 250,
+                    "_name": "cartridges",
+                    "_parent": "PKP250发弹盒",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e023d34e8a400319a28ed44",
+                                    "5e023d48186a883be655e551",
+                                    "5e023cf8186a883be655e54f",
+                                    "59e77a2386f7742ee578960a",
+                                    "5887431f2459777e1612938f",
+                                    "560d61e84bdc2da74d8b4571",
+                                    "64b8f7c241772715af0f9c3d",
+                                    "64b8f7968532cf95ee0a0dbf",
+                                    "64b8f7b5389d7ffd620ccba2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "PK 7.62x54R 250发盒式弹匣",
+            "ShortName": "PK",
+            "Description": "卡拉什尼科夫机枪的改进型250发盒式7.62x54R弹匣。",
+            "RagfairType": "5b5f754a86f774094242f19b",
+            "DefaultPrice": 112392,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "65293c38fc460e50a509cb25",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": false
+        }
+    },
+    "Ash40发弹匣": {
+        "_id": "Ash40发弹匣",
+        "_targetid": "5caf1109ae9215753c44119f",
+        "_name": "Ash40发弹匣",
+        "_props": {
+            "BackgroundColor": "violet",
+            "CanSellOnRagfair": false,
+            "Cartridges": [
+                {
+                    "_id": "Ash40发弹匣_内部空间",
+                    "_max_count": 40,
+                    "_name": "cartridges",
+                    "_parent": "Ash40发弹匣",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5cadf6ddae9215051e1c23b2",
+                                    "5cadf6e5ae921500113bb973",
+                                    "5cadf6eeae921500134b2799"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "ASh-12 40发ASh-12弹匣",
+            "ShortName": "ASh-12",
+            "Description": "ASh-12的40发12.7x55弹匣。",
+            "RagfairType": "5b5f754a86f774094242f19b",
+            "DefaultPrice": 112392,
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "65293c38fc460e50a509cb25",
+            "isMoney": false,
+            "isGiftBox": false,
+            "FixType": [
+                "Mods"
+            ],
+            "CopyPrice": false
+        }
+    },
+    "SiegeR复制品": {
+        "_id": "SiegeR复制品",
+        "_targetid": "5648a69d4bdc2ded0b8b457b",
+        "_parent": "5448e5284bdc2dcb718b4567",
+        "_name": "SiegeR复制品",
+        "_props": {
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/equipment/rig_bd4_firstspear/item_equipment_armor_bd4_firstspear.bundle",
+                "rcid": ""
+            },
+            "Width": 4,
+            "Height": 4,
+            "Weight": 2.5,
+            "BackgroundColor": "default",
+            "mousePenalty": 0,
+            "speedPenaltyPercent": 0,
+            "weaponErgonomicPenalty": 0,
+            "Grids": [
+                {
+                    "_id": "3c169ef07d3ab93f55c7f22f",
+                    "_name": "1",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "9c3b815ece30e283158841b6",
+                    "_name": "2",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "16d7371918a1e03542a6f5eb",
+                    "_name": "3",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "4fd0b77928c24e87c276ca3a",
+                    "_name": "4",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 3,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "02cf51971f26c745012ba260",
+                    "_name": "5",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 2,
+                        "cellsV": 2,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2191d982937191de9929eb69",
+                    "_name": "6",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "8a394f6fdba60e390ef19477",
+                    "_name": "7",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "512254a094a58ac2adbdf44a",
+                    "_name": "8",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "2f87534c5105e16a449727c8",
+                    "_name": "9",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "80a0bf2c0e877ea8d185ca7b",
+                    "_name": "10",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_id": "7e8261447ac2a9d44c928a17",
+                    "_name": "11",
+                    "_parent": "SiegeR复制品",
+                    "_props": {
+                        "cellsH": 1,
+                        "cellsV": 1,
+                        "filters": [
+                            {
+                                "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                ],
+                                "Filter": [
+                                    "54009119af1c881c07000029"
+                                ]
+                            }
+                        ],
+                        "isSortingTable": false,
+                        "maxCount": 0,
+                        "maxWeight": 0,
+                        "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+            ],
+            "RigLayoutName": "firstspear"
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "First Spear Siege-R Optimized M.A.S.S. 插板胸挂 (黑色军团)（不防弹的复制品）",
+            "ShortName": "Siege-R",
+            "Description": "一款配有模块化附加护甲系统 (M.A.S.S.) 肩部悬挂的 First Spear Siege-R Optimized 插板背心的1:1复刻版本。为使用者留出充足的活动空间，便于操作各类武器设备。黑色版本。",
+            "DefaultPrice": 200000,
+            "RagfairType": "5b5f6f8786f77447ed563642",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63,
+            "CustomFixID": "5648a69d4bdc2ded0b8b457b",
+            "FixType": [
+                "None"
+            ]
+        }
     }
 }

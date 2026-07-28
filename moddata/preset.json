@@ -706,5 +706,55 @@
                 "slotId": "Right_side_plate"
             }
         ]
+    },
+    {
+        "Name": "Ashval_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "5cadfbf7ae92152ac412eeef",
+        "Preset": [
+            {
+                "_id": "6a687b00571161c39f00477c",
+                "_tpl": "6447c2e7aaec89263d685b0a"
+            },
+            {
+                "_id": "6a687b00571161c39f00477d",
+                "_tpl": "5caf17c9ae92150b30006be1",
+                "slotId": "mod_muzzle",
+                "parentId": "6a687b00571161c39f00477c"
+            },
+            {
+                "_id": "6a687b00571161c39f00477e",
+                "_tpl": "5caf1041ae92157c28402e3f",
+                "slotId": "mod_magazine",
+                "parentId": "6a687b00571161c39f00477c"
+            },
+            {
+                "_id": "6a687b00571161c39f00477f",
+                "_tpl": "5caf16a2ae92152ac412efbc",
+                "slotId": "mod_sight_front",
+                "parentId": "6a687b00571161c39f00477c"
+            },
+            {
+                "_id": "6a687b00571161c39f004780",
+                "_tpl": "5cdaa99dd7f00c002412d0b2",
+                "slotId": "mod_handguard",
+                "parentId": "6a687b00571161c39f00477c"
+            },
+            {
+                "_id": "6a687b00571161c39f004782",
+                "_tpl": "5caf1691ae92152ac412efb9",
+                "slotId": "mod_scope",
+                "parentId": "6a687b00571161c39f00477c"
+            },
+            {
+                "_id": "6a687b00571161c39f004781",
+                "_tpl": "5cda9bcfd7f00c0c0b53e900",
+                "slotId": "mod_foregrip",
+                "parentId": "6a687b00571161c39f004780"
+            }
+        ]
     }
 ]

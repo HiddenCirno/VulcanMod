@@ -12193,5 +12193,517 @@
         "Quest": "60e71c48c1bfa3050473b8e5",
         "QuestStage": 1,
         "IsUnknown": false
+    },
+    {
+        "$type": "locked",
+        "ID": "Boss狗牌_Ashval",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "Boss狗牌_Ashval",
+                "_tpl": "6447c2e7aaec89263d685b0a",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "6a6871e9613adeed57004391",
+                "_tpl": "5caf187cae92157c28402e43",
+                "slotId": "mod_muzzle",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed57004392",
+                "_tpl": "5dfa3d7ac41b2312ea33362a",
+                "slotId": "mod_sight_rear",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed57004393",
+                "_tpl": "5caf1109ae9215753c44119f",
+                "slotId": "mod_magazine",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed57004394",
+                "_tpl": "5dfa3d950dee1b22f862eae0",
+                "slotId": "mod_sight_front",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed57004395",
+                "_tpl": "588226d124597767ad33f787",
+                "slotId": "mod_handguard",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed57004396",
+                "_tpl": "618b9643526131765025ab35",
+                "slotId": "mod_scope",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed5700439a",
+                "_tpl": "66b0eb4bafb8d2d107ee6134",
+                "slotId": "mod_tactical_002",
+                "parentId": "Boss狗牌_Ashval"
+            },
+            {
+                "_id": "6a6871e9613adeed57004397",
+                "_tpl": "261683aedc3c66f36d52ad28",
+                "slotId": "mod_scope",
+                "parentId": "6a6871e9613adeed57004396"
+            },
+            {
+                "_id": "6a6871e9613adeed57004398",
+                "_tpl": "618b9682a3884f56c957ca78",
+                "slotId": "mod_mount",
+                "parentId": "6a6871e9613adeed57004396"
+            },
+            {
+                "_id": "6a6871e9613adeed57004399",
+                "_tpl": "5a32aa8bc4a2826c6e06d737",
+                "slotId": "mod_scope",
+                "parentId": "6a6871e9613adeed57004398"
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true,
+        "Locked": true,
+        "Quest": "PersicariaDeadTask6",
+        "QuestStage": 1,
+        "Unknown": false
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_黑狐甲",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_黑狐甲",
+                "_tpl": "f45aa19f442d414c5a499f8f",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b2",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "slotId": "Front_plate",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b3",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "slotId": "Back_plate",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b4",
+                "_tpl": "98c981ad1419b88d110fabe3",
+                "slotId": "Left_side_plate",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b5",
+                "_tpl": "98c981ad1419b88d110fabe3",
+                "slotId": "Right_side_plate",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b6",
+                "_tpl": "0d723b40ccc0929be9a6c11e",
+                "slotId": "Soft_armor_front",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b7",
+                "_tpl": "596069f535fb5e3978a5f3f9",
+                "slotId": "Soft_armor_back",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b8",
+                "_tpl": "60524026aeb07b910ea2164e",
+                "slotId": "Soft_armor_left",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042b9",
+                "_tpl": "f788327b8ba16244d53278aa",
+                "slotId": "soft_armor_right",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042ba",
+                "_tpl": "0e779413b3f5179c1102210c",
+                "slotId": "Collar",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042bb",
+                "_tpl": "f1b275b7ad7063b48d4d4981",
+                "slotId": "Shoulder_l",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042bc",
+                "_tpl": "034ea704610d3b8119ee50ae",
+                "slotId": "Shoulder_r",
+                "parentId": "水晶狗牌_黑狐甲"
+            },
+            {
+                "_id": "6a6878ea185299e83e0042bd",
+                "_tpl": "525c41139365c79d95e8d5ea",
+                "slotId": "Groin",
+                "parentId": "水晶狗牌_黑狐甲"
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_典狱长甲",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_典狱长甲",
+                "_tpl": "78eba8b0484a4f4e345a6d4f",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "6a688fdb24cff8f122004984",
+                "_tpl": "656fa99800d62bcd2e024088",
+                "slotId": "Front_plate",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f122004985",
+                "_tpl": "656fa99800d62bcd2e024088",
+                "slotId": "Back_plate",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f122004986",
+                "_tpl": "64afdb577bb3bfe8fe03fd1d",
+                "slotId": "Left_side_plate",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f122004987",
+                "_tpl": "64afdb577bb3bfe8fe03fd1d",
+                "slotId": "Right_side_plate",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f122004988",
+                "_tpl": "28fdff4235566238f0b1fd93",
+                "slotId": "Soft_armor_front",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f122004989",
+                "_tpl": "47130e5c0cf08184ac9bcc36",
+                "slotId": "Soft_armor_back",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f12200498a",
+                "_tpl": "24a2aa0e22dd2388849f6840",
+                "slotId": "Soft_armor_left",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f12200498b",
+                "_tpl": "2eeeba5dfbd028532341a38b",
+                "slotId": "soft_armor_right",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f12200498c",
+                "_tpl": "c229ba1520bee40cac370ebd",
+                "slotId": "Collar",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f12200498d",
+                "_tpl": "376cc37a73b4b153c741d316",
+                "slotId": "Shoulder_l",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f12200498e",
+                "_tpl": "4d133d9a64e7e87e3cdb03cb",
+                "slotId": "Shoulder_r",
+                "parentId": "水晶狗牌_典狱长甲"
+            },
+            {
+                "_id": "6a688fdb24cff8f12200498f",
+                "_tpl": "7e69cd2891318588c6cd3ca7",
+                "slotId": "Groin",
+                "parentId": "水晶狗牌_典狱长甲"
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_大管甲",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_大管甲",
+                "_tpl": "e322626d07fdc4ccb4bb8f48",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "6a68901824cff8f122004992",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "slotId": "Front_plate",
+                "parentId": "水晶狗牌_大管甲"
+            },
+            {
+                "_id": "6a68901824cff8f122004993",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "slotId": "Back_plate",
+                "parentId": "水晶狗牌_大管甲"
+            },
+            {
+                "_id": "6a68901824cff8f122004994",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "slotId": "Left_side_plate",
+                "parentId": "水晶狗牌_大管甲"
+            },
+            {
+                "_id": "6a68901824cff8f122004995",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "slotId": "Right_side_plate",
+                "parentId": "水晶狗牌_大管甲"
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_骑士甲",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_骑士甲",
+                "_tpl": "321b027d24f85abfa9b52cb1",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "6a6891d924cff8f122004997",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "slotId": "Front_plate",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f122004998",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "slotId": "Back_plate",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f122004999",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "slotId": "Left_side_plate",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f12200499a",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "slotId": "Right_side_plate",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f12200499b",
+                "_tpl": "9f8335beb512ac1b9eb24d93",
+                "slotId": "Soft_armor_front",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f12200499c",
+                "_tpl": "afafd335a64be8c2b5048f9c",
+                "slotId": "Soft_armor_back",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f12200499d",
+                "_tpl": "6da30e3de11eba682bb454e6",
+                "slotId": "Soft_armor_left",
+                "parentId": "水晶狗牌_骑士甲"
+            },
+            {
+                "_id": "6a6891d924cff8f12200499e",
+                "_tpl": "3406b7c4088d610ecf72bd91",
+                "slotId": "soft_armor_right",
+                "parentId": "水晶狗牌_骑士甲"
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_典狱长面具",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_典狱长面具",
+                "_tpl": "cc2588b414f6a8061981a1ec",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_黑骑士头",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_黑骑士头",
+                "_tpl": "725e1cd122b358ad3b090b33",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
+    },
+    {
+        "$type": "normal",
+        "ID": "水晶狗牌_鸟眼胸挂",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "水晶狗牌_鸟眼胸挂",
+                "_tpl": "e698570e82d575f93b8208b2",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "水晶狗牌_红": {
+                "count": 1,
+                "level": 200,
+                "side": 2
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 4,
+        "isWeapon": true
     }
 ]

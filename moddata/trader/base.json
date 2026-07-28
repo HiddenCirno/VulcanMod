@@ -136,5 +136,9 @@
       "保险失败日志3",
       "保险失败日志4"
     ]
-  }
+  },
+  "insuranceChance": 100,
+  "minReflashTime": 3600,
+  "maxReflashTime": 3600,
+  "showInRagfair":true
 }
