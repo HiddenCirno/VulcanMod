@@ -1,17 +1,19 @@
+using EternalCycleServer;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Loaders;
+using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Config;
+using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Routers;
 using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
 using SPTarkov.Server.Core.Utils.Cloners;
-using EternalCycleServer;
-using SPTarkov.Server.Core.Loaders;
 namespace VulcanInfinity
 {
     public class VulcanMod
@@ -63,6 +65,58 @@ namespace VulcanInfinity
             }
             ForcedUnlockEventQuest(databaseService, configServer);
 
+        }
+        public static void InitEquipmentChest(MongoId itemid, ContextManager.LoadModContext context)
+        {
+            context.DB.GetItems().TryGetValue(itemid, out var targetfilter);
+            if (targetfilter != null)
+            {
+                var filter = targetfilter.Properties.Grids.First().Properties.Filters.First().Filter;
+                filter.Clear();
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.头部装备, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.战术胸挂, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.眼部装备, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.耳机, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.背包, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.装备组件, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.防弹衣, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.面部装备, filter, context);
+            }
+        }
+
+        public static void InitFilePackage(MongoId itemid, ContextManager.LoadModContext context)
+        {
+            context.DB.GetItems().TryGetValue(itemid, out var targetfilter);
+            if (targetfilter != null)
+            {
+                var filter = targetfilter.Properties.Grids.First().Properties.Filters.First().Filter;
+                filter.Clear();
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.其他, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.地图, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.货币, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.情报物品, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.机械钥匙, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.电子钥匙, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.特殊物品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.特殊装备, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.次元博物, filter, context, 4);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.贵重物品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.医疗用品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.工具, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.建筑材料, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.日常用品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.易燃物品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.电子产品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.能源物品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.子弹, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.食物, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.饮品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.创伤处理, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.急救包, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.注射器, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.药品, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.容器, filter, context, 1);
+            }
         }
         public static void InitModBaseData(
             DatabaseService databaseService,
@@ -143,6 +197,8 @@ namespace VulcanInfinity
                     {
                         grid.Properties.CellsV = 2;
                     }
+                    InitEquipmentChest("THICC装备箱".ConvertHashID(), loadContext);
+                    InitFilePackage("外勤公文包".ConvertHashID(), loadContext);
                 }
                 catch (Exception ex)
                 {
