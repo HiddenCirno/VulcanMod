@@ -1,0 +1,621 @@
+[
+    {
+        "requires": [
+            "不死斩臂带",
+            "英雄之证"
+        ],
+        "rewards": [
+            "不死斩臂带2"
+        ],
+        "time": 60,
+        "repeatable": true
+    },
+    {
+        "requires": [
+            "不死斩臂带2",
+            "英雄之证"
+        ],
+        "rewards": [
+            "不死斩臂带"
+        ],
+        "time": 60,
+        "repeatable": true
+    },
+    {
+        "requires": [
+            "5448ba0b4bdc2d02308b456c",
+            "5448ba0b4bdc2d02308b456c",
+            "5448ba0b4bdc2d02308b456c",
+            "5448ba0b4bdc2d02308b456c",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒工厂钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "591afe0186f77431bd616a11",
+            "591afe0186f77431bd616a11",
+            "591afe0186f77431bd616a11",
+            "591afe0186f77431bd616a11",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒ZB014钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c1d0efb86f7744baf2e7b7b",
+            "5c1d0efb86f7744baf2e7b7b",
+            "5c1d0efb86f7744baf2e7b7b",
+            "5c1d0efb86f7744baf2e7b7b",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒红卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c1d0d6d86f7744bb2683e1f",
+            "5c1d0d6d86f7744bb2683e1f",
+            "5c1d0d6d86f7744bb2683e1f",
+            "5c1d0d6d86f7744bb2683e1f",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒黄卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c1d0dc586f7744baf2e7b79",
+            "5c1d0dc586f7744baf2e7b79",
+            "5c1d0dc586f7744baf2e7b79",
+            "5c1d0dc586f7744baf2e7b79",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒绿卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c1d0c5f86f7744bb2683cf0",
+            "5c1d0c5f86f7744bb2683cf0",
+            "5c1d0c5f86f7744bb2683cf0",
+            "5c1d0c5f86f7744bb2683cf0",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒蓝卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c1e495a86f7743109743dfb",
+            "5c1e495a86f7743109743dfb",
+            "5c1e495a86f7743109743dfb",
+            "5c1e495a86f7743109743dfb",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒紫卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c1d0f4986f7744bb01837fa",
+            "5c1d0f4986f7744bb01837fa",
+            "5c1d0f4986f7744bb01837fa",
+            "5c1d0f4986f7744bb01837fa",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒黑卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5efde6b4f5448336730dbd61",
+            "5efde6b4f5448336730dbd61",
+            "5efde6b4f5448336730dbd61",
+            "5efde6b4f5448336730dbd61",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒记号卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "6711039f9e648049e50b3307",
+            "6711039f9e648049e50b3307",
+            "6711039f9e648049e50b3307",
+            "6711039f9e648049e50b3307",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒新区卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5780cf7f2459777de4559322",
+            "5780cf7f2459777de4559322",
+            "5780cf7f2459777de4559322",
+            "5780cf7f2459777de4559322",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒符号钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "63a39fc0af870e651d58e6ae",
+            "63a39fc0af870e651d58e6ae",
+            "63a39fc0af870e651d58e6ae",
+            "63a39fc0af870e651d58e6ae",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒15号公寓钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5d08d21286f774736e7c94c3",
+            "5d08d21286f774736e7c94c3",
+            "5d08d21286f774736e7c94c3",
+            "5d08d21286f774736e7c94c3",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒Shturman钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "63a3a93f8a56922e82001f5d",
+            "63a3a93f8a56922e82001f5d",
+            "63a3a93f8a56922e82001f5d",
+            "63a3a93f8a56922e82001f5d",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒废弃工厂钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "64ccc25f95763a1ae376e447",
+            "64ccc25f95763a1ae376e447",
+            "64ccc25f95763a1ae376e447",
+            "64ccc25f95763a1ae376e447",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒神秘房间钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "63a397d3af870e651d58e65b",
+            "63a397d3af870e651d58e65b",
+            "63a397d3af870e651d58e65b",
+            "63a397d3af870e651d58e65b",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒封闭区域钥匙"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "66acd6702b17692df20144c0",
+            "66acd6702b17692df20144c0",
+            "66acd6702b17692df20144c0",
+            "66acd6702b17692df20144c0",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒储藏室卡"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5e42c81886f7742a01529f57",
+            "5e42c81886f7742a01529f57",
+            "5e42c81886f7742a01529f57",
+            "5e42c81886f7742a01529f57",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒11SR"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5e42c83786f7742a021fdf3c",
+            "5e42c83786f7742a021fdf3c",
+            "5e42c83786f7742a021fdf3c",
+            "5e42c83786f7742a021fdf3c",
+            "永恒之证"
+        ],
+        "rewards": [
+            "永恒21WS"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "金块",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "黄金哑铃"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "金锭",
+            "金锭",
+            "金锭",
+            "金锭",
+            "英雄之证"
+        ],
+        "rewards": [
+            "列车凭证"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Prapor小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Prapor小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Therapist小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Therapist小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Fence小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Fence小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Skier小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Skier小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Peacekeeper小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Peacekeeper小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Mechanic小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Mechanic小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Ragman小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Ragman小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Jaeger小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Jaeger小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Lightkeeper小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Lightkeeper小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "Ref小人",
+            "金块",
+            "金块",
+            "金块",
+            "英雄之证"
+        ],
+        "rewards": [
+            "纯金Ref小人"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "571a12c42459771f627b58a0",
+            "金块",
+            "金块",
+            "金块",
+            "金块"
+        ],
+        "rewards": [
+            "5b3b713c5acfc4330140bd8d"
+        ],
+        "time": 3600,
+        "repeatable": true
+    },
+    {
+        "requires": [
+            "开拓纪念币_千叶玲花",
+            "开拓纪念币_千叶玲花",
+            "开拓纪念币_千叶玲花",
+            "开拓纪念币_千叶玲花",
+            "开拓纪念币_千叶玲花"
+        ],
+        "rewards": [
+            "永恒之证"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "永恒燃料",
+            "永恒燃料",
+            "永恒燃料",
+            "永恒燃料",
+            "永恒之证"
+        ],
+        "rewards": [
+            "恒星燃料"
+        ],
+        "time": 86400,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5f60c85b58eff926626a60f7",
+            "英雄之证"
+        ],
+        "rewards": [
+            "62a09e410b9d3c46de5b6e78"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5b3f16c486f7747c327f55f7",
+            "英雄之证"
+        ],
+        "rewards": [
+            "60b0f988c4449e4cb624c1da"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "572b7fa124597762b472f9d2",
+            "英雄之证"
+        ],
+        "rewards": [
+            "5bd073c986f7747f627e796c"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "572b7fa524597762b747ce82",
+            "英雄之证"
+        ],
+        "rewards": [
+            "5e54f76986f7740366043752"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "572b7f1624597762ae139822",
+            "英雄之证"
+        ],
+        "rewards": [
+            "5fd8d28367cb5e077335170f"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5c012ffc0db834001d23f03f",
+            "英雄之证"
+        ],
+        "rewards": [
+            "5bc9c1e2d4351e00367fbcf0"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5448ba0b4bdc2d02308b456c",
+            "英雄之证"
+        ],
+        "rewards": [
+            "62a09ec84f842e1bd12da3f2"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "62a09dd4621468534a797ac7",
+            "英雄之证"
+        ],
+        "rewards": [
+            "5bd073a586f7747e6f135799"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5bd073a586f7747e6f135799",
+            "英雄之证"
+        ],
+        "rewards": [
+            "62a09dd4621468534a797ac7"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "590c639286f774151567fa95",
+            "英雄之证"
+        ],
+        "rewards": [
+            "62a09e73af34e73a266d932a"
+        ],
+        "time": 3600,
+        "repeatable": false
+    },
+    {
+        "requires": [
+            "5af0454c86f7746bf20992e8",
+            "英雄之证"
+        ],
+        "rewards": [
+            "Tigz的骨折环"
+        ],
+        "time": 3600,
+        "repeatable": false
+    }
+]

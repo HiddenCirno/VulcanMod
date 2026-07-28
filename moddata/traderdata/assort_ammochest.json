@@ -1,0 +1,899 @@
+[
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱545BP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱545BP_兑换",
+                "_tpl": "一箱545BP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱300CBJ_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱300CBJ_兑换",
+                "_tpl": "一箱300CBJ",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱855A1_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱855A1_兑换",
+                "_tpl": "一箱855A1",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱762BP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱762BP_兑换",
+                "_tpl": "一箱762BP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱SP6_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱SP6_兑换",
+                "_tpl": "一箱SP6",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱PAB9_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱PAB9_兑换",
+                "_tpl": "一箱PAB9",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M576_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M576_兑换",
+                "_tpl": "一箱M576",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M441_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M441_兑换",
+                "_tpl": "一箱M441",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 8
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M381_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M381_兑换",
+                "_tpl": "一箱M381",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 8
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱VOG25_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱VOG25_兑换",
+                "_tpl": "一箱VOG25",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱7N37_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱7N37_兑换",
+                "_tpl": "一箱7N37",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 8
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱SNB_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱SNB_兑换",
+                "_tpl": "一箱SNB",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M993_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M993_兑换",
+                "_tpl": "一箱M993",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 8
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M80A1_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M80A1_兑换",
+                "_tpl": "一箱M80A1",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱7N39_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱7N39_兑换",
+                "_tpl": "一箱7N39",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱338AP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱338AP_兑换",
+                "_tpl": "一箱338AP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 8
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱APSX_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱APSX_兑换",
+                "_tpl": "一箱APSX",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱7N12BP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱7N12BP_兑换",
+                "_tpl": "一箱7N12BP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱SIGAP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱SIGAP_兑换",
+                "_tpl": "一箱SIGAP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M61_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M61_兑换",
+                "_tpl": "一箱M61",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱762AP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱762AP_兑换",
+                "_tpl": "一箱762AP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱7BT1_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱7BT1_兑换",
+                "_tpl": "一箱7BT1",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱SSAAP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱SSAAP_兑换",
+                "_tpl": "一箱SSAAP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 4
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M995_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M995_兑换",
+                "_tpl": "一箱M995",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱545BS_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱545BS_兑换",
+                "_tpl": "一箱545BS",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱Hybrid_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱Hybrid_兑换",
+                "_tpl": "一箱Hybrid",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱762PP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱762PP_兑换",
+                "_tpl": "一箱762PP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱300AP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱300AP_兑换",
+                "_tpl": "一箱300AP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱箭形弹_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱箭形弹_兑换",
+                "_tpl": "一箱箭形弹",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱338FMJ_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱338FMJ_兑换",
+                "_tpl": "一箱338FMJ",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱366AP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱366AP_兑换",
+                "_tpl": "一箱366AP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱45AP_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱45AP_兑换",
+                "_tpl": "一箱45AP",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱Barricade_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱Barricade_兑换",
+                "_tpl": "一箱Barricade",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱闪光子弹_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱闪光子弹_兑换",
+                "_tpl": "一箱闪光子弹",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 8
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱PS12B_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱PS12B_兑换",
+                "_tpl": "一箱PS12B",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱FMJSX_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱FMJSX_兑换",
+                "_tpl": "一箱FMJSX",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 2
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱7N1_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱7N1_兑换",
+                "_tpl": "一箱7N1",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M62_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M62_兑换",
+                "_tpl": "一箱M62",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "商人4级_一箱M80_兑换",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "商人4级_一箱M80_兑换",
+                "_tpl": "一箱M80",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    }
+]

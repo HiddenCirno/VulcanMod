@@ -1,0 +1,79 @@
+{
+    "641dbfd7f43eda9d810d7137": {
+        "id": "641dbfd7f43eda9d810d7137",
+        "prequestdata": {
+            "强制解锁_重要伤员": {
+                 "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "64764abcd125ab430a14ccb5": {
+        "id": "64764abcd125ab430a14ccb5",
+        "prequestdata": {
+            "强制解锁_寻血猎犬": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "647710905320c660d91c15a5": {
+        "id": "647710905320c660d91c15a5",
+        "prequestdata": {
+            "强制解锁_杀鸡儆猴": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "64916da7ad4e722c106f2345": {
+        "id": "64916da7ad4e722c106f2345",
+        "prequestdata": {
+            "强制解锁_东窗事发": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "649af47d717cb30e7e4b5e26": {
+        "id": "649af47d717cb30e7e4b5e26",
+        "prequestdata": {
+            "强制解锁_品酒师": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "655e427b64d09b4122018228": {
+        "id": "655e427b64d09b4122018228",
+        "prequestdata": {
+            "强制解锁_大丰收": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "6672ec2a2b6f3b71be794cc5": {
+        "id": "6672ec2a2b6f3b71be794cc5",
+        "prequestdata": {
+            "强制解锁_钥匙卡任务": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

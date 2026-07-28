@@ -1,0 +1,2008 @@
+{
+    "基建材料抽奖": {
+        "name": "基建材料抽奖",
+        "basereward": {
+            "superrare": {
+                "havebasereward": true,
+                "chance": 0.04,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 147,
+                "chancegrowpercount": 0.03
+            },
+            "rare": {
+                "havebasereward": true,
+                "chance": 0.05,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 0,
+                "chancegrowpercount": 0.05
+            },
+            "normal": {
+                "upchance": 0
+            }
+        },
+        "itempool": {
+            "superrare": {
+                "chanceup": [
+                    {
+                        "name": "基建材料抽奖_SR_BTC",
+                        "itemid": "59faff1d86f7746c51718c9c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_LEDX",
+                        "itemid": "5c0530ee86f774697952d952",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_不死图腾",
+                        "itemid": "不死图腾",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_蓝情报",
+                        "itemid": "6389c8c5dbfd5e4b95197e6b",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "基建材料抽奖_SR_小红",
+                        "itemid": "5c052e6986f7746b207bc3c9",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_扇子",
+                        "itemid": "阿萨兰之爪",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_补佳乐",
+                        "itemid": "补佳乐",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_坦克电池",
+                        "itemid": "5d03794386f77420415576f5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_游戏机",
+                        "itemid": "5c12620d86f7743f8b198b72",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_显卡",
+                        "itemid": "57347ca924597744596b4e71",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_情报",
+                        "itemid": "5c12613b86f7743bbe2c3f76",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_SR_猫抓板",
+                        "itemid": "5d03775b86f774203e7e0c4b",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            },
+            "rare": {
+                "chanceup": [
+                    {
+                        "name": "基建材料抽奖_R_电台",
+                        "itemid": "5c052f6886f7746b1e3db148",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_VPX",
+                        "itemid": "5c05300686f7746dce784e5d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_热成像模块",
+                        "itemid": "5d0377ce86f774186372f689",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_Virtex",
+                        "itemid": "5c05308086f7746b2101e90b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_炉子",
+                        "itemid": "5d1b2f3f86f774252167a52c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_重击锤",
+                        "itemid": "63a0b208f444d32d6f03ea1e",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_大油桶",
+                        "itemid": "5d1b36a186f7742523398433",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_狮雕",
+                        "itemid": "59e3639286f7741777737013",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_白火药",
+                        "itemid": "白火药",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_紫火药",
+                        "itemid": "薇尔莉特火药",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_黄火药",
+                        "itemid": "布洛妮娅火药",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_RFID",
+                        "itemid": "5c052fb986f7746b2101e909",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_转速计",
+                        "itemid": "5d03784a86f774203e7e0c4d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_军用闪存",
+                        "itemid": "62a0a16d0b9d3c46de5b6e97",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_加密磁带",
+                        "itemid": "61bf7c024770ee6f9c6b8b53",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_SSD",
+                        "itemid": "590c392f86f77444754deb29",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "基建材料抽奖_R_劳",
+                        "itemid": "59faf7ca86f7740dbe19f6c2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_乌鸦雕",
+                        "itemid": "5e54f62086f774219b0f1937",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_鹦鹉雕",
+                        "itemid": "62a091170b9d3c46de5b6cf2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_猫雕",
+                        "itemid": "59e3658a86f7741776641ac4",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_花瓶",
+                        "itemid": "590de7e986f7741b096e5f32",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_茶壶",
+                        "itemid": "590de71386f774347051a052",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_火镰",
+                        "itemid": "5bc9c377d4351e3bac12251b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_金鸡",
+                        "itemid": "5bc9bc53d4351e00367fbcee",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_金蛋",
+                        "itemid": "62a09cfe4f842e1bd12da3e4",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_金骷髅",
+                        "itemid": "5d235a5986f77443f6329bc6",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_徽章",
+                        "itemid": "5bc9bdb8d4351e003562b8a1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_蛇链",
+                        "itemid": "5c1267ee86f77416ec610f72",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_军用蓄电池",
+                        "itemid": "5e2aee0a86f774755a234b62",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_汽车蓄电池",
+                        "itemid": "5733279d245977289b77ec24",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_小油桶",
+                        "itemid": "5d1b371186f774253763a656",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_压力表",
+                        "itemid": "5d1b327086f7742525194449",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_温度计",
+                        "itemid": "5d1b32c186f774252167a530",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_管道扳手",
+                        "itemid": "619cbfccbedcde2f5b3f7bdd",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_棘轮扳手",
+                        "itemid": "60391afc25aff57af81f7085",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_剪线器",
+                        "itemid": "619cbfeb6b8a1b37a54eebfa",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_检眼镜",
+                        "itemid": "5af0534a86f7743b6f354284",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_毛熊玩具",
+                        "itemid": "62a08f4c4f842e1bd12d9d62",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_炮弹",
+                        "itemid": "5d0379a886f77420407aa271",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_伞绳",
+                        "itemid": "5c12688486f77426843c7d32",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_TNT",
+                        "itemid": "60391b0fb847c71012789415",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_绿火药",
+                        "itemid": "5d6fc78386f77449d825f9dc",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_红火药",
+                        "itemid": "5d6fc87386f77449db3db94e",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_燃油添加剂",
+                        "itemid": "5b43575a86f77424f443fe62",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_铝热剂",
+                        "itemid": "60391a8b3364dc22b04d0ce5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_固体燃料",
+                        "itemid": "590a373286f774287540368b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_滤波器",
+                        "itemid": "5d0378d486f77420421a5ff4",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_U盘",
+                        "itemid": "590c621186f774138d11ea29",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_天雷地火",
+                        "itemid": "62a09e974f842e1bd12da3f0",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_液晶屏",
+                        "itemid": "5d1b304286f774253763a528",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_坏液晶屏",
+                        "itemid": "5d1b309586f77425227d1676",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_气体分析仪",
+                        "itemid": "590a3efd86f77437d351a25b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_马达",
+                        "itemid": "5d1b2fa286f77425227d1674",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_电钻",
+                        "itemid": "59e35de086f7741778269d84",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_盖革",
+                        "itemid": "5672cb724bdc2dc2088b456b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_金GPhone",
+                        "itemid": "5bc9b720d4351e450201234b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_R_绿电池",
+                        "itemid": "5e2aedd986f7746d404f3aa4",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            },
+            "normal": {
+                "chanceup": [
+                    {
+                        "name": "基建材料抽奖_N_白卡",
+                        "itemid": "5c94bbff86f7747ee735c08f",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "基建材料抽奖_N_荞麦",
+                        "itemid": "6389c6463485cf0eeb260715",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_聚酰胺面料",
+                        "itemid": "5e2af41e86f774755a234b67",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_咖啡",
+                        "itemid": "5af0484c86f7740f02001f7f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_引信",
+                        "itemid": "5e2af51086f7746d3f3c3402",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_云尔斯顿",
+                        "itemid": "573476f124597737e04bf328",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_无彩",
+                        "itemid": "5734770f24597738025ee254",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_马宝路",
+                        "itemid": "573476d324597737da2adc13",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_武器零件",
+                        "itemid": "5d1c819a86f774771b0acd6c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_绒布",
+                        "itemid": "5e2af47786f7746d404f3aaa",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_芳纶纤维",
+                        "itemid": "5e2af4d286f7746d4159f07a",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_防撕布",
+                        "itemid": "5e2af4a786f7746d3f3c3400",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_净水片",
+                        "itemid": "6389c6c7dbfd5e4b95197e68",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_维生素",
+                        "itemid": "62a0a043cf4a99369e2624a5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_一堆药",
+                        "itemid": "5d1b3a5d86f774252167ba22",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_注射器",
+                        "itemid": "5d1b3f2d86f774253763b735",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_输血工具",
+                        "itemid": "5b4335ba86f7744d2837a264",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_医疗工具",
+                        "itemid": "619cc01e0a7c3a1a2731940c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_医疗工具",
+                        "itemid": "619cc01e0a7c3a1a2731940c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_NaCl",
+                        "itemid": "59e3606886f77417674759a5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_H2O2",
+                        "itemid": "59e361e886f774176c10a2a5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_厕所清洁剂",
+                        "itemid": "59e358a886f7741776641ac3",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_红牙膏",
+                        "itemid": "5d4041f086f7743cac3f22a7",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_漂白剂",
+                        "itemid": "59e3556c86f7741776641ac2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_杀蟑剂",
+                        "itemid": "59e3596386f774176c10a2a2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_杀虫剂",
+                        "itemid": "5e2aef7986f7746d3f3c33f5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_洗发水",
+                        "itemid": "5d40412b86f7743cb332ac3a",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_氯石灰",
+                        "itemid": "5e2af02c86f7746d420957d4",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_卫生纸",
+                        "itemid": "5c13cef886f774072e618e82",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_打印纸",
+                        "itemid": "577e1c9d2459773cd707c525",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_碱",
+                        "itemid": "59faf98186f774067b6be103",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_NaHCO3",
+                        "itemid": "59e35abd86f7741778269d82",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_盐",
+                        "itemid": "62a09ee4cf4a99369e262453",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_肥皂",
+                        "itemid": "5c13cd2486f774072c757944",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_Master档案",
+                        "itemid": "62a0a0bb621468534a797ad5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_Elite钳子",
+                        "itemid": "5af04b6486f774195a3ebb49",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_一套工具",
+                        "itemid": "590c2e1186f77425357b6124",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_剪线钳",
+                        "itemid": "5d40425986f7743185265461",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_圆嘴钳",
+                        "itemid": "5d1b31ce86f7742523398394",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_平头螺丝刀",
+                        "itemid": "5d63d33b86f7746ea9275524",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_手摇钻",
+                        "itemid": "5d1b317c86f7742523398392",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_扳手",
+                        "itemid": "590c311186f77424d1667482",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_卷尺",
+                        "itemid": "590c2c9c86f774245b1f03f2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_缝纫锥",
+                        "itemid": "62a0a098de7ac8199358053b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_螺丝刀",
+                        "itemid": "590c2d8786f774245b1f03f3",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_切割剪刀",
+                        "itemid": "5d40419286f774318526545f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_针线盒",
+                        "itemid": "61bf83814088ec1a363d7097",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_钳子",
+                        "itemid": "590c2b4386f77425357b6123",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_长平头",
+                        "itemid": "5d4042a986f7743185265463",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_黑胶带",
+                        "itemid": "5e2af29386f7746d4159f077",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_冷焊膏",
+                        "itemid": "5e2af22086f7746d3f3c33fa",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_绿发泡胶",
+                        "itemid": "590c35a486f774273531c822",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_发泡胶",
+                        "itemid": "590c346786f77423e50ed342",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_一包螺钉",
+                        "itemid": "59e35ef086f7741777737012",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_一包钉子",
+                        "itemid": "590c31c586f774245e3141b2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_有机玻璃",
+                        "itemid": "59e366c186f7741778269d85",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_波纹软管",
+                        "itemid": "59e35cbb86f7741778269d83",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_白管",
+                        "itemid": "5d1b39a386f774252339976f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_白胶带",
+                        "itemid": "57347c1124597737fb1379e3",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_蓝胶带",
+                        "itemid": "5734795124597738002c6176",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_螺栓",
+                        "itemid": "57347c5b245977448d35f6e1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_螺母",
+                        "itemid": "57347c77245977448d35f6e2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_金属零件",
+                        "itemid": "61bf7b6302b3924be92fa8c3",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_小打火机",
+                        "itemid": "56742c284bdc2d98058b456d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_防风火柴",
+                        "itemid": "5e2af2bc86f7746d3f3c33fc",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_幸存者打火机",
+                        "itemid": "5e2af37686f774755a234b65",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_Zibbo打火机",
+                        "itemid": "56742c2e4bdc2d95058b456d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_小火柴",
+                        "itemid": "57347b8b24597737dd42e192",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_CPU风扇",
+                        "itemid": "5734779624597737e04bf329",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_DVD",
+                        "itemid": "5734781f24597737e04bf32a",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_镜头",
+                        "itemid": "5d1b2ffd86f77425243e8d17",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_Tplug",
+                        "itemid": "57347cd0245977445a2d6ff1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_电源",
+                        "itemid": "57347c2e24597744902c94a1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_内存条",
+                        "itemid": "57347baf24597738002c6178",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_电路板",
+                        "itemid": "590a3b0486f7743954552bdb",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_GPhone",
+                        "itemid": "56742c324bdc2d150f8b456d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_GPhoneX",
+                        "itemid": "5c1265fc86f7743f896a21c2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_HDD",
+                        "itemid": "590a386e86f77429692b27ab",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_火花塞",
+                        "itemid": "590a3c0a86f774385a33c450",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_电子元件",
+                        "itemid": "6389c70ca33d8c4cdf4932c6",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_电容",
+                        "itemid": "5c06782b86f77426df5407d2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_电源线",
+                        "itemid": "59e36c6f86f774176c10a2a7",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_黑灯泡",
+                        "itemid": "5d1b392c86f77425243e98fe",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_电线",
+                        "itemid": "5c06779c86f77426e00dd782",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_CPU",
+                        "itemid": "573477e124597737dd42e191",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_继电器",
+                        "itemid": "5d1b313086f77425227d1678",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_紫灯泡",
+                        "itemid": "590a3d9c86f774385926e510",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_节能灯",
+                        "itemid": "590a3cd386f77436f20848cb",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_散热器",
+                        "itemid": "5d1c774f86f7746d6620f8db",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_充电宝",
+                        "itemid": "5af0561e86f7745f5f3ad6ac",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_充电电池",
+                        "itemid": "590a358486f77429692b2790",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_AA电池",
+                        "itemid": "5672cb124bdc2d1a0f8b4568",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "基建材料抽奖_N_一号电池",
+                        "itemid": "5672cb304bdc2dc2088b456a",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "通用武器抽奖": {
+        "name": "通用武器抽奖",
+        "basereward": {
+            "superrare": {
+                "havebasereward": true,
+                "chance": 0.04,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 147,
+                "chancegrowpercount": 0.03
+            },
+            "rare": {
+                "havebasereward": true,
+                "chance": 0.05,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 0,
+                "chancegrowpercount": 0.05
+            },
+            "normal": {
+                "upchance": 0
+            }
+        },
+        "itempool": {
+            "superrare": {
+                "chanceup": [
+                    {
+                        "name": "通用武器抽奖_SR_MK18",
+                        "item": "5fc22d7c187fea44d52eda44",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_MSGL",
+                        "item": "6275303a9f372d6ea97f9ec7",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_GL40",
+                        "item": "5e81ebcd8e146c7080625e15",
+                        "type": "VanillaPreset"
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "通用武器抽奖_SR_SPEAR",
+                        "item": "65290f395ae2ae97b80fdf2d",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_黑SPEAR",
+                        "item": "86675c8a7ad51476cc23e384",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_PKP",
+                        "item": "64ca3d3954fc657e230529cc",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_PKM",
+                        "item": "64637076203536ad5600c990",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_AXMC",
+                        "item": "627e14b21713922ded6f2c15",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_SR_M10",
+                        "item": "673cab3e03c6a20581028bc1",
+                        "type": "VanillaPreset"
+                    }
+                ]
+            },
+            "rare": {
+                "chanceup": [
+                    {
+                        "name": "通用武器抽奖_R_45Vector",
+                        "item": "5fb64bc92b1b027b1f50bcf2",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_9mmVector",
+                        "item": "5fc3f2d5900b1d5091531e57",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_黄金TT",
+                        "item": "5b3b713c5acfc4330140bd8d",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_信号枪",
+                        "item": "620109578d82e67e7911abf2",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_SR3M",
+                        "item": "651450ce0e00edc794068371",
+                        "type": "VanillaPreset"
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "通用武器抽奖_R_M4A1",
+                        "item": "5447a9cd4bdc2dbd208b4567",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_RPD",
+                        "item": "6513ef33e06849f06c0957ca",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_RPDN",
+                        "item": "65268d8ecb944ff1e90ea385",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_P90",
+                        "item": "5cc82d76e24e8d00134b4b83",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_DVL10",
+                        "item": "588892092459774ac91d4b11",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_巨浪",
+                        "item": "57c44b372459772d2b39b8ce",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_VSS",
+                        "item": "57838ad32459774a17445cd2",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_ASH12",
+                        "item": "5cadfbf7ae92152ac412eeef",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_黑DT",
+                        "item": "5dcbd56fdbd3d91b3e5468d5",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_黄DT",
+                        "item": "5c488a752e221602b412af63",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_AA12",
+                        "item": "66ffa9b66e19cc902401c5e8",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_闪光喷",
+                        "item": "5e848cc2988a8701445df1e8",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_SVD",
+                        "item": "5c46fbd72e2216398b5a8c9c",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_M1",
+                        "item": "5aafa857e5b5b00018480968",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_SR25",
+                        "item": "5df8ce05b11454561e39243b",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_G28",
+                        "item": "6176aca650224f204c1da3fb",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_R11",
+                        "item": "5a367e5dc4a282000e49738f",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_MCX",
+                        "item": "5fbcc1d9016cce60e8341ab3",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_RD704",
+                        "item": "628a60ae6b1d481ff772e9c8",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_MK47",
+                        "item": "606587252535c57a13424cfd",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_TX15",
+                        "item": "5d43021ca4b9362eab4b5e25",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_M60",
+                        "item": "65fb023261d5829b2d090755",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_AVT",
+                        "item": "6410733d5dd49d77bd07847e",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_SV98",
+                        "item": "55801eed4bdc2d89578b4588",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_R_SA58",
+                        "item": "5b0bbe4e5acfc40dc528a72d",
+                        "type": "VanillaPreset"
+                    }
+                ]
+            },
+            "normal": {
+                "chanceup": [
+                    {
+                        "name": "通用武器抽奖_N_白卡",
+                        "itemid": "5c94bbff86f7747ee735c08f",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "通用武器抽奖_N_UMP",
+                        "item": "5fc3e272f8b6a877a729eac5",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_PP19",
+                        "item": "59984ab886f7743e98271174",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_PP91",
+                        "item": "57d14d2524597714373db789",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_波波沙",
+                        "item": "5ea03f7400685063ec28bfa8",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_MP133",
+                        "item": "54491c4f4bdc2db1078b4568",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_STM9",
+                        "item": "60339954d62c9b14ed777c06",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_Saiga9",
+                        "item": "59f9cabd86f7743a10721f46",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_玩具枪",
+                        "item": "66015072e9f84d5680039678",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_FN57",
+                        "item": "5d3eb3b0a4b93615055e84d2",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_USP",
+                        "item": "6193a720f8ee7e52e42109ed",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_P226R",
+                        "item": "56d59856d2720bd8418b456a",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_M443",
+                        "item": "576a581d2459771e7b1bc4f1",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_TT",
+                        "item": "571a12c42459771f627b58a0",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_TT",
+                        "item": "571a12c42459771f627b58a0",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_莫辛纳甘",
+                        "item": "5ae08f0a5acfc408fb1398a1",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_SVT",
+                        "item": "643ea5b23db6f9f57107d9fd",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_ADAR",
+                        "item": "5c07c60e0db834002330051f",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_9A91",
+                        "item": "644674a13d52156624001fbc",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_366AKM",
+                        "item": "59e6687d86f77411d949b251",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_Hunter",
+                        "item": "5c501a4d2e221602b412b540",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_SKS",
+                        "item": "574d967124597745970e7c94",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_MP18",
+                        "item": "61f7c9e189e6fb1a5e3ea78d",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_双管喷",
+                        "item": "5580223e4bdc2d1c128b457f",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_转轮喷",
+                        "item": "60db29ce99594040e04c4a27",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_截短双管喷",
+                        "item": "64748cb8de82c85eaf0a273a",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_土炮",
+                        "item": "5a38e6bac4a2826c6e06d79b",
+                        "type": "VanillaPreset"
+                    },
+                    {
+                        "name": "通用武器抽奖_N_AKS74",
+                        "item": "5bf3e0490db83400196199af",
+                        "type": "VanillaPreset"
+                    }
+                ]
+            }
+        }
+    },
+    "机械钥匙抽奖": {
+        "name": "机械钥匙抽奖",
+        "basereward": {
+            "superrare": {
+                "havebasereward": true,
+                "chance": 0.04,
+                "upchance": 0.5,
+                "upaddchance": 0.5,
+                "chancegrowcount": 73,
+                "chancegrowpercount": 0.06
+            },
+            "rare": {
+                "havebasereward": true,
+                "chance": 0.1,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 0,
+                "chancegrowpercount": 0.1
+            },
+            "normal": {
+                "upchance": 0
+            }
+        },
+        "itempool": {
+            "superrare": {
+                "chanceup": [
+                    {
+                        "name": "机械钥匙抽奖_SR_符号钥匙",
+                        "itemid": "5780cf7f2459777de4559322",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_15号公寓钥匙",
+                        "itemid": "63a39fc0af870e651d58e6ae",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_海关冠军房",
+                        "itemid": "664d4b0103ef2c61246afb56",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_封闭区域钥匙",
+                        "itemid": "63a397d3af870e651d58e65b",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_立交桥冠军房",
+                        "itemid": "664d3dd590294949fe2d81b7",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_灯塔冠军房",
+                        "itemid": "664d3de85f2355673b09aed5",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_森林冠军房",
+                        "itemid": "664d3db6db5dea2bad286955",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_海岸线冠军房",
+                        "itemid": "664d3ddfdda2e85aca370d75",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "机械钥匙抽奖_SR_RBVO",
+                        "itemid": "5d80c62a86f7744036212b3f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_RBBK",
+                        "itemid": "5d80c60f86f77440373c4ece",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_废弃工厂",
+                        "itemid": "63a3a93f8a56922e82001f5d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_神秘房间",
+                        "itemid": "64ccc25f95763a1ae376e447",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_PKPM",
+                        "itemid": "5ede7a8229445733cb4c18e2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_套间",
+                        "itemid": "62987dfc402c7f69bf010923",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_西楼301",
+                        "itemid": "5a13ef7e86f7741290491063",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_别墅后门",
+                        "itemid": "5a0eb6ac86f7743124037a28",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_SR_KIBA商店",
+                        "itemid": "5ad5d7d286f77450166e0a89",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_雷达站指挥室",
+                        "itemid": "62987c658081af308d7558c6",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            },
+            "rare": {
+                "chanceup": [
+                    {
+                        "name": "机械钥匙抽奖_R_KIBA格栅门",
+                        "itemid": "5addaffe86f77470b455f900",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_Shturman钥匙",
+                        "itemid": "5d08d21286f774736e7c94c3",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍114",
+                        "itemid": "59387a4986f77401cc236e62",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_工厂钥匙",
+                        "itemid": "5448ba0b4bdc2d02308b456c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_胶带钥匙",
+                        "itemid": "5eff09cd30a7dc22fd1ddfed",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_西楼216",
+                        "itemid": "5a0ee30786f774023b6ee08f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_西楼218",
+                        "itemid": "5a13eebd86f7746fd639aa93",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_实验室军械库",
+                        "itemid": "5c1f79a086f7746ed066fb8f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_RBOB",
+                        "itemid": "5d80c6c586f77440351beef1",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "机械钥匙抽奖_R_塔科夫银行",
+                        "itemid": "64ccc2111779ad6ba200a139",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_车行负责人",
+                        "itemid": "63a399193901f439517cafb6",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_TG军械库",
+                        "itemid": "64ccc24de61ea448b507d34d",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_实验室试验区",
+                        "itemid": "5c1e2d1f86f77431e9280bee",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_实验室经理办",
+                        "itemid": "5c1e2a1e86f77431ea0ea84c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_简易工棚",
+                        "itemid": "5938144586f77473c2087145",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_灯塔会议室",
+                        "itemid": "62987cb98081af308d7558c8",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_休息间",
+                        "itemid": "6582dbf0b8d7830efc45016f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼313",
+                        "itemid": "5a0eecf686f7740350630097",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼314",
+                        "itemid": "5a0eed4386f77405112912aa",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼310",
+                        "itemid": "5a0eec9686f77402ac5c39f2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼306",
+                        "itemid": "5a145d4786f7744cbb6f4a12",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼308",
+                        "itemid": "5a145d7b86f7744cbb6f4a13",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼205",
+                        "itemid": "5a144bdb86f7741d374bbde0",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_东楼206",
+                        "itemid": "5a0ee4b586f7743698200d22",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_X光",
+                        "itemid": "64ccc246ff54fb38131acf29",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_KSM",
+                        "itemid": "5d947d4e86f774447b415895",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_SMP",
+                        "itemid": "5d947d3886f774447b415893",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_RBST",
+                        "itemid": "5d9f1fa686f774726974a992",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_立交桥医疗区",
+                        "itemid": "5ad5db3786f7743568421cce",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_ORB1",
+                        "itemid": "5d80ccac86f77470841ff452",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_ORB2",
+                        "itemid": "5d80ccdd86f77474f7575e02",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_ORB3",
+                        "itemid": "5d80cd1a86f77402aa362f42",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            },
+            "normal": {
+                "chanceup": [
+                    {
+                        "name": "机械钥匙抽奖_N_白卡",
+                        "itemid": "5c94bbff86f7747ee735c08f",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "机械钥匙抽奖_R_Aspect办公区",
+                        "itemid": "64ce572331dd890873175115",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_餐厅经理办",
+                        "itemid": "64ccc1fe088064307e14a6f7",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_梅林车",
+                        "itemid": "61aa5b518f5e7a39b41416e2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_梅林车",
+                        "itemid": "61aa5b518f5e7a39b41416e2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_PSP1",
+                        "itemid": "5d80cb3886f77440556dbf09",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_PSP2",
+                        "itemid": "5d95d6fa86f77424484aa5e9",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_PS81",
+                        "itemid": "5d80cb5686f77440545d1286",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_PS82",
+                        "itemid": "5d95d6be86f77424444eb3a7",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_TG会议室",
+                        "itemid": "64ccc206793ca11c8f450a38",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_ZB014",
+                        "itemid": "591afe0186f77431bd616a11",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_不动产",
+                        "itemid": "6582dc5740562727a654ebb1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_内务部",
+                        "itemid": "6582dc4b6ba9e979af6b79f4",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_军事基地检查站",
+                        "itemid": "5913915886f774123603c392",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_别墅保险箱",
+                        "itemid": "5a0f068686f7745b0d4ea242",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_USEC仓库",
+                        "itemid": "61a64492ba05ef10d62adcc1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_USEC营房",
+                        "itemid": "62a9cb937377a65d7b070cef",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_USEC工作间",
+                        "itemid": "61aa81fcb225ac1ead7957c3",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍110",
+                        "itemid": "59136e1e86f774432f15d133",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍204",
+                        "itemid": "59148c8a86f774197930e983",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍214",
+                        "itemid": "5780cf942459777df90dcb72",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍206",
+                        "itemid": "5938603e86f77435642354f4",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍220",
+                        "itemid": "5780cfa52459777dfb276eb1",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_宿舍303",
+                        "itemid": "593aa4be86f77457f56379f8",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_海关办公室",
+                        "itemid": "5780d0532459777a5108b9a2",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_西楼303",
+                        "itemid": "5a0eeb1a86f774688b70aa5c",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_西楼306",
+                        "itemid": "5a13f46386f7741dd7384b04",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_金融办",
+                        "itemid": "63a39667c9b3aa4b61683e98",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_金融办小房间",
+                        "itemid": "63a71ed21031ac76fe773c7f",
+                        "type": "Item",
+                        "stackcount": 1
+                    },
+                    {
+                        "name": "机械钥匙抽奖_R_铁门",
+                        "itemid": "63a39f6e64283b5e9c56b289",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "英雄之证随机": {
+        "name": "英雄之证随机",
+        "basereward": {
+            "superrare": {
+                "havebasereward": true,
+                "chance": 0.04,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 147,
+                "chancegrowpercount": 0.03
+            },
+            "rare": {
+                "havebasereward": true,
+                "chance": 0.05,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 0,
+                "chancegrowpercount": 0.05
+            },
+            "normal": {
+                "upchance": 0
+            }
+        },
+        "itempool": {
+            "superrare": {
+                "chanceup": [
+                    {
+                        "name": "英雄之证随机_SR_6",
+                        "itemid": "英雄之证",
+                        "type": "Item",
+                        "stackcount": 6
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "英雄之证随机_SR_5",
+                        "itemid": "英雄之证",
+                        "type": "Item",
+                        "stackcount": 5
+                    },
+                    {
+                        "name": "英雄之证随机_SR_4",
+                        "itemid": "英雄之证",
+                        "type": "Item",
+                        "stackcount": 4
+                    }
+                ]
+            },
+            "rare": {
+                "chanceup": [
+                    {
+                        "name": "英雄之证随机_R_3",
+                        "itemid": "英雄之证",
+                        "type": "Item",
+                        "stackcount": 3
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "英雄之证随机_R_2",
+                        "itemid": "英雄之证",
+                        "type": "Item",
+                        "stackcount": 2
+                    }
+                ]
+            },
+            "normal": {
+                "chanceup": [
+                    {
+                        "name": "英雄之证随机_N_白卡",
+                        "itemid": "5c94bbff86f7747ee735c08f",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    {
+                        "name": "英雄之证随机_N_1",
+                        "itemid": "英雄之证",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    }
+}

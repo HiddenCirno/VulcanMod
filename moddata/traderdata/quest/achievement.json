@@ -1,0 +1,3515 @@
+[
+    {
+        "id": "核能之星成就",
+        "img": "/files/icon/nuclearstar.png",
+        "name": "熔万物以铸孤星",
+        "description": "解开她留下的天启谜题，取得核能之星。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "核能之星成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "核能之星成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "核能之星成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "断面之意",
+        "img": "/files/icon/slash1.png",
+        "name": "断面之意",
+        "description": "一刀斩敌的木剑，乃拔刀术的第一部，真正的切伏之刃",
+        "rarity": "Common",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": true,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "断面之意_需求",
+                    "locale": "击杀1名任意敌人",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "断面之意_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "断面之意_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "百鬼降服",
+        "img": "/files/icon/slash2.png",
+        "name": "百鬼降服",
+        "description": "百人斩的银纸竹光折断所残留的名器",
+        "rarity": "Rare",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": true,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "百鬼降服_需求",
+                    "locale": "击杀100名任意敌人",
+                    "oneraid": false,
+                    "count": 100,
+                    "counterid": "百鬼降服_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "百鬼降服_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "锐气千刃",
+        "img": "/files/icon/slash3.png",
+        "name": "锐气千刃",
+        "description": "斩神杀佛之刀，能接受无穷技艺的业之容器",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": true,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "锐气千刃_需求",
+                    "locale": "击杀1000名任意敌人",
+                    "oneraid": false,
+                    "count": 1000,
+                    "counterid": "锐气千刃_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "锐气千刃_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "锐气千刃_成就奖励_物品",
+                        "_tpl": "Apex臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "锐气千刃_成就奖励",
+                "Quest": "锐气千刃",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "万劫不复",
+        "img": "/files/icon/slash4.png",
+        "name": "万劫不复",
+        "description": "罪业满溢的凶刃，杀意仿佛凝为实质",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": true,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "万劫不复_需求",
+                    "locale": "击杀10000名任意敌人",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "万劫不复_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "万劫不复_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "万劫不复_成就奖励_物品",
+                        "_tpl": "不死斩臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "万劫不复_成就奖励",
+                "Quest": "万劫不复",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "列宁勋章",
+        "img": "/files/icon/prapor4.png",
+        "name": "列宁勋章",
+        "description": "将Prapor的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "列宁勋章_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "列宁勋章_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "列宁勋章_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "列宁勋章_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Prapor",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "列宁勋章_成就奖励_友谊之证",
+                "Quest": "列宁勋章",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "希波克拉底誓言",
+        "img": "/files/icon/therapist4.png",
+        "name": "希波克拉底誓言",
+        "description": "将Therapist的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "希波克拉底誓言_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "希波克拉底誓言_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "希波克拉底誓言_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "希波克拉底誓言_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Therapist",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "希波克拉底誓言_成就奖励_友谊之证",
+                "Quest": "希波克拉底誓言",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "要亲近朋友",
+        "img": "/files/icon/fence4.png",
+        "name": "要亲近朋友……",
+        "description": "将Fence的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "要亲近朋友_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "要亲近朋友_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "要亲近朋友_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "要亲近朋友_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Fence",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "要亲近朋友_成就奖励_友谊之证",
+                "Quest": "要亲近朋友",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "百万欧元",
+        "img": "/files/icon/skier4.png",
+        "name": "百万欧元",
+        "description": "将Skier的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "百万欧元_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "百万欧元_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "百万欧元_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "百万欧元_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Skier",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "百万欧元_成就奖励_友谊之证",
+                "Quest": "百万欧元",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "没有和平就没有安宁",
+        "img": "/files/icon/peacekeeper4.png",
+        "name": "没有和平，就没有安宁",
+        "description": "将Peacekeeper的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "没有和平就没有安宁_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "没有和平就没有安宁_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "没有和平就没有安宁_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "没有和平就没有安宁_友谊奖励_英雄之证_物品",
+                        "_tpl": "友谊之证_Peacekeeper",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "没有和平就没有安宁_友谊奖励_英雄之证",
+                "Quest": "没有和平就没有安宁",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "技术宅拯救世界",
+        "img": "/files/icon/mechanic4.png",
+        "name": "技术宅拯救世界",
+        "description": "将Mechanic的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "技术宅拯救世界_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "技术宅拯救世界_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "技术宅拯救世界_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "技术宅拯救世界_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Mechanic",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "技术宅拯救世界_成就奖励_友谊之证",
+                "Quest": "技术宅拯救世界",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "IDEA终身会员",
+        "img": "/files/icon/ragman4.png",
+        "name": "IDEA终身会员",
+        "description": "将Ragman的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "IDEA终身会员_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "IDEA终身会员_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "IDEA终身会员_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "IDEA终身会员_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Ragman",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "IDEA终身会员_成就奖励_友谊之证",
+                "Quest": "IDEA终身会员",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "荒野的呼唤",
+        "img": "/files/icon/jaeger4.png",
+        "name": "荒野的呼唤",
+        "description": "将Jaeger的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "荒野的呼唤_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "荒野的呼唤_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "荒野的呼唤_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "荒野的呼唤_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Jaeger",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "荒野的呼唤_成就奖励_友谊之证",
+                "Quest": "荒野的呼唤",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "公平游戏",
+        "img": "/files/icon/ref4.png",
+        "name": "公平游戏……？",
+        "description": "将Ref的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "公平游戏_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "公平游戏_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "公平游戏_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "公平游戏_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_Ref",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "公平游戏_成就奖励_友谊之证",
+                "Quest": "公平游戏",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "永远的伙伴",
+        "img": "/files/icon/reihana.png",
+        "name": "永远的伙伴",
+        "description": "将千叶玲花的信任度提升到最高等级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "永远的伙伴_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "永远的伙伴_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "永远的伙伴_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "永远的伙伴_成就奖励_友谊之证_物品",
+                        "_tpl": "友谊之证_千叶玲花",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "永远的伙伴_成就奖励_友谊之证",
+                "Quest": "永远的伙伴",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "百步穿杨",
+        "img": "/files/icon/shootertest.png",
+        "name": "百步穿杨",
+        "description": "完成一次100米之外的击杀",
+        "rarity": "Common",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "百步穿杨_需求",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "百步穿杨_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "百步穿杨_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 100,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "正中靶心",
+        "img": "/files/icon/shootertest.png",
+        "name": "正中靶心",
+        "description": "完成一次200米之外的击杀",
+        "rarity": "Common",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "正中靶心_需求",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "正中靶心_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "正中靶心_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 200,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "正中靶心_成就奖励_物品",
+                        "_tpl": "5d03794386f77420415576f5",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "正中靶心_成就奖励",
+                "Quest": "正中靶心",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "天神射手",
+        "img": "/files/icon/shootertest.png",
+        "name": "天神射手",
+        "description": "完成一次300米之外的击杀",
+        "rarity": "Rare",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "天神射手_需求",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "天神射手_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "天神射手_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 300,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "天神射手_成就奖励_物品",
+                        "_tpl": "59faff1d86f7746c51718c9c",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "天神射手_成就奖励",
+                "Quest": "天神射手",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "死亡凝视",
+        "img": "/files/icon/shootertest.png",
+        "name": "死亡凝视",
+        "description": "完成一次500米之外的击杀",
+        "rarity": "Rare",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "死亡凝视_需求",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "死亡凝视_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "死亡凝视_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 500,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "死亡凝视_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "死亡凝视_成就奖励",
+                "Quest": "死亡凝视",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "幽灵子弹",
+        "img": "/files/icon/shootertest.png",
+        "name": "幽灵子弹",
+        "description": "完成一次600米之外的击杀",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "幽灵子弹_需求",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "幽灵子弹_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "幽灵子弹_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 600,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "幽灵子弹_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "幽灵子弹_成就奖励",
+                "Quest": "幽灵子弹",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "血洒长空",
+        "img": "/files/icon/shootertest.png",
+        "name": "血洒长空",
+        "description": "完成一次800米之外的击杀",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "血洒长空_需求",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "血洒长空_需求_计数器",
+                    "bot": "Any",
+                    "role": [],
+                    "conditionid": "血洒长空_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 800,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "血洒长空_成就奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "血洒长空_成就奖励",
+                "Quest": "血洒长空",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "十二试炼",
+        "img": "/files/icon/goldenapple.png",
+        "name": "十二试炼",
+        "description": "找到金苹果钥匙串",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "十二试炼_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "十二试炼_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "十二试炼_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "君临天下",
+        "img": "/files/icon/enchantgoldenapple.png",
+        "name": "君临天下",
+        "description": "找到附魔金苹果钥匙串",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "君临天下_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "君临天下_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "君临天下_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "君临天下_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "君临天下_成就奖励",
+                "Quest": "君临天下",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "超越生死",
+        "img": "/files/icon/undead.png",
+        "name": "超越生死",
+        "description": "找到不死图腾",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "超越生死_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "超越生死_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "超越生死_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "超越生死_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "超越生死_成就奖励",
+                "Quest": "超越生死",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "太空电梯成就",
+        "img": "/files/icon/elevator.png",
+        "name": "于上天入地之处，取寰宇无穷之物",
+        "description": "找到太空电梯",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "太空电梯成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "太空电梯成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "太空电梯成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "太空电梯成就_成就奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "太空电梯成就_成就奖励",
+                "Quest": "太空电梯成就",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "EOH成就",
+        "img": "/files/icon/eoh.png",
+        "name": "天地与其共生，万物与其合一",
+        "description": "在战局中找到鸿蒙之眼",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "EOH成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "EOH成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "EOH成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "EOH成就_成就奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "EOH成就_成就奖励",
+                "Quest": "EOH成就",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "DTPF成就",
+        "img": "/files/icon/dtpf.png",
+        "name": "仰观宇宙之大，俯察品类之盛",
+        "description": "在战局中找到超维度等离子锻炉",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "DTPF成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "DTPF成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "DTPF成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "DTPF成就_成就奖励_物品",
+                        "_tpl": "5c0a840b86f7742ffa4f2482",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "DTPF成就_成就奖励",
+                "Quest": "DTPF成就",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "降临纪念币收集",
+        "img": "/files/icon/temp4.png",
+        "name": "初来乍到",
+        "description": "收集所有「降临」纪念币",
+        "rarity": "Common",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "降临纪念币收集_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "降临纪念币收集_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "降临纪念币收集_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "降临纪念币收集_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "降临纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "降临纪念币收集_奖励"
+            }
+        ]
+    },
+    {
+        "id": "开拓者纪念币收集",
+        "img": "/files/icon/temp4.png",
+        "name": "过往传说",
+        "description": "收集所有「开拓者」纪念币",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "开拓者临念币收集_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "开拓者纪念币收集_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "开拓者纪念币收集_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "开拓者纪念币收集_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 5
+                        }
+                    }
+                ],
+                "Quest": "开拓者纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 5,
+                "ID": "开拓者纪念币收集_奖励"
+            }
+        ]
+    },
+    {
+        "id": "支持者纪念币收集",
+        "img": "/files/icon/temp4.png",
+        "name": "黄金璀璨",
+        "description": "收集所有「支持者」纪念币",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "支持者临念币收集_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "支持者纪念币收集_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "支持者纪念币收集_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "支持者纪念币收集_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 5
+                        }
+                    }
+                ],
+                "Quest": "支持者纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 5,
+                "ID": "支持者纪念币收集_奖励"
+            }
+        ]
+    },
+    {
+        "id": "百炼纪念币收集",
+        "img": "/files/icon/temp4.png",
+        "name": "千锤百炼",
+        "description": "收集所有「百炼」纪念币",
+        "rarity": "Rare",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "百炼临念币收集_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "百炼纪念币收集_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "百炼纪念币收集_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "百炼纪念币收集_奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 5
+                        }
+                    }
+                ],
+                "Quest": "百炼纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 5,
+                "ID": "百炼纪念币收集_奖励"
+            }
+        ]
+    },
+    {
+        "id": "星辰之路纪念币收集",
+        "img": "/files/icon/temp4.png",
+        "name": "星光闪耀",
+        "description": "收集所有「星辰之路」纪念币",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "星辰之路临念币收集_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "星辰之路纪念币收集_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "星辰之路纪念币收集_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [{
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "星辰之路_臂带奖励_物品",
+                        "_tpl": "为了全人类臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "星辰之路_臂带奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "星辰之路_海报奖励_物品",
+                        "_tpl": "为了全人类海报",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "星辰之路_海报奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主狗牌",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_狗牌奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主地板",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主天花板",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_天花板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "救世主墙纸",
+                "Quest": "星辰之路纪念币收集",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "星辰之路_墙纸奖励"
+            }
+        ]
+    },
+    {
+        "id": "强者愈弱",
+        "img": "/files/icon/temp4.png",
+        "name": "强者愈弱……",
+        "description": "迈出勇敢的一步，放弃Gamma安全箱",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "强者愈弱_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "强者愈弱_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "强者愈弱_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "强者愈弱_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 5
+                        }
+                    }
+                ],
+                "Count": 5,
+                "ID": "强者愈弱_成就奖励",
+                "Quest": "强者愈弱",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "弱者愈强",
+        "img": "/files/icon/temp4.png",
+        "name": "……而弱者愈强",
+        "description": "置之死地而后生，取得Sigma安全箱",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "弱者愈强_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "弱者愈强_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "弱者愈强_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "弱者愈强_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 5
+                        }
+                    }
+                ],
+                "Count": 5,
+                "ID": "弱者愈强_成就奖励",
+                "Quest": "弱者愈强",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "结束了",
+        "img": "/files/icon/temp1.png",
+        "name": "结束了？",
+        "description": "Hum，如果你卡在这里了，也许你应该试着联络一下Peacekeeper，帮他在储备站干点活",
+        "rarity": "Common",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结束了_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "结束了_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "结束了_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "旅途的终点",
+        "img": "/files/icon/level79.png",
+        "name": "旅途的终点",
+        "description": "等级达到79级",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "旅途的终点_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "旅途的终点_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "旅途的终点_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "港区新人",
+        "img": "/files/icon/AT.png",
+        "name": "港区新人",
+        "description": "向我的朋友以及塔科夫Mod制作的引路人AT致以敬意",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "港区新人_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "港区新人_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "港区新人_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "港区新人成就_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "ID": "港区新人成就_成就奖励",
+                "Quest": "港区新人",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "晦明苦短",
+        "img": "/files/icon/blade.png",
+        "name": "晦明苦短",
+        "description": "经历百次死亡，进一步磨炼你的技艺",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "exit",
+                    "id": "晦明苦短成就要求1",
+                    "oneraid": false,
+                    "count": 100,
+                    "location": 8191,
+                    "status": 28,
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "晦明苦短成就_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 3
+                        }
+                    }
+                ],
+                "Count": 3,
+                "ID": "晦明苦短成就_成就奖励",
+                "Quest": "晦明苦短",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "听,这是在挑衅我呢",
+        "img": "/files/icon/laotai.png",
+        "name": "听，这是在挑衅我呢",
+        "description": "使用M700狙击步枪命中头部杀死Birdeye",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "听,这是在挑衅我呢_需求",
+                    "locale": "使用M700狙击步枪命中头部杀死Birdeye",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "听,这是在挑衅我呢_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBirdEye"
+                    ],
+                    "conditionid": "听,这是在挑衅我呢_需求_计数器_需求",
+                    "bodyPart": 1,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bfea6e90db834001b7347f3"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "听,这是在挑衅我呢_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 3
+                        }
+                    }
+                ],
+                "Count": 3,
+                "ID": "听,这是在挑衅我呢_成就奖励",
+                "Quest": "听,这是在挑衅我呢",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "星光微茫",
+        "img": "/files/icon/laotai_red.png",
+        "name": "你以为星光微茫，是因为你靠的不够近",
+        "description": "使用M700狙击步枪命中头部杀死Birdeye、Shturman和Zryachiy且中途不死亡",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "星光微茫_需求1",
+                    "locale": "使用M700狙击步枪命中头部杀死Birdeye",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "星光微茫_需求1_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBirdEye"
+                    ],
+                    "conditionid": "星光微茫_需求1_计数器_需求",
+                    "bodyPart": 1,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bfea6e90db834001b7347f3"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "kill",
+                    "id": "星光微茫_需求2",
+                    "locale": "使用M700狙击步枪命中头部杀死Shturman",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "星光微茫_需求2_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKojaniy"
+                    ],
+                    "conditionid": "星光微茫_需求2_计数器_需求",
+                    "bodyPart": 1,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bfea6e90db834001b7347f3"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "kill",
+                    "id": "星光微茫_需求3",
+                    "locale": "使用M700狙击步枪命中头部杀死Zryachiy",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "星光微茫_需求3_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossZryachiy"
+                    ],
+                    "conditionid": "星光微茫_需求3_计数器_需求",
+                    "bodyPart": 1,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bfea6e90db834001b7347f3"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": [
+                {
+                    "id": "星光微茫_失败",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 28,
+                    "chosenextractpoint": false,
+                    "extractpoint": ""
+                }
+            ]
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "星光微茫_成就奖励_物品",
+                        "_tpl": "英雄之证",
+                        "upd": {
+                            "StackObjectsCount": 10
+                        }
+                    }
+                ],
+                "Count": 10,
+                "ID": "星光微茫_成就奖励",
+                "Quest": "星光微茫",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    },
+    {
+        "id": "淘金热",
+        "img": "/files/icon/boss_reshala.png",
+        "name": "淘金热",
+        "description": "作为PMC，击杀Reshala 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "淘金热_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "淘金热_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossBully"
+                    ],
+                    "conditionid": "淘金热_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "锤子与镰刀",
+        "img": "/files/icon/boss_tagilla.png",
+        "name": "锤子与镰刀",
+        "description": "作为PMC，击杀Tagilla 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "锤子与镰刀_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "锤子与镰刀_击杀需求_计算器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossTagilla",
+                        "infectedTagilla",
+                        "followerTagilla",
+                        "bossTagillaAgro"
+                    ],
+                    "conditionid": "锤子与镰刀_击杀需求_计算器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "萨尼铁塔",
+        "img": "/files/icon/boss_sanitar.png",
+        "name": "Sanitäter！",
+        "description": "作为PMC，击杀Sanitar 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "萨尼铁塔_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "萨尼铁塔_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossSanitar"
+                    ],
+                    "conditionid": "萨尼铁塔_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "超级巨星",
+        "img": "/files/icon/boss_killa.png",
+        "name": "超级巨星",
+        "description": "作为PMC，击杀Killa 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "超级巨星_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "超级巨星_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKilla"
+                    ],
+                    "conditionid": "超级巨星_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "全树种树场",
+        "img": "/files/icon/boss_shturman.png",
+        "name": "全树种树场",
+        "description": "作为PMC，击杀Shturman 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "全树种树场_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "全树种树场_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKojaniy"
+                    ],
+                    "conditionid": "全树种树场_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "赶尽杀绝",
+        "img": "/files/icon/boss_gluhar.png",
+        "name": "赶尽杀绝",
+        "description": "作为PMC，击杀Gluhar 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "赶尽杀绝_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "赶尽杀绝_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossGluhar"
+                    ],
+                    "conditionid": "赶尽杀绝_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "你从丹东来",
+        "img": "/files/icon/boss_kaban.png",
+        "name": "你若三冬来",
+        "description": "作为PMC，击杀Kaban 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "你从丹东来_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "你从丹东来_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossBoar"
+                    ],
+                    "conditionid": "你从丹东来_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "私法制裁",
+        "img": "/files/icon/boss_kolontay.png",
+        "name": "私法制裁",
+        "description": "作为PMC，击杀Kolontay 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "私法制裁_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "私法制裁_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKolontay"
+                    ],
+                    "conditionid": "私法制裁_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "丧钟为谁而鸣",
+        "img": "/files/icon/boss_goons.png",
+        "name": "丧钟为谁而鸣？",
+        "description": "作为PMC，击杀Knight、Birdeye、Big Pipe各30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": true,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "丧钟为谁而鸣_击杀需求_1",
+                    "locale": "找到并消灭Knight",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "丧钟为谁而鸣_击杀需求_1_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossKnight"
+                    ],
+                    "conditionid": "丧钟为谁而鸣_击杀需求_1_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "kill",
+                    "id": "丧钟为谁而鸣_击杀需求_2",
+                    "locale": "找到并消灭Birdeye",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "丧钟为谁而鸣_击杀需求_2_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBirdEye"
+                    ],
+                    "conditionid": "丧钟为谁而鸣_击杀需求_2_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "kill",
+                    "id": "丧钟为谁而鸣_击杀需求_3",
+                    "locale": "找到并消灭Big Pipe",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "丧钟为谁而鸣_击杀需求_3_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "followerBigPipe"
+                    ],
+                    "conditionid": "丧钟为谁而鸣_击杀需求_3_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "神的眼睛",
+        "img": "/files/icon/boss_zryachiy.png",
+        "name": "神的眼睛，在望着未来",
+        "description": "作为PMC，击杀Zryachiy 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "神的眼睛_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "神的眼睛_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossZryachiy"
+                    ],
+                    "conditionid": "神的眼睛_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "玩家邪教徒狗牌",
+                "Quest": "神的眼睛",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "神的眼睛_装饰奖励"
+            }
+        ]
+    },
+    {
+        "id": "善恶终有报",
+        "img": "/files/icon/boss_partizan.png",
+        "name": "善恶终有报",
+        "description": "作为PMC，击杀Partisan 30次",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": false,
+        "showConditions": false,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "善恶终有报_击杀需求",
+                    "oneraid": false,
+                    "count": 30,
+                    "counterid": "善恶终有报_击杀需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "bossPartisan"
+                    ],
+                    "conditionid": "善恶终有报_击杀需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "初来乍到",
+        "img": "/files/icon/firststart.png",
+        "name": "梦开始的地方",
+        "description": "一切的一切的起点",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "初来乍到_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "初来乍到_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "初来乍到_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "玩家Scav狗牌",
+                "Quest": "初来乍到",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "初来乍到_装饰奖励"
+            }
+        ]
+    },
+    {
+        "id": "以我为终",
+        "img": "/files/icon/theend.png",
+        "name": "以我为终，以我为始",
+        "description": "此后，将有群星闪耀，因为我曾经来过；此后，将有百花绽放，因为我从未离去。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "以我为终_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "以我为终_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "以我为终_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "玩家蓝水晶狗牌",
+                "Quest": "以我为终",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "以我为终_装饰奖励_1"
+            },
+            {
+                "$type": "customization",
+                "Target": "玩家红水晶狗牌",
+                "Quest": "以我为终",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "以我为终_装饰奖励_2"
+            }
+        ]
+    },
+    {
+        "id": "伯利恒之星",
+        "img": "/files/icon/stardust.png",
+        "name": "伯利恒之星",
+        "description": "坠落于大地的恒星",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "伯利恒之星_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "伯利恒之星_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "伯利恒之星_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "正式版发售成就",
+        "img": "/files/icon/liverelease.png",
+        "name": "新时代的第一页",
+        "description": "我们对它又爱又恨，这份情感无疑是真实的",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "正式版发售成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "正式版发售成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "正式版发售成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "熔融狗牌",
+                "Quest": "正式版发售成就",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "正式版发售成就_狗牌奖励_1"
+            },
+            {
+                "$type": "customization",
+                "Target": "四方狗牌",
+                "Quest": "正式版发售成就",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "正式版发售成就_狗牌奖励_2"
+            }
+        ]
+    },
+    {
+        "id": "一转成就",
+        "img": "/files/icon/temp4.png",
+        "name": "初次见面，好久不见",
+        "description": "在完成一次转生后与她重新相识",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "一转成就_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "counterid": "一转成就_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "一转成就_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "永恒不再",
+        "img": "/files/icon/prts.png",
+        "name": "THE END OF....?",
+        "description": "这一路上我们将不彼此抛弃、不彼此出卖，直到死亡的尽头。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": true,
+        "hidden": true,
+        "showConditions": true,
+        "progressBarEnabled": true,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "永恒不再_需求",
+                    "locale": "如果这就是一切的尽头，那么，这一宿命就由我来划上休止符。",
+                    "oneraid": false,
+                    "count": 1,
+                    "counterid": "永恒不再_需求_计数器",
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "conditionid": "永恒不再_需求_计数器_需求",
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "item",
+                "Items": [
+                    {
+                        "_id": "永恒不再_奖励_物品",
+                        "_tpl": "永恒之环",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Count": 1,
+                "Stage": 1,
+                "ID": "永恒不再_奖励",
+                "Quest": "永恒不再",
+                "Unknown": false,
+                "IsAchievement": true
+            }
+        ]
+    }
+]

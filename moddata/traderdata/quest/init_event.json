@@ -1,0 +1,149 @@
+{
+    "强制解锁_重要伤员": {
+        "ID": "强制解锁_重要伤员",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_重要伤员_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "强制解锁_寻血猎犬": {
+        "ID": "强制解锁_寻血猎犬",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_寻血猎犬_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "强制解锁_杀鸡儆猴": {
+        "ID": "强制解锁_杀鸡儆猴",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_杀鸡儆猴_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "强制解锁_东窗事发": {
+        "ID": "强制解锁_东窗事发",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_东窗事发_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "强制解锁_品酒师": {
+        "ID": "强制解锁_品酒师",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_品酒师_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "强制解锁_大丰收": {
+        "ID": "强制解锁_大丰收",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_大丰收_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "强制解锁_钥匙卡任务": {
+        "ID": "强制解锁_钥匙卡任务",
+        "Type": 0,
+        "ImagePath": "/files/quest/icon/city.png",
+        "TraderID": "Persicaria",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "强制解锁_钥匙卡任务_上交英雄之证",
+                    "inraid": false,
+                    "itemid": "英雄之证",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    }
+}

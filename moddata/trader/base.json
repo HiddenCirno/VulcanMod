@@ -1,0 +1,140 @@
+{
+  "_id": "Persicaria",
+  "availableInRaid": false,
+  "avatar": "/files/trader/avatar/Persicaria.jpg",
+  "balance_dol": 0,
+  "balance_eur": 0,
+  "balance_rub": 80000000,
+  "buyer_up": false,
+  "currency": "RUB",
+  "customization_seller": true,
+  "discount": 0,
+  "discount_end": 0,
+  "gridHeight": 160,
+  "insurance": {
+    "availability": true,
+    "excluded_category": [],
+    "max_return_hour": 0,
+    "max_storage_time": 168,
+    "min_payment": 0,
+    "min_return_hour": 0
+  },
+  "items_buy": {
+    "category": [
+      "543be5664bdc2dd4348b4569",
+      "543be5e94bdc2df1348b4568",
+      "543be6674bdc2df1348b4569",
+      "5448eb774bdc2d0a728b4567",
+      "5448ecbe4bdc2d60728b4568",
+      "5448f3ac4bdc2dce718b4569"
+    ],
+    "id_list": []
+  },
+  "items_buy_prohibited": {
+    "category": [],
+    "id_list": []
+  },
+  "location": "夏花研究所",
+  "loyaltyLevels": [
+    {
+      "buy_price_coef": 44,
+      "exchange_price_coef": 0,
+      "heal_price_coef": 0,
+      "insurance_price_coef": 10,
+      "minLevel": 1,
+      "minSalesSum": 0,
+      "minStanding": 0,
+      "repair_price_coef": 150
+    },
+    {
+      "buy_price_coef": 38,
+      "exchange_price_coef": 0,
+      "heal_price_coef": 0,
+      "insurance_price_coef": 8,
+      "minLevel": 12,
+      "minSalesSum": 750000,
+      "minStanding": 0.2,
+      "repair_price_coef": 125
+    },
+    {
+      "buy_price_coef": 32,
+      "exchange_price_coef": 0,
+      "heal_price_coef": 0,
+      "insurance_price_coef": 6,
+      "minLevel": 23,
+      "minSalesSum": 1600000,
+      "minStanding": 0.35,
+      "repair_price_coef": 100
+    },
+    {
+      "buy_price_coef": 26,
+      "exchange_price_coef": 0,
+      "heal_price_coef": 0,
+      "insurance_price_coef": 4,
+      "minLevel": 31,
+      "minSalesSum": 2500000,
+      "minStanding": 0.5,
+      "repair_price_coef": 75
+    }
+  ],
+  "medic": false,
+  "name": "千叶玲花",
+  "description": "火神集团六部中五部的部长，夏花研究所所长，出于某种不为人知的原因来到塔科夫市，其本人从未在他人面前露过面，只通过虚拟通讯和无人机的方式与外界来往。",
+  "nextResupply": 1631483553,
+  "nickname": "千叶玲花",
+  "repair": {
+    "availability": true,
+    "currency": "5449016a4bdc2d6f028b456f",
+    "currency_coefficient": 1,
+    "excluded_category": [],
+    "excluded_id_list": [],
+    "quality": "0"
+  },
+  "sell_category": [
+    "5b47574386f77428ca22b344",
+    "5b47574386f77428ca22b2f1",
+    "5b47574386f77428ca22b340",
+    "5b47574386f77428ca22b2f4",
+    "5b47574386f77428ca22b2f3",
+    "5b47574386f77428ca22b342",
+    "5b47574386f77428ca22b341",
+    "5b5f6fa186f77409407a7eb7",
+    "5b47574386f77428ca22b343"
+  ],
+  "surname": "千叶玲花",
+  "unlockedByDefault": true,
+  "insurance_locale": {
+    "insuranceStart": [
+      "保险激活日志1",
+      "保险激活日志2",
+      "保险激活日志3",
+      "保险激活日志4"
+    ],
+    "insuranceFound": [
+      "保险回收日志1",
+      "保险回收日志2",
+      "保险回收日志3",
+      "保险回收日志4",
+      "保险回收日志5"
+    ],
+    "insuranceFailedLabs": [
+      "保险失败实验室日志1",
+      "保险失败实验室日志2",
+      "保险失败实验室日志3"
+    ],
+    "insuranceExpired": [
+      "保险过期日志1",
+      "保险过期日志2",
+      "保险过期日志3"
+    ],
+    "insuranceComplete": [
+      "5a8fd75188a45036844e0af5"
+    ],
+    "insuranceFailed": [
+      "保险失败日志1",
+      "保险失败日志2",
+      "保险失败日志3",
+      "保险失败日志4"
+    ]
+  }
+}

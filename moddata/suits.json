@@ -1,0 +1,1554 @@
+[
+    {
+        "_id": "e0b0a19de19a8c2fccd1f338",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "151d25268b3162cd5dd12def"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "24430b4de9cfabc20d6cf916",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "c6ad5f6cd4fd4522a818441a",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "151d25268b3162cd5dd12def"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "58499a5f21a2c5477ba4fd04",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "c43ce839f29c97731a5f82ef",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "a2689a6237248d48d08407ac"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "7efd39106146e57cfafe2673",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "1c2d5f5d0269fdac49d9bd40",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "a2689a6237248d48d08407ac"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "9f1f54936878f3c929272b32",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "47a7811f46a2692fb9e06ae0",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "e31e244da29fea7968704bfa"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "70755fdc517b88268c91ed1d",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "008a2646434fc7a84b2c4310",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "e31e244da29fea7968704bfa"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "be07be6fc94878b287260746",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "a244a43dc41b837070ea3c26",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "8cf4f45a2fca6ba7a9c38df6"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "d1c32e531ca5518c86a9cb2c",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "58cc73d8e223deb4e4b48c84",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "8cf4f45a2fca6ba7a9c38df6"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "0510c2b41a9c854832ecdb5f",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "19e48061470cfec87a3b4fd7",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "7e30852ae8be7f00d0576106"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "4b1b7584cc89dfd104a8fd5e",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "aff9e1dc4c23dbaee9fc5ac9",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "7e30852ae8be7f00d0576106"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "1fe32bdc9fa5f113c27792b5",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "28404eddce06200eb3ca7cc5",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "dee2c9ab252039f55c3acf4d"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "5f0ba0e258398855163cf686",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "bd4905093d4db84e683181b8",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "dee2c9ab252039f55c3acf4d"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "c76a79a3c662886ad1f260b7",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "a4a7e2751a8383c209343efa",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "4d87465432fd61b19cd8cdfc"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "baba59df335f35615f2a86cb",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "55e20de26230b7fce9333549",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "4d87465432fd61b19cd8cdfc"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "8f6a24b9eef8fe6a35f42b7a",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "33b601f57ed942433a902aa0",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "625d700cc48e6c62a440fab5"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "da20bd0bd157910a303971ac",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "8c24286dddc52fbcfc6aa1ac",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "625d700cc48e6c62a440fab5"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "e16a62e5fa84faf8129372f6",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "dcc2477cb52b571260ff1c54",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "7e30852ae8be7f00d0576106"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "c05d9de719bf84ef25a75b64",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "dfbf7faa467385c05d6a1561",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "7e30852ae8be7f00d0576106"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "b12a677eb87247b9851e5fc1",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "d003c010f59cc8e03a8d7792",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "7e30852ae8be7f00d0576106"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "1df823ac199ebcde18eef5cc",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "ab5a15af33fb99d20de66d12",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "7e30852ae8be7f00d0576106"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "651d8f0849d65cd83bf5ac01",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "20203dd35fcf393f7a997881",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "e23bfb127dfde8b10a3c865a"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "fc180a813801c3f6f3fa0f4e",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "3c198f034b0cb7bbde41e444",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "e23bfb127dfde8b10a3c865a"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "1439be412b66e5c3da5e44f5",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "3e9d26dc1a59d0bf2b81ef20",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 250000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "1fcd3eeb33d5c80e65a8a81b",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "cf05df90876c51ace59efece",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "60e71c11d54b755a3b53eb65"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "04b286c10d896b1c423cf2b9",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "bf6a5b416104a043ccfea61a",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "60e71c11d54b755a3b53eb65"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "261b59f83a42be037014496f",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "40043cd53a0f54be5fae9bea",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "a1cd4e84379b28948d8ef0ac"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "b285c4c0b192483238a03eda",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "704bf643e24a2dc065616501",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "a1cd4e84379b28948d8ef0ac"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "e711f372d20be84428637cf7",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "1c41eccac3f06588c2e444d0",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 120000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 1,
+            "profileLevel": 1,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "b63ed1ab4c5aed97f7b9d1ae",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "5c3573d709a1da2250f2d874",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 120000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 1,
+            "profileLevel": 1,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "182f138142dc55f9ca9d9948",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "256af843bbfc30425880bbd7",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 180000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 1,
+            "profileLevel": 1,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "4adfef960de8a1a859c71aed",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "d59e46992749ac298ca52601",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 120000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 1,
+            "profileLevel": 1,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "7ea77cdae43d9f559205b5a5",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "6d405f5b7f6dcd16974b01a8",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 180000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 1,
+            "profileLevel": 1,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "376b961de5efc0948ff9e6ae",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "33c5ee0a928c154ce43e198d",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 120000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 1,
+            "profileLevel": 1,
+            "questRequirements": [],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "511162f4c7799bc11d23f5c2",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "Partizan上装",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "60e71d6d7fcf9c556f325055"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "PartizanCoat",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "Partizan下装",
+        "isActive": true,
+        "externalObtain": false,
+        "internalObtain": true,
+        "requirements": {
+            "itemRequirements": [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 5000000,
+                    "onlyFunctional": true
+                }
+            ],
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "questRequirements": [
+                "60e71d6d7fcf9c556f325055"
+            ],
+            "skillRequirements": [],
+            "standing": 0,
+            "requiredTid": "993d3e46332efe8ff8516012"
+        },
+        "suiteId": "PartizanLower",
+        "tid": "Persicaria",
+        "isHiddenInPVE": false
+    },
+    {
+        "_id": "BlackG99Clothes",
+        "tid": "Persicaria",
+        "suiteId": "BlackG99Pants_Cloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BlackDeltaClothes",
+        "tid": "Persicaria",
+        "suiteId": "BlackDelta_Cloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BlackPCUClothes",
+        "tid": "Persicaria",
+        "suiteId": "BlackPCU_Cloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "SpringClothes",
+        "tid": "Persicaria",
+        "suiteId": "Spring_Cloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 2000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "SpringPantsClothes",
+        "tid": "Persicaria",
+        "suiteId": "SpringPants_Cloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 2000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "LightKeeperBodySuit",
+        "tid": "Persicaria",
+        "suiteId": "LightKeeperBodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [
+                "625d700cc48e6c62a440fab5"
+            ],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "LightKeeperPantsSuit",
+        "tid": "Persicaria",
+        "suiteId": "LightKeeperLegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [
+                "625d700cc48e6c62a440fab5"
+            ],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "DoctorBodySuit",
+        "tid": "Persicaria",
+        "suiteId": "DoctorBodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "DoctorPantsSuit",
+        "tid": "Persicaria",
+        "suiteId": "DoctorLegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "NightingaleSuit",
+        "tid": "Persicaria",
+        "suiteId": "NightingaleCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "中国运动服",
+        "tid": "Persicaria",
+        "suiteId": "朴素运动服外套",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "中国运动裤",
+        "tid": "Persicaria",
+        "suiteId": "朴素运动服裤子",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDLeaderCloth",
+        "tid": "Persicaria",
+        "suiteId": "BDLeaderBodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDLeaderPants",
+        "tid": "Persicaria",
+        "suiteId": "BDLeaderLegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDOperator01Cloth",
+        "tid": "Persicaria",
+        "suiteId": "BDOperator01BodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDOperator01Pants",
+        "tid": "Persicaria",
+        "suiteId": "BDOperator01LegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDOperator02Cloth",
+        "tid": "Persicaria",
+        "suiteId": "BDOperator02BodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDOperator02Pants",
+        "tid": "Persicaria",
+        "suiteId": "BDOperator02LegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDOperator03Cloth",
+        "tid": "Persicaria",
+        "suiteId": "BDOperator03BodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "BDOperator03Pants",
+        "tid": "Persicaria",
+        "suiteId": "BDOperator03LegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "TGJacketCloth",
+        "tid": "Persicaria",
+        "suiteId": "TGJacketBodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 40,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [
+                "5edac63b930f5454f51e128b"
+            ],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 1000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "TGJacketPants",
+        "tid": "Persicaria",
+        "suiteId": "TGJacketLegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 40,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [
+                "5edac63b930f5454f51e128b"
+            ],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 1000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "FormalBodySuit",
+        "tid": "Persicaria",
+        "suiteId": "FormalBodyCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 50,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    },
+    {
+        "_id": "FormalPants",
+        "tid": "Persicaria",
+        "suiteId": "FormalLegCloth",
+        "isActive": true,
+        "isHiddenInPVE": false,
+        "externalObtain": true,
+        "internalObtain": true,
+        "requirements": {
+            "loyaltyLevel": 4,
+            "profileLevel": 40,
+            "standing": 0,
+            "skillRequirements": [],
+            "questRequirements": [],
+            "achievementRequirements": [],
+            "itemRequirements": [
+                {
+                    "id": null,
+                    "count": 5000000,
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "onlyFunctional": true,
+                    "type": "ItemRequirement"
+                }
+            ],
+            "requiredTid": "Persicaria"
+        }
+    }
+]

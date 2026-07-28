@@ -1,0 +1,272 @@
+[
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "Kappa之路_3x4奖励_物品",
+                "_tpl": "5c093ca986f7740a1867ab12",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "664f1f8768508d74604bf556",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "Kappa之路_3x4奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "玩家Boss狗牌",
+        "Quest": "664f1f8768508d74604bf556",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "Kappa之路_装饰奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "萤火虫_臂带奖励_物品",
+                "_tpl": "灯塔臂带",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "6514321bec10ff011f17ccac",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "萤火虫_臂带奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "萤火虫_海报奖励_物品",
+                "_tpl": "灯塔海报",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "6514321bec10ff011f17ccac",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "萤火虫_海报奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "灯塔狗牌",
+        "Quest": "6514321bec10ff011f17ccac",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "萤火虫_狗牌奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "灯塔地板",
+        "Quest": "6514321bec10ff011f17ccac",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "萤火虫_地板奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "灯塔天花板",
+        "Quest": "6514321bec10ff011f17ccac",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "萤火虫_天花板奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "灯塔墙纸",
+        "Quest": "6514321bec10ff011f17ccac",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "萤火虫_墙纸奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "名为太阳的星星_臂带奖励_物品",
+                "_tpl": "堕入黑暗臂带",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "名为太阳的星星_臂带奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "名为太阳的星星_海报奖励_物品",
+                "_tpl": "堕入黑暗海报",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "名为太阳的星星_海报奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "堕入黑暗狗牌",
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "名为太阳的星星_狗牌奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "堕入黑暗地板",
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "名为太阳的星星_地板奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "堕入黑暗天花板",
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "名为太阳的星星_天花板奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "堕入黑暗墙纸",
+        "Quest": "67fce0c2f18dc20eae02240b",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "名为太阳的星星_墙纸奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "旅行家_臂带奖励_物品",
+                "_tpl": "幸存者臂带",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "旅行家_臂带奖励"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "旅行家_海报奖励_物品",
+                "_tpl": "幸存者海报",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "Count": 1,
+        "ID": "旅行家_海报奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "幸存者狗牌",
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "旅行家_狗牌奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "幸存者地板",
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "旅行家_地板奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "幸存者天花板",
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "旅行家_天花板奖励"
+    },
+    {
+        "$type": "customization",
+        "Target": "幸存者墙纸",
+        "Quest": "6512eb3ddfb0ae1ee75a0376",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": true,
+        "ID": "旅行家_墙纸奖励"
+    }
+]

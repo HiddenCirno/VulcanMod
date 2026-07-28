@@ -1,0 +1,724 @@
+[
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "首秀纪念币",
+                "_tpl": "降临纪念币_首秀",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5936d90786f7742b1420ba5b",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "首秀纪念币",
+        "Desc": "首秀纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "短缺纪念币",
+                "_tpl": "降临纪念币_短缺",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5967733e86f774602332fc84",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "短缺纪念币",
+        "Desc": "短缺纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "介绍纪念币",
+                "_tpl": "降临纪念币_介绍",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5d2495a886f77425cd51e403",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "介绍纪念币",
+        "Desc": "介绍纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "熟人纪念币",
+                "_tpl": "降临纪念币_熟人",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5d24b81486f77439c92d6ba8",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "熟人纪念币",
+        "Desc": "熟人纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "渔具纪念币",
+                "_tpl": "降临纪念币_渔具",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5a27b75b86f7742e97191958",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "渔具纪念币",
+        "Desc": "渔具纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "供应商纪念币",
+                "_tpl": "降临纪念币_供应商",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "596b36c586f77450d6045ad2",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "供应商纪念币",
+        "Desc": "供应商纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "生意至上纪念币",
+                "_tpl": "降临纪念币_生意至上",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5ae448a386f7744d3730fff0",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "生意至上纪念币",
+        "Desc": "生意至上纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "屠宰场渡鸦之咬",
+                "_tpl": "渡鸦之咬",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "63a9b36cc31b00242d28a99f",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "屠宰场渡鸦之咬",
+        "Desc": "屠宰场渡鸦之咬"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "大放送之夜纪念币",
+                "_tpl": "百炼纪念币_大放送之夜",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5ae449c386f7744bde357697",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "大放送之夜纪念币",
+        "Desc": "大放送之夜纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "灭虫服务纪念币",
+                "_tpl": "百炼纪念币_灭虫服务",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5c0d1c4cd0928202a02a6f5c",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "灭虫服务纪念币",
+        "Desc": "灭虫服务纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "惩罚者纪念币",
+                "_tpl": "百炼纪念币_惩罚者",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "59ca2eb686f77445a80ed049",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "惩罚者纪念币",
+        "Desc": "惩罚者纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "奢侈无罪纪念币",
+                "_tpl": "百炼纪念币_奢侈无罪",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5c1141f386f77430ff393792",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "奢侈无罪纪念币",
+        "Desc": "奢侈无罪纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "维和任务纪念币",
+                "_tpl": "百炼纪念币_维和任务",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5c0d4c12d09282029f539173",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "维和任务纪念币",
+        "Desc": "维和任务纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "样品纪念币",
+                "_tpl": "百炼纪念币_样品",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5edac020218d181e29451446",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "样品纪念币",
+        "Desc": "样品纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "长期合作纪念币",
+                "_tpl": "星辰之路纪念币_长期合作",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "60e71dc0a94be721b065bbfc",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "长期合作纪念币",
+        "Desc": "长期合作纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "枪匠纪念币",
+                "_tpl": "星辰之路纪念币_枪匠",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "64f83bd983cfca080a362c82",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "枪匠纪念币",
+        "Desc": "枪匠纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "急单纪念币",
+                "_tpl": "星辰之路纪念币_急单",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "60e71c48c1bfa3050473b8e5",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "急单纪念币",
+        "Desc": "急单纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "掠地攻城纪念币",
+                "_tpl": "星辰之路纪念币_掠地攻城",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "60e71b9bbd90872cb85440f3",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "掠地攻城纪念币",
+        "Desc": "掠地攻城纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "塔科夫神射手纪念币",
+                "_tpl": "星辰之路纪念币_塔科夫神射手",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5bc4893c86f774626f5ebf3e",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "塔科夫神射手纪念币",
+        "Desc": "塔科夫神射手纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "试驾纪念币",
+                "_tpl": "星辰之路纪念币_试驾",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "675c1ff1a757ddd00404f0aa",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "试驾纪念币",
+        "Desc": "试驾纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "天神射手纪念币",
+                "_tpl": "星辰之路纪念币_天神射手",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5c0bde0986f77479cf22c2f8",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "天神射手纪念币",
+        "Desc": "天神射手纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "向导纪念币",
+                "_tpl": "星辰之路纪念币_向导",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5c0d4e61d09282029f53920e",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "向导纪念币",
+        "Desc": "向导纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "夜间扫荡纪念币",
+                "_tpl": "星辰之路纪念币_夜间扫荡",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "60e71c11d54b755a3b53eb65",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "夜间扫荡纪念币",
+        "Desc": "夜间扫荡纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "恐吓者纪念币",
+                "_tpl": "百炼纪念币_恐吓者",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "60e71bb4e456d449cd47ca75",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "恐吓者纪念币",
+        "Desc": "恐吓者纪念币"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "邪教2仿制钥匙",
+                "_tpl": "仿制符号钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5a27ba1c86f77461ea5a3c56",
+        "Condition": "Start",
+        "Count": 1,
+        "Stage": 0,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "邪教2仿制钥匙",
+        "Desc": "邪教2仿制钥匙"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "药剂师仿制钥匙",
+                "_tpl": "仿制114钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5969f9e986f7741dde183a50",
+        "Condition": "Start",
+        "Count": 1,
+        "Stage": 0,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "药剂师仿制钥匙",
+        "Desc": "药剂师仿制钥匙"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "直播1仿制钥匙",
+                "_tpl": "仿制操作间钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "626bd75e47ea7f506e5493c5",
+        "Condition": "Start",
+        "Count": 1,
+        "Stage": 0,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "直播1仿制钥匙",
+        "Desc": "直播1仿制钥匙"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "直播4仿制钥匙",
+                "_tpl": "仿制废弃工厂钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "6391372c8ba6894d155e77d7",
+        "Condition": "Start",
+        "Count": 1,
+        "Stage": 0,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "直播4仿制钥匙",
+        "Desc": "直播4仿制钥匙"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "水瓶座仿制钥匙",
+                "_tpl": "仿制206钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "59689fbd86f7740d137ebfc4",
+        "Condition": "Start",
+        "Count": 1,
+        "Stage": 0,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "水瓶座仿制钥匙",
+        "Desc": "水瓶座仿制钥匙"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "森林管理员永恒钥匙",
+                "_tpl": "永恒ZB014钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "5d25e2ee86f77443e35162ea",
+        "Condition": "Finish",
+        "Count": 1,
+        "Stage": 1,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "森林管理员永恒钥匙",
+        "Desc": "森林管理员永恒钥匙"
+    },
+    {
+        "$type": "item",
+        "Items": [
+            {
+                "_id": "软禁2仿制钥匙",
+                "_tpl": "仿制15号公寓钥匙",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "639135cd8ba6894d155e77cb",
+        "Condition": "Start",
+        "Count": 1,
+        "Stage": 0,
+        "FindInRaid": true,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "软禁2仿制钥匙",
+        "Desc": "软禁2仿制钥匙"
+    },
+    {
+        "$type": "item",
+        "FindInRaid": true,
+        "Items": [
+            {
+                "_id": "这是什么梗_臂带奖励_物品",
+                "_tpl": "Discord臂带",
+                "upd": {
+                    "StackObjectsCount": 1
+                }
+            }
+        ],
+        "Quest": "66d9cbb67b491f9d5304f6e6",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": true,
+        "IsAchievement": false,
+        "Count": 1,
+        "ID": "这是什么梗_臂带奖励"
+    },
+    {
+        "$type": "achievement",
+        "Target": "67a0e57117e34930e50075f3",
+        "Quest": "67a0970744893b9f3f0d9b68",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "武装侦察成就奖励补充"
+    },
+    {
+        "$type": "achievement",
+        "Target": "67a0e57b972c11a3f50773b2",
+        "Quest": "67a09761e720611a6a01f288",
+        "Stage": 1,
+        "Hidden": false,
+        "Unknown": false,
+        "IsAchievement": false,
+        "ID": "地牢之主成就补充"
+    }
+]

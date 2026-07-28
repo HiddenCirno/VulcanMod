@@ -1,0 +1,710 @@
+[
+    {
+        "Name": "BLACKSPEAR_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": true,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "00bfb85a2d3542c7498d0d31",
+                "_tpl": "SIGSPEAR本体",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    }
+                }
+            },
+            {
+                "_id": "dfdda9fa0b8315b09a188a8b",
+                "_tpl": "SIGSPEAR手枪握把",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "1fe9e846e29f05a0710756ee",
+                "_tpl": "SIGSPEAR20发弹匣",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "705250051f85b8131924db2f",
+                "_tpl": "SIGSPEAR上机匣",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "2a97c092c0efe8312a182337",
+                "_tpl": "6529348224cbe3c74a05e5c4",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_stock_000"
+            },
+            {
+                "_id": "9707fb6fedc586f7760b2d40",
+                "_tpl": "SIGSPEAR拉机柄",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_charge"
+            },
+            {
+                "_id": "3346f9a669fa3e5db3735729",
+                "_tpl": "SIGSPEAR基座环",
+                "parentId": "705250051f85b8131924db2f",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "bd86a284b9e15abbe574bb94",
+                "_tpl": "652910565ae2ae97b80fdf35",
+                "parentId": "705250051f85b8131924db2f",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "4b21308b5fab49a33de9cc81",
+                "_tpl": "SIGSPEAR护木",
+                "parentId": "705250051f85b8131924db2f",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "47d360c4b4897cc9aca6e854",
+                "_tpl": "SIGSPEAR缓冲管",
+                "parentId": "2a97c092c0efe8312a182337",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "e0ccb56449d9f0deb4e776f6",
+                "_tpl": "SIGSPEAR光学瞄具",
+                "parentId": "3346f9a669fa3e5db3735729",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "f43f995e17969e0e3a155586",
+                "_tpl": "6529113b5ae2ae97b80fdf39",
+                "parentId": "bd86a284b9e15abbe574bb94",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "4c79968c1527ab2298a98033",
+                "_tpl": "652910bc24cbe3c74a05e5b9",
+                "parentId": "bd86a284b9e15abbe574bb94",
+                "slotId": "mod_gas_block"
+            },
+            {
+                "_id": "efbd37483dcfc33586f6343c",
+                "_tpl": "SIGSPEAR消音器",
+                "parentId": "f43f995e17969e0e3a155586",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "4cb6a3cdfe8082ea1e17cd81",
+                "_tpl": "SIGSPEAR枪托",
+                "parentId": "47d360c4b4897cc9aca6e854",
+                "slotId": "mod_stock_000"
+            }
+        ]
+    },
+    {
+        "Name": "BLACKGL40_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "5e81ebcd8e146c7080625e15",
+        "Preset": [
+            {
+                "_id": "acf089e4782cd28443a904e1",
+                "_tpl": "bdd52e93d2949bdd7c74833e",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "Foldable": {
+                        "Folded": false
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    }
+                }
+            },
+            {
+                "_id": "9eb95e114fdb5d7fca87facd",
+                "_tpl": "414ebcff5c88e289e4e58020",
+                "slotId": "mod_pistol_grip",
+                "parentId": "acf089e4782cd28443a904e1"
+            }
+        ]
+    },
+    {
+        "Name": "BLACKMSGL_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "6275303a9f372d6ea97f9ec7",
+        "Preset": [
+            {
+                "_id": "13b00da24bf4252f23ce2ee8",
+                "_tpl": "0a10104cd37acb2929cff8fb",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    }
+                }
+            },
+            {
+                "_id": "f9d1828548715b8da2519b12",
+                "_tpl": "414ebcff5c88e289e4e58020",
+                "slotId": "mod_pistol_grip",
+                "parentId": "13b00da24bf4252f23ce2ee8"
+            },
+            {
+                "_id": "4cfbc775f829f5381b976b76",
+                "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+                "slotId": "mod_stock",
+                "parentId": "13b00da24bf4252f23ce2ee8"
+            },
+            {
+                "_id": "9ab4b54c64896fae8ff28a27",
+                "_tpl": "caacbc7cf6b39f610b38e5fb",
+                "slotId": "mod_magazine",
+                "parentId": "13b00da24bf4252f23ce2ee8"
+            },
+            {
+                "_id": "906e1248193f0aee67f0cb00",
+                "_tpl": "6284bd5f95250a29bc628a30",
+                "slotId": "mod_scope",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0,
+                        "ScopeZoomValue": 0
+                    }
+                },
+                "parentId": "13b00da24bf4252f23ce2ee8"
+            }
+        ]
+    },
+    {
+        "Name": "灰美重_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "灰美重_本体",
+                "_tpl": "灰美重"
+            },
+            {
+                "_id": "灰美重_胸部内衬",
+                "_tpl": "灰美重胸部内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "灰美重_背部内衬",
+                "_tpl": "灰美重背部内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "灰美重_左侧内衬",
+                "_tpl": "灰美重左侧内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "灰美重_右侧内衬",
+                "_tpl": "灰美重右侧内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "灰美重_脖子内衬",
+                "_tpl": "灰美重脖子内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Collar"
+            },
+            {
+                "_id": "灰美重_左肩内衬",
+                "_tpl": "灰美重左肩内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Shoulder_l"
+            },
+            {
+                "_id": "灰美重_右肩内衬",
+                "_tpl": "灰美重右肩内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Shoulder_r"
+            },
+            {
+                "_id": "灰美重_股沟内衬",
+                "_tpl": "灰美重股沟内衬",
+                "parentId": "灰美重_本体",
+                "slotId": "Groin"
+            },
+            {
+                "_id": "灰美重_前插板",
+                "_tpl": "656fa99800d62bcd2e024088",
+                "parentId": "灰美重_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "灰美重_后插板",
+                "_tpl": "656fa99800d62bcd2e024088",
+                "parentId": "灰美重_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "灰美重_左插板",
+                "_tpl": "64afdb577bb3bfe8fe03fd1d",
+                "parentId": "灰美重_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "灰美重_右插板",
+                "_tpl": "64afdb577bb3bfe8fe03fd1d",
+                "parentId": "灰美重_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    },
+    {
+        "Name": "SPPCV3_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "SPPCV3_本体",
+                "_tpl": "SPPCV3"
+            },
+            {
+                "_id": "SPPCV3_胸部内衬",
+                "_tpl": "SPPCV3胸部内衬",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "SPPCV3_背部内衬",
+                "_tpl": "SPPCV3背部内衬",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "SPPCV3_左侧内衬",
+                "_tpl": "SPPCV3左侧内衬",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "SPPCV3_右侧内衬",
+                "_tpl": "SPPCV3右侧内衬",
+                "parentId": "SPPCV3_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "SPPCV3_股沟内衬",
+                "_tpl": "SPPCV3股沟内衬",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Groin"
+            },
+            {
+                "_id": "SPPCV3_前插板",
+                "_tpl": "656fa99800d62bcd2e024088",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "SPPCV3_后插板",
+                "_tpl": "656fa99800d62bcd2e024088",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "SPPCV3_左插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "SPPCV3_右插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "SPPCV3_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    },
+    {
+        "Name": "雪王头_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "5c091a4e0db834001d5addc8",
+        "Preset": [
+            {
+                "_id": "雪王头_本体",
+                "_tpl": "雪王Mask头"
+            },
+            {
+                "_id": "雪王头_头顶",
+                "_tpl": "6571133d22996eaf11088200",
+                "parentId": "雪王头_本体",
+                "slotId": "Helmet_top"
+            },
+            {
+                "_id": "雪王头_后颈",
+                "_tpl": "6571138e818110db4600aa71",
+                "parentId": "雪王头_本体",
+                "slotId": "Helmet_back"
+            },
+            {
+                "_id": "雪王头_护耳",
+                "_tpl": "657112fa818110db4600aa6b",
+                "parentId": "雪王头_本体",
+                "slotId": "Helmet_ears"
+            }
+        ]
+    },
+    {
+        "Name": "白lv119_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "白lv119_本体",
+                "_tpl": "白lv119"
+            },
+            {
+                "_id": "白lv119_胸部内衬",
+                "_tpl": "白lv119胸部内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "白lv119_背部内衬",
+                "_tpl": "白lv119背部内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "白lv119_左侧内衬",
+                "_tpl": "白lv119左侧内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "白lv119_右侧内衬",
+                "_tpl": "白lv119右侧内衬",
+                "parentId": "白lv119_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "白lv119_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "白lv119_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "白lv119_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "白lv119_本体",
+                "slotId": "Back_plate"
+            }
+        ]
+    },
+    {
+        "Name": "黑lv119_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "黑lv119_本体",
+                "_tpl": "黑lv119"
+            },
+            {
+                "_id": "黑lv119_胸部内衬",
+                "_tpl": "白lv119胸部内衬",
+                "parentId": "黑lv119_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "黑lv119_背部内衬",
+                "_tpl": "白lv119背部内衬",
+                "parentId": "黑lv119_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "黑lv119_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "黑lv119_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "黑lv119_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "黑lv119_本体",
+                "slotId": "Back_plate"
+            }
+        ]
+    },
+    {
+        "Name": "FCPCV5_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "FCPCV5_本体",
+                "_tpl": "FCPCV5"
+            },
+            {
+                "_id": "FCPCV5_胸部内衬",
+                "_tpl": "FCPCV5胸部内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "FCPCV5_背部内衬",
+                "_tpl": "FCPCV5背部内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "FCPCV5_左侧内衬",
+                "_tpl": "FCPCV5左侧内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "FCPCV5_右侧内衬",
+                "_tpl": "FCPCV5右侧内衬",
+                "parentId": "FCPCV5_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "FCPCV5_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "FCPCV5_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "FCPCV5_本体",
+                "slotId": "Back_plate"
+            }
+        ]
+    },
+    {
+        "Name": "SiegeR_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "SiegeR_本体",
+                "_tpl": "SiegeR"
+            },
+            {
+                "_id": "SiegeR_胸部内衬",
+                "_tpl": "SiegeR胸部内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "SiegeR_背部内衬",
+                "_tpl": "SiegeR背部内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "SiegeR_左侧内衬",
+                "_tpl": "SiegeR左侧内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "SiegeR_右侧内衬",
+                "_tpl": "SiegeR右侧内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "SiegeR_脖子内衬",
+                "_tpl": "SiegeR脖子内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Collar"
+            },
+            {
+                "_id": "SiegeR_左肩内衬",
+                "_tpl": "SiegeR左肩内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Shoulder_l"
+            },
+            {
+                "_id": "SiegeR_右肩内衬",
+                "_tpl": "SiegeR右肩内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Shoulder_r"
+            },
+            {
+                "_id": "SiegeR_股沟内衬",
+                "_tpl": "SiegeR股沟内衬",
+                "parentId": "SiegeR_本体",
+                "slotId": "Groin"
+            },
+            {
+                "_id": "SiegeR_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "SiegeR_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "SiegeR_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "SiegeR_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "SiegeR_左插板",
+                "_tpl": "SiegeR侧板",
+                "parentId": "SiegeR_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "SiegeR_右插板",
+                "_tpl": "SiegeR侧板",
+                "parentId": "SiegeR_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    },
+    {
+        "Name": "杜拉罕弹挂甲_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "杜拉罕弹挂甲_本体",
+                "_tpl": "杜拉罕弹挂甲"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_胸部内衬",
+                "_tpl": "杜拉罕弹挂甲胸部内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_背部内衬",
+                "_tpl": "杜拉罕弹挂甲背部内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_左侧内衬",
+                "_tpl": "杜拉罕弹挂甲左侧内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_右侧内衬",
+                "_tpl": "杜拉罕弹挂甲右侧内衬",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "soft_armor_right"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_左插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "杜拉罕弹挂甲_右插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "杜拉罕弹挂甲_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    },
+    {
+        "Name": "歌利亚弹挂甲_基础预设",
+        "PresetName": "Default",
+        "IsBasePreset": true,
+        "ChangePresetName": false,
+        "SpawnInRaid": false,
+        "SpawnTarget": "65290f395ae2ae97b80fdf2d",
+        "Preset": [
+            {
+                "_id": "歌利亚弹挂甲_本体",
+                "_tpl": "歌利亚弹挂甲"
+            },
+            {
+                "_id": "歌利亚弹挂甲_前插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "歌利亚弹挂甲_后插板",
+                "_tpl": "656faf0ca0dce000a2020f77",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "歌利亚弹挂甲_左插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Left_side_plate"
+            },
+            {
+                "_id": "歌利亚弹挂甲_右插板",
+                "_tpl": "64afd81707e2cf40e903a316",
+                "parentId": "歌利亚弹挂甲_本体",
+                "slotId": "Right_side_plate"
+            }
+        ]
+    }
+]

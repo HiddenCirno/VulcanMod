@@ -1,0 +1,930 @@
+{
+    "PersicariaTask1": {
+        "id": "PersicariaTask1",
+        "prequestdata": {
+            "序幕-契约战争": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "PersicariaTecTask1": {
+        "id": "PersicariaTecTask1",
+        "prequestdata": {
+            "PersicariaTask1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "PersicariaTecTask2": {
+        "id": "PersicariaTecTask2",
+        "prequestdata": {
+            "PersicariaTecTask1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 6
+    },
+    "PersicariaTecTask3": {
+        "id": "PersicariaTecTask3",
+        "prequestdata": {
+            "PersicariaTecTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 22
+    },
+    "PersicariaTecTask4": {
+        "id": "PersicariaTecTask4",
+        "prequestdata": {
+            "PersicariaTecTask3": {
+                "state": 16
+            },
+            "6086c852c945025d41566124": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 26
+    },
+    "PersicariaMedTask1": {
+        "id": "PersicariaMedTask1",
+        "prequestdata": {
+            "PersicariaTecTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 6
+    },
+    "PersicariaMedTask2": {
+        "id": "PersicariaMedTask2",
+        "prequestdata": {
+            "PersicariaMedTask1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 14
+    },
+    "PersicariaMedTask3": {
+        "id": "PersicariaMedTask3",
+        "prequestdata": {
+            "PersicariaMedTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 20
+    },
+    "PersicariaMedTask4": {
+        "id": "PersicariaMedTask4",
+        "prequestdata": {
+            "PersicariaMedTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 24
+    },
+    "PersicariaWarTask1": {
+        "id": "PersicariaWarTask1",
+        "prequestdata": {
+            "PersicariaTecTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 22
+    },
+    "PersicariaWarTask2": {
+        "id": "PersicariaWarTask2",
+        "prequestdata": {
+            "PersicariaWarTask1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "PersicariaWarTask3": {
+        "id": "PersicariaWarTask3",
+        "prequestdata": {
+            "PersicariaWarTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "PersicariaDeadTask1": {
+        "id": "PersicariaDeadTask1",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask2": {
+        "id": "PersicariaDeadTask2",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask3": {
+        "id": "PersicariaDeadTask3",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask4": {
+        "id": "PersicariaDeadTask4",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask5": {
+        "id": "PersicariaDeadTask5",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask6": {
+        "id": "PersicariaDeadTask6",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask8": {
+        "id": "PersicariaDeadTask8",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask9": {
+        "id": "PersicariaDeadTask9",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaDeadTask7": {
+        "id": "PersicariaDeadTask7",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "PersicariaCodTask1": {
+        "id": "PersicariaCodTask1",
+        "prequestdata": {
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 40
+    },
+    "PersicariaBoxTask1": {
+        "id": "PersicariaBoxTask1",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 50
+    },
+    "PersicariaBoxTask2": {
+        "id": "PersicariaBoxTask2",
+        "prequestdata": {
+            "PersicariaWarTask3": {
+                "state": 16
+            },
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaBoxTask1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 60
+    },
+    "PersicariaCyberTask1": {
+        "id": "PersicariaCyberTask1",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 0
+    },
+    "PersicariaFinalTask1": {
+        "id": "PersicariaFinalTask1",
+        "prequestdata": {
+            "PersicariaDeadTask1": {
+                "state": 16
+            },
+            "PersicariaDeadTask2": {
+                "state": 16
+            },
+            "PersicariaDeadTask3": {
+                "state": 16
+            },
+            "PersicariaDeadTask4": {
+                "state": 16
+            },
+            "PersicariaDeadTask5": {
+                "state": 16
+            },
+            "PersicariaDeadTask6": {
+                "state": 16
+            },
+            "PersicariaDeadTask8": {
+                "state": 16
+            },
+            "PersicariaDeadTask9": {
+                "state": 16
+            },
+            "PersicariaDeadTask7": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 70
+    },
+    "PersicariaLeaveTask1": {
+        "id": "PersicariaLeaveTask1",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 28
+    },
+    "太阳能维修": {
+        "id": "太阳能维修",
+        "prequestdata": {
+            "5ac3464c86f7741d651d6877": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 36
+    },
+    "星星不闪包退换": {
+        "id": "星星不闪包退换",
+        "prequestdata": {
+            "太阳能维修": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "进化甲进度显示": {
+        "id": "进化甲进度显示",
+        "prequestdata": {
+            "PersicariaWarTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 26
+    },
+    "白甲-蓝甲进度": {
+        "id": "白甲-蓝甲进度",
+        "prequestdata": {
+            "PersicariaWarTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 26
+    },
+    "蓝甲-紫甲进度": {
+        "id": "蓝甲-紫甲进度",
+        "prequestdata": {
+            "白甲-蓝甲进度": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "紫甲-红甲进度": {
+        "id": "紫甲-红甲进度",
+        "prequestdata": {
+            "蓝甲-紫甲进度": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "风暴轮转": {
+        "id": "风暴轮转",
+        "prequestdata": {
+            "PersicariaWarTask2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 15
+    },
+    "序幕-契约战争": {
+        "id": "序幕-契约战争",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "阴影之下": {
+        "id": "阴影之下",
+        "prequestdata": {
+            "PersicariaMedTask4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "初心者赠礼": {
+        "id": "初心者赠礼",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "永寂孤芒": {
+        "id": "永寂孤芒",
+        "prequestdata": {
+            "66d9cbb67b491f9d5304f6e6": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "54cb50c76803fa8b248b4571": 4,
+            "54cb57776803fa99248b456e": 4,
+            "58330581ace78e27b8b10cee": 4,
+            "5935c25fb3acc3127c3d8cd9": 4,
+            "5a7c2eca46aef81a7ca2145d": 4,
+            "5ac3b934156ae10c4430e83c": 4,
+            "5c0647fdd443bc2504c2d371": 4
+        },
+        "prelevel": 45
+    },
+    "天行有常黑边": {
+        "id": "天行有常黑边",
+        "prequestdata": {
+            "永寂孤芒": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "打点关系": {
+        "id": "打点关系",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 45
+    },
+    "情报_重装Reshala": {
+        "id": "情报_重装Reshala",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "情报_异格者": {
+        "id": "情报_异格者",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "收集者_支持者": {
+        "id": "收集者_支持者",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 0
+    },
+    "收集者_开拓者": {
+        "id": "收集者_开拓者",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 0
+    },
+    "收集者_百炼": {
+        "id": "收集者_百炼",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 3
+        },
+        "prelevel": 0
+    },
+    "收集者_星辰之路": {
+        "id": "收集者_星辰之路",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 0
+    },
+    "收集者_降临": {
+        "id": "收集者_降临",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "收集者_安全第一": {
+        "id": "收集者_安全第一",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 0
+    },
+    "一念永恒_实验室": {
+        "id": "一念永恒_实验室",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "一念永恒_街区": {
+        "id": "一念永恒_街区",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "一念永恒_海岸线": {
+        "id": "一念永恒_海岸线",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "一念永恒_海关": {
+        "id": "一念永恒_海关",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "一念永恒_储备站": {
+        "id": "一念永恒_储备站",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "一念永恒_立交桥": {
+        "id": "一念永恒_立交桥",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "一念永恒_邪教": {
+        "id": "一念永恒_邪教",
+        "prequestdata": {
+            "PersicariaTecTask4": {
+                "state": 16
+            },
+            "PersicariaMedTask4": {
+                "state": 16
+            },
+            "PersicariaWarTask3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {}
+    },
+    "记忆碎片_首秀": {
+        "id": "记忆碎片_首秀",
+        "prequestdata": {
+            "5936d90786f7742b1420ba5b": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "记忆碎片_止痛药": {
+        "id": "记忆碎片_止痛药",
+        "prequestdata": {
+            "5d25c81b86f77443e625dd71": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "记忆碎片_安全出口": {
+        "id": "记忆碎片_安全出口",
+        "prequestdata": {
+            "596a218586f77420d232807c": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "记忆碎片_有害物质": {
+        "id": "记忆碎片_有害物质",
+        "prequestdata": {
+            "5b478eca86f7744642012254": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "记忆碎片_午后闲谈": {
+        "id": "记忆碎片_午后闲谈",
+        "prequestdata": {
+            "5ac3475486f7741d6224abd3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "记忆碎片_市场经理": {
+        "id": "记忆碎片_市场经理",
+        "prequestdata": {
+            "5ae448f286f77448d73c0131": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "记忆碎片_波兰人": {
+        "id": "记忆碎片_波兰人",
+        "prequestdata": {
+            "5a27b80086f774429a5d7e20": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "勇敢的心": {
+        "id": "勇敢的心",
+        "prequestdata": {
+            "PersicariaBoxTask1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 60
+    },
+    "列宁勋章成就任务": {
+        "id": "列宁勋章成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "54cb50c76803fa8b248b4571": 3
+        },
+        "prelevel": 0
+    },
+    "希波克拉底誓言成就任务": {
+        "id": "希波克拉底誓言成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "54cb57776803fa99248b456e": 3
+        },
+        "prelevel": 0
+    },
+    "要亲近朋友成就任务": {
+        "id": "要亲近朋友成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "579dc571d53a0658a154fbec": 1
+        },
+        "prelevel": 0
+    },
+    "百万欧元成就任务": {
+        "id": "百万欧元成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "58330581ace78e27b8b10cee": 3
+        },
+        "prelevel": 0
+    },
+    "没有和平就没有安宁成就任务": {
+        "id": "没有和平就没有安宁成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "5935c25fb3acc3127c3d8cd9": 3
+        },
+        "prelevel": 0
+    },
+    "技术宅拯救世界成就任务": {
+        "id": "技术宅拯救世界成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "5a7c2eca46aef81a7ca2145d": 3
+        },
+        "prelevel": 0
+    },
+    "IDEA终身会员成就任务": {
+        "id": "IDEA终身会员成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "5ac3b934156ae10c4430e83c": 3
+        },
+        "prelevel": 0
+    },
+    "荒野的呼唤成就任务": {
+        "id": "荒野的呼唤成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "5c0647fdd443bc2504c2d371": 3
+        },
+        "prelevel": 0
+    },
+    "公平游戏成就任务": {
+        "id": "公平游戏成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "6617beeaa9cfa777ca915b7c": 3
+        },
+        "prelevel": 0
+    },
+    "永远的伙伴成就任务": {
+        "id": "永远的伙伴成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 3
+        },
+        "prelevel": 0
+    },
+    "宿命变星": {
+        "id": "宿命变星",
+        "prequestdata": {
+            "5c51aac186f77432ea65c552": {
+                "state": 16
+            },
+            "66d9cbb67b491f9d5304f6e6": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "Persicaria": 4
+        },
+        "prelevel": 60
+    },
+    "珍妮之梦": {
+        "id": "珍妮之梦",
+        "prequestdata": {
+            "666314a50aa5c7436c00908a": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {
+            "5ac3b934156ae10c4430e83c": 4
+        },
+        "prelevel": 45
+    },
+    "旅途的终点成就任务": {
+        "id": "旅途的终点成就任务",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 78
+    },
+    "情报_黑色军团": {
+        "id": "情报_黑色军团",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "正式版赠礼": {
+        "id": "正式版赠礼",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "重逢?": {
+        "id": "重逢?",
+        "prequestdata": {},
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0,
+        "prestigelevel": 1,
+        "prestigetype": 3
+    }
+}

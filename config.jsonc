@@ -1,0 +1,178 @@
+{
+  //启用修改后的Reshala男团
+  "EnableReshalaEdit": true,
+  //是否允许MC头套在AI身上生成
+  "EnableMCHead": true,
+  //MC头套的详细引用数据, 请勿随意修改
+  "MCHeadData": [
+    {
+      "Bot": [
+        "assault",
+        "cursedassault"
+      ],
+      "Data": [
+        [
+          "MC南瓜头",
+          "45"
+        ],
+        [
+          "史蒂夫头",
+          "45"
+        ],
+        [
+          "小黑头",
+          "30"
+        ],
+        [
+          "僵尸头",
+          "30"
+        ],
+        [
+          "骷髅头",
+          "30"
+        ],
+        [
+          "凋灵骷髅头",
+          "30"
+        ]
+      ]
+    },
+    {
+      "Bot": [
+        "bear",
+        "usec"
+      ],
+      "Data": [
+        [
+          "MC南瓜头",
+          "5"
+        ],
+        [
+          "史蒂夫头",
+          "5"
+        ],
+        [
+          "小黑头",
+          "5"
+        ],
+        [
+          "僵尸头",
+          "5"
+        ],
+        [
+          "骷髅头",
+          "5"
+        ],
+        [
+          "凋灵骷髅头",
+          "5"
+        ],
+        [
+          "凋灵头",
+          "2"
+        ],
+        [
+          "HIM头",
+          "1"
+        ]
+      ]
+    },
+    {
+      "Bot": [
+        "sectantpriest"
+      ],
+      "Data": [
+        [
+          "凋灵头",
+          "9"
+        ],
+        [
+          "HIM头",
+          "1"
+        ]
+      ]
+    },
+    {
+      "Bot": [
+        "sectantwarrior"
+      ],
+      "Data": [
+        [
+          "MC南瓜头",
+          "10"
+        ],
+        [
+          "小黑头",
+          "10"
+        ],
+        [
+          "僵尸头",
+          "10"
+        ],
+        [
+          "骷髅头",
+          "10"
+        ],
+        [
+          "凋灵骷髅头",
+          "10"
+        ],
+        [
+          "凋灵头",
+          "1"
+        ]
+      ]
+    },
+    {
+      "Bot": [
+        "bosstagilla"
+      ],
+      "Data": [
+        [
+          "凋灵头",
+          "15"
+        ],
+        [
+          "HIM头",
+          "5"
+        ],
+        [
+          "作者头",
+          "5"
+        ]
+      ]
+    }
+  ],
+  //异格Boss配置
+  "EnableAlterBoss": true,
+  //异格Boss生成概率
+  "AlterBossChance": {
+    //异格Goons小队的生成概率
+    "Goons": 50,
+    //异格Sanitar的生成概率
+    "Sanitar": 50,
+    //异格Gluhar的生成概率
+    "Gluhar": 50,
+    //异格Kolontay的生成概率
+    "Kolontay": 50
+  },
+  //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务
+  "EnableKabanInShoreline": true,
+  //Kaban在海岸线的走私者营地生成的概率
+  "KabanInShorelineChance": 40,
+  //是否允许黑色军团生成, 此选项将替换原版的寻血猎犬AI, 默认生成概率为40
+  "EnableBlackDivision": true,
+  //黑色军团生成概率
+  "BlackDivisionChance": 40,
+  //黑色军团的独立地图配置, 分别对应森林海关海岸线灯塔街区, 如果遇到迷宫内刷新Obsidian的问题可以禁用海岸线的黑色军团刷新以解决
+  "BlackDivisionMapConfig": {
+    "Woods": true,
+    "Custom": true,
+    "Shoreline": true,
+    "Lighthouse": true,
+    "Streets": true,
+    "Labs": true
+  },
+  //是否启用配方注入的额外内容
+  "EnableRecipeEdit": true
+}

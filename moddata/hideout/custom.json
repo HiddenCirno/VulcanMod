@@ -1,0 +1,284 @@
+{
+  "幸存者地板_藏身处": {
+    "id": "幸存者地板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "幸存者地板锁定",
+        "locale": "达成成就「旅行家」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "floor",
+    "name": "幸存者地砖",
+    "shortname": "幸存者地砖",
+    "description": "使用坚固材料铺就，无需打理也能使用相当长一段时间。对于信奉生存至上的实用主义者来说恰如其分。",
+    "enbale": true,
+    "target": "幸存者地板"
+  },
+  "幸存者天花板_藏身处": {
+    "id": "幸存者天花板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "幸存者天花板锁定",
+        "locale": "达成成就「旅行家」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "ceiling",
+    "name": "幸存者天花板",
+    "shortname": "幸存者天花板",
+    "description": "不漏水也没有开裂，对于一心只求生存的实用主义者来说算是最务实的选项。",
+    "enbale": true,
+    "target": "幸存者天花板"
+  },
+  "幸存者墙纸_藏身处": {
+    "id": "幸存者墙纸_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "幸存者墙纸锁定",
+        "locale": "达成成就「旅行家」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "wall",
+    "name": "幸存者墙面",
+    "shortname": "幸存者墙面",
+    "description": "墙面上的东西全是从塔科夫街头巷尾捡回来的，有些地方甚至还残留着街头广告的碎片。",
+    "enbale": true,
+    "target": "幸存者墙纸"
+  },
+  "堕入黑暗地板_藏身处": {
+    "id": "堕入黑暗地板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "堕入黑暗地板锁定",
+        "locale": "达成成就「名为太阳的星星」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "floor",
+    "name": "堕入黑暗地砖",
+    "shortname": "堕入黑暗地砖",
+    "description": "这地面少说好几年没人打理了，再费心也恢复不了原貌。",
+    "enbale": true,
+    "target": "堕入黑暗地板"
+  },
+  "堕入黑暗天花板_藏身处": {
+    "id": "堕入黑暗天花板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "堕入黑暗天花板锁定",
+        "locale": "达成成就「名为太阳的星星」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "ceiling",
+    "name": "堕入黑暗天花板",
+    "shortname": "堕入黑暗天花板",
+    "description": "天花板上裂痕累累，到处都是漏水留下的水渍。然而，当一个人选择堕入黑暗时，这点麻烦已经算不上问题了。",
+    "enbale": true,
+    "target": "堕入黑暗天花板"
+  },
+  "堕入黑暗墙纸_藏身处": {
+    "id": "堕入黑暗墙纸_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "堕入黑暗墙纸锁定",
+        "locale": "达成成就「名为太阳的星星」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "wall",
+    "name": "堕入黑暗墙面",
+    "shortname": "堕入黑暗墙面",
+    "description": "陈年积垢和草草翻新留下的漆面一层叠一层，在墙面上留下了独特的纹路。不认真清理一番是不行了。",
+    "enbale": true,
+    "target": "堕入黑暗墙纸"
+  },
+  "灯塔地板_藏身处": {
+    "id": "灯塔地板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "灯塔地板锁定",
+        "locale": "达成成就「萤火虫」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "floor",
+    "name": "雇佣兵地砖",
+    "shortname": "雇佣兵地砖",
+    "description": "地砖上到处都是杂乱的鞋印。但保持整洁毫无意义——你已经没有真正的容身之处了；你迟早会接到下一笔合约，再次踏上漂泊之路。",
+    "enbale": true,
+    "target": "灯塔地板"
+  },
+  "灯塔天花板_藏身处": {
+    "id": "灯塔天花板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "灯塔天花板锁定",
+        "locale": "达成成就「萤火虫」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "ceiling",
+    "name": "雇佣兵天花板",
+    "shortname": "雇佣兵天花板",
+    "description": "天花板看起来还不错。大部分灰泥完好无损，没有明显的大面积损坏。作为雇佣兵的临时栖身之地算是足够体面了。",
+    "enbale": true,
+    "target": "灯塔天花板"
+  },
+  "灯塔墙纸_藏身处": {
+    "id": "灯塔墙纸_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "灯塔墙纸锁定",
+        "locale": "达成成就「萤火虫」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "wall",
+    "name": "雇佣兵墙面",
+    "shortname": "雇佣兵墙面",
+    "description": "墙面上的油漆恐怕还是苏联时代的，已经剥落开裂。换了别人也许会铲掉重新修缮，但对于四海为家的雇佣兵来说，没有人会把暂时栖身的住处当作家来打理。",
+    "enbale": true,
+    "target": "灯塔墙纸"
+  },
+  "救世主地板_藏身处": {
+    "id": "救世主地板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "救世主地板锁定",
+        "locale": "达成成就「星光闪耀」后解锁",
+        "count": 1
+      }
+    ],
+    "type": "floor",
+    "name": "救星地砖",
+    "shortname": "救星地砖",
+    "description": "看得出来，藏身处显然有人精心打理，整洁有序的环境令人倍感温馨，让人忍不住想再次来访。",
+    "enbale": true,
+    "target": "救世主地板"
+  },
+  "救世主天花板_藏身处": {
+    "id": "救世主天花板_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "救世主天花板锁定",
+        "locale": "达成成就「星光闪耀」后解锁",
+        "count": 1
+      }],
+    "type": "ceiling",
+    "name": "救星天花板",
+    "shortname": "救星天花板",
+    "description": "有人仔细地用灰泥抹平了天花板的裂隙，看起来焕然一新。在塔科夫，很少能有地方像这样温馨舒适了。",
+    "enbale": true,
+    "target": "救世主天花板"
+  },
+  "救世主墙纸_藏身处": {
+    "id": "救世主墙纸_藏身处",
+    "conditions": [
+      {
+        "$type": "block",
+        "id": "救世主墙纸锁定",
+        "locale": "达成成就「星光闪耀」后解锁",
+        "count": 1
+      }],
+    "type": "wall",
+    "name": "救星墙面",
+    "shortname": "救星墙面",
+    "description": "墙壁显然是精心粉刷过，而不是拿刷子随便抹了几道印子遮住裂痕。看得出藏身处的主人精心打理了整个地方，就像他们相信塔科夫仍然值得救赎，应当迎来更加美好的未来一样。",
+    "enbale": true,
+    "target": "救世主墙纸"
+  },
+  "Killa靶纸_藏身处": {
+    "id": "Killa靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "Killa 靶纸",
+    "shortname": "Killa",
+    "description": "讨厌 Killa 的人以及 Killa 恐惧症患者的最佳选择。",
+    "enbale": true,
+    "target": "Killa靶纸"
+  },
+  "Tagilla靶纸_藏身处": {
+    "id": "Tagilla靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "Tagilla 靶纸",
+    "shortname": "Tagilla",
+    "description": "不知道为什么这个靶纸的介绍是空的。",
+    "enbale": true,
+    "target": "Tagilla靶纸"
+  },
+  "红色Tagilla靶纸_藏身处": {
+    "id": "红色Tagilla靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "Tagilla 靶纸",
+    "shortname": "Tagilla",
+    "description": "不知道为什么这个靶纸的介绍是空的。",
+    "enbale": true,
+    "target": "红色Tagilla靶纸"
+  },
+  "Knight靶纸_藏身处": {
+    "id": "Knight靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "Knight 靶纸",
+    "shortname": "Knight",
+    "description": "对于那些讨厌被 Knight 追杀的人，这一靶纸真的是再合适不过了。",
+    "enbale": true,
+    "target": "Knight靶纸"
+  },
+  "Rat靶纸_藏身处": {
+    "id": "Rat靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "鼠鼠靶纸",
+    "shortname": "鼠鼠靶纸",
+    "description": "鼠鼠杀手最爱的靶纸样式。",
+    "enbale": true,
+    "target": "Rat靶纸"
+  },
+  "Zryachiy靶纸_藏身处": {
+    "id": "Zryachiy靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "Zryachiy 靶纸",
+    "shortname": "Zryachiy",
+    "description": "为那些渴望超越 Zryachiy 射击水平的人准备的专用靶纸。与其提升自己，不如消灭对手。",
+    "enbale": true,
+    "target": "Zryachiy靶纸"
+  },
+  "绿色Zryachiy靶纸_藏身处": {
+    "id": "绿色Zryachiy靶纸_藏身处",
+    "conditions": [],
+    "type": "shootingRangeMark",
+    "name": "Zryachiy 靶纸",
+    "shortname": "Zryachiy",
+    "description": "为那些渴望超越 Zryachiy 射击水平的人准备的专用靶纸。与其提升自己，不如消灭对手。",
+    "enbale": true,
+    "target": "绿色Zryachiy靶纸"
+  },
+  "蓝色救世主地板_藏身处": {
+    "id": "蓝色救世主地板_藏身处",
+    "conditions": [],
+    "type": "floor",
+    "name": "大理石地砖",
+    "shortname": "大理石地砖",
+    "description": "看得出来，藏身处显然有人精心打理，整洁有序的环境令人倍感温馨，让人忍不住想再次来访。",
+    "enbale": true,
+    "target": "蓝色救世主地板"
+  }
+}

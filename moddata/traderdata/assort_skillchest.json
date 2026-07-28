@@ -1,0 +1,3362 @@
+[
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级耐力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级耐力技能经验箱",
+                "_tpl": "初级耐力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶耐力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶耐力技能经验箱",
+                "_tpl": "进阶耐力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英耐力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英耐力技能经验箱",
+                "_tpl": "精英耐力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师耐力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师耐力技能经验箱",
+                "_tpl": "大师耐力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级力量技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级力量技能经验箱",
+                "_tpl": "初级力量技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶力量技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶力量技能经验箱",
+                "_tpl": "进阶力量技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英力量技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英力量技能经验箱",
+                "_tpl": "精英力量技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师力量技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师力量技能经验箱",
+                "_tpl": "大师力量技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级活力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级活力技能经验箱",
+                "_tpl": "初级活力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶活力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶活力技能经验箱",
+                "_tpl": "进阶活力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英活力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英活力技能经验箱",
+                "_tpl": "精英活力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师活力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师活力技能经验箱",
+                "_tpl": "大师活力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级健康技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级健康技能经验箱",
+                "_tpl": "初级健康技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶健康技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶健康技能经验箱",
+                "_tpl": "进阶健康技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英健康技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英健康技能经验箱",
+                "_tpl": "精英健康技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师健康技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师健康技能经验箱",
+                "_tpl": "大师健康技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级抗压技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级抗压技能经验箱",
+                "_tpl": "初级抗压技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶抗压技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶抗压技能经验箱",
+                "_tpl": "进阶抗压技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英抗压技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英抗压技能经验箱",
+                "_tpl": "精英抗压技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师抗压技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师抗压技能经验箱",
+                "_tpl": "大师抗压技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级代谢技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级代谢技能经验箱",
+                "_tpl": "初级代谢技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶代谢技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶代谢技能经验箱",
+                "_tpl": "进阶代谢技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英代谢技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英代谢技能经验箱",
+                "_tpl": "精英代谢技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师代谢技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师代谢技能经验箱",
+                "_tpl": "大师代谢技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级免疫技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级免疫技能经验箱",
+                "_tpl": "初级免疫技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶免疫技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶免疫技能经验箱",
+                "_tpl": "进阶免疫技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英免疫技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英免疫技能经验箱",
+                "_tpl": "精英免疫技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师免疫技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师免疫技能经验箱",
+                "_tpl": "大师免疫技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级感知技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级感知技能经验箱",
+                "_tpl": "初级感知技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶感知技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶感知技能经验箱",
+                "_tpl": "进阶感知技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英感知技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英感知技能经验箱",
+                "_tpl": "精英感知技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师感知技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师感知技能经验箱",
+                "_tpl": "大师感知技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级智力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级智力技能经验箱",
+                "_tpl": "初级智力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶智力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶智力技能经验箱",
+                "_tpl": "进阶智力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英智力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英智力技能经验箱",
+                "_tpl": "精英智力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师智力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师智力技能经验箱",
+                "_tpl": "大师智力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级专注技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级专注技能经验箱",
+                "_tpl": "初级专注技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶专注技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶专注技能经验箱",
+                "_tpl": "进阶专注技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英专注技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英专注技能经验箱",
+                "_tpl": "精英专注技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师专注技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师专注技能经验箱",
+                "_tpl": "大师专注技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级魅力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级魅力技能经验箱",
+                "_tpl": "初级魅力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶魅力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶魅力技能经验箱",
+                "_tpl": "进阶魅力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英魅力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英魅力技能经验箱",
+                "_tpl": "精英魅力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师魅力技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师魅力技能经验箱",
+                "_tpl": "大师魅力技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级手枪技能经验箱",
+                "_tpl": "初级手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶手枪技能经验箱",
+                "_tpl": "进阶手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英手枪技能经验箱",
+                "_tpl": "精英手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师手枪技能经验箱",
+                "_tpl": "大师手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级左轮手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级左轮手枪技能经验箱",
+                "_tpl": "初级左轮手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶左轮手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶左轮手枪技能经验箱",
+                "_tpl": "进阶左轮手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英左轮手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英左轮手枪技能经验箱",
+                "_tpl": "精英左轮手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师左轮手枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师左轮手枪技能经验箱",
+                "_tpl": "大师左轮手枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级冲锋枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级冲锋枪技能经验箱",
+                "_tpl": "初级冲锋枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶冲锋枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶冲锋枪技能经验箱",
+                "_tpl": "进阶冲锋枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英冲锋枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英冲锋枪技能经验箱",
+                "_tpl": "精英冲锋枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师冲锋枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师冲锋枪技能经验箱",
+                "_tpl": "大师冲锋枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级突击步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级突击步枪技能经验箱",
+                "_tpl": "初级突击步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶突击步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶突击步枪技能经验箱",
+                "_tpl": "进阶突击步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英突击步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英突击步枪技能经验箱",
+                "_tpl": "精英突击步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师突击步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师突击步枪技能经验箱",
+                "_tpl": "大师突击步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级霰弹枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级霰弹枪技能经验箱",
+                "_tpl": "初级霰弹枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶霰弹枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶霰弹枪技能经验箱",
+                "_tpl": "进阶霰弹枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英霰弹枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英霰弹枪技能经验箱",
+                "_tpl": "精英霰弹枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师霰弹枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师霰弹枪技能经验箱",
+                "_tpl": "大师霰弹枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级狙击枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级狙击枪技能经验箱",
+                "_tpl": "初级狙击枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶狙击枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶狙击枪技能经验箱",
+                "_tpl": "进阶狙击枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英狙击枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英狙击枪技能经验箱",
+                "_tpl": "精英狙击枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师狙击枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师狙击枪技能经验箱",
+                "_tpl": "大师狙击枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级轻机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级轻机枪技能经验箱",
+                "_tpl": "初级轻机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶轻机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶轻机枪技能经验箱",
+                "_tpl": "进阶轻机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英轻机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英轻机枪技能经验箱",
+                "_tpl": "精英轻机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师轻机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师轻机枪技能经验箱",
+                "_tpl": "大师轻机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级重机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级重机枪技能经验箱",
+                "_tpl": "初级重机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶重机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶重机枪技能经验箱",
+                "_tpl": "进阶重机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英重机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英重机枪技能经验箱",
+                "_tpl": "精英重机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师重机枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师重机枪技能经验箱",
+                "_tpl": "大师重机枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级火箭发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级火箭发射器技能经验箱",
+                "_tpl": "初级火箭发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶火箭发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶火箭发射器技能经验箱",
+                "_tpl": "进阶火箭发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英火箭发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英火箭发射器技能经验箱",
+                "_tpl": "精英火箭发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师火箭发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师火箭发射器技能经验箱",
+                "_tpl": "大师火箭发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级下挂发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级下挂发射器技能经验箱",
+                "_tpl": "初级下挂发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶下挂发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶下挂发射器技能经验箱",
+                "_tpl": "进阶下挂发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英下挂发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英下挂发射器技能经验箱",
+                "_tpl": "精英下挂发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师下挂发射器技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师下挂发射器技能经验箱",
+                "_tpl": "大师下挂发射器技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级投掷物技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级投掷物技能经验箱",
+                "_tpl": "初级投掷物技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶投掷物技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶投掷物技能经验箱",
+                "_tpl": "进阶投掷物技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英投掷物技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英投掷物技能经验箱",
+                "_tpl": "精英投掷物技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师投掷物技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师投掷物技能经验箱",
+                "_tpl": "大师投掷物技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级近战技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级近战技能经验箱",
+                "_tpl": "初级近战技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶近战技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶近战技能经验箱",
+                "_tpl": "进阶近战技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英近战技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英近战技能经验箱",
+                "_tpl": "精英近战技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师近战技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师近战技能经验箱",
+                "_tpl": "大师近战技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级精确射手步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级精确射手步枪技能经验箱",
+                "_tpl": "初级精确射手步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶精确射手步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶精确射手步枪技能经验箱",
+                "_tpl": "进阶精确射手步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英精确射手步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英精确射手步枪技能经验箱",
+                "_tpl": "精英精确射手步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师精确射手步枪技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师精确射手步枪技能经验箱",
+                "_tpl": "大师精确射手步枪技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级瞄准训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级瞄准训练技能经验箱",
+                "_tpl": "初级瞄准训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶瞄准训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶瞄准训练技能经验箱",
+                "_tpl": "进阶瞄准训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英瞄准训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英瞄准训练技能经验箱",
+                "_tpl": "精英瞄准训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师瞄准训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师瞄准训练技能经验箱",
+                "_tpl": "大师瞄准训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级故障排除技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级故障排除技能经验箱",
+                "_tpl": "初级故障排除技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶故障排除技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶故障排除技能经验箱",
+                "_tpl": "进阶故障排除技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英故障排除技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英故障排除技能经验箱",
+                "_tpl": "精英故障排除技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师故障排除技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师故障排除技能经验箱",
+                "_tpl": "大师故障排除技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级手术技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级手术技能经验箱",
+                "_tpl": "初级手术技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶手术技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶手术技能经验箱",
+                "_tpl": "进阶手术技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英手术技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英手术技能经验箱",
+                "_tpl": "精英手术技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师手术技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师手术技能经验箱",
+                "_tpl": "大师手术技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级隐蔽行动技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级隐蔽行动技能经验箱",
+                "_tpl": "初级隐蔽行动技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶隐蔽行动技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶隐蔽行动技能经验箱",
+                "_tpl": "进阶隐蔽行动技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英隐蔽行动技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英隐蔽行动技能经验箱",
+                "_tpl": "精英隐蔽行动技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师隐蔽行动技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师隐蔽行动技能经验箱",
+                "_tpl": "大师隐蔽行动技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级搜索技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级搜索技能经验箱",
+                "_tpl": "初级搜索技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶搜索技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶搜索技能经验箱",
+                "_tpl": "进阶搜索技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英搜索技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英搜索技能经验箱",
+                "_tpl": "精英搜索技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师搜索技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师搜索技能经验箱",
+                "_tpl": "大师搜索技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级弹匣训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级弹匣训练技能经验箱",
+                "_tpl": "初级弹匣训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶弹匣训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶弹匣训练技能经验箱",
+                "_tpl": "进阶弹匣训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英弹匣训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英弹匣训练技能经验箱",
+                "_tpl": "精英弹匣训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师弹匣训练技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师弹匣训练技能经验箱",
+                "_tpl": "大师弹匣训练技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级轻型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级轻型护甲技能经验箱",
+                "_tpl": "初级轻型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶轻型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶轻型护甲技能经验箱",
+                "_tpl": "进阶轻型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英轻型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英轻型护甲技能经验箱",
+                "_tpl": "精英轻型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师轻型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师轻型护甲技能经验箱",
+                "_tpl": "大师轻型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级重型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级重型护甲技能经验箱",
+                "_tpl": "初级重型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶重型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶重型护甲技能经验箱",
+                "_tpl": "进阶重型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英重型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英重型护甲技能经验箱",
+                "_tpl": "精英重型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师重型护甲技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师重型护甲技能经验箱",
+                "_tpl": "大师重型护甲技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级武器维护技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级武器维护技能经验箱",
+                "_tpl": "初级武器维护技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶武器维护技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶武器维护技能经验箱",
+                "_tpl": "进阶武器维护技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英武器维护技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英武器维护技能经验箱",
+                "_tpl": "精英武器维护技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师武器维护技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师武器维护技能经验箱",
+                "_tpl": "大师武器维护技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级工艺技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级工艺技能经验箱",
+                "_tpl": "初级工艺技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶工艺技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶工艺技能经验箱",
+                "_tpl": "进阶工艺技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英工艺技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英工艺技能经验箱",
+                "_tpl": "精英工艺技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师工艺技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师工艺技能经验箱",
+                "_tpl": "大师工艺技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "BOSS狗牌_初级藏身处管理技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "BOSS狗牌_初级藏身处管理技能经验箱",
+                "_tpl": "初级藏身处管理技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {
+            "Boss狗牌": {
+                "count": 1,
+                "level": 100,
+                "side": "Bear"
+            }
+        },
+        "Barter": {},
+        "TrustLevel": 2,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "英雄之证_进阶藏身处管理技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "英雄之证_进阶藏身处管理技能经验箱",
+                "_tpl": "进阶藏身处管理技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "英雄之证": 1
+        },
+        "TrustLevel": 3,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "THICC_精英藏身处管理技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "THICC_精英藏身处管理技能经验箱",
+                "_tpl": "精英藏身处管理技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5c0a840b86f7742ffa4f2482": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    },
+    {
+        "$type": "normal",
+        "ID": "永恒之证_大师藏身处管理技能经验箱",
+        "Trader": "Persicaria",
+        "Item": [
+            {
+                "_id": "永恒之证_大师藏身处管理技能经验箱",
+                "_tpl": "大师藏身处管理技能经验箱",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "永恒之证": 1
+        },
+        "TrustLevel": 4,
+        "isWeapon": false
+    }
+]
