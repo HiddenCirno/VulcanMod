@@ -1271,6 +1271,7 @@
             "CustomLoot": false,
             "CustomLootTarget": "59faff1d86f7746c51718c9c",
             "isMoney": false,
+            "CustomFixID": "5991b51486f77447b112d44f",
             "BlackListType": 63,
             "ContainerSizeWidth": 8,
             "ContainerSizeHeight": 8,

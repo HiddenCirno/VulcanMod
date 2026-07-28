@@ -203,7 +203,24 @@ namespace VulcanInfinity
                 catch (Exception ex)
                 {
                 }
-            }; 
+            };
+            EventManager.DataLoadEvent.FixItemCompatibleEvent += (context) =>
+            {
+                try
+                {
+                    var items = context.DB.GetItems();
+                    items["55d7217a4bdc2d86028b456d"]
+                        .Properties.Slots
+                        .First(x => x.Name == "ArmBand")
+                        .Properties.Filters
+                        .First()
+                        .Filter
+                        .Add("外勤公文包".ConvertHashID());
+                }
+                catch (Exception ex)
+                {
+                }
+            };
             EventManager.DataLoadEvent.LoadQuestDataEvent += (loadContext) =>
             {
                 try
