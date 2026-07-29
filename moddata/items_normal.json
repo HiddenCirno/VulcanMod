@@ -6348,7 +6348,6 @@
         "_targetid": "6529243824cbe3c74a05e5c1",
         "_name": "SIGSPEARAP弹药",
         "_props": {
-            "CanSellOnRagfair": true,
             "Prefab": {
                 "path": "assets/spear_blk/mods/patron_68x51.bundle",
                 "rcid": ""
@@ -6554,7 +6553,6 @@
         "_targetid": "65290f395ae2ae97b80fdf2d",
         "_name": "SIGSPEAR本体",
         "_props": {
-            "CanSellOnRagfair": true,
             "Prefab": {
                 "path": "assets/spear_blk/weapon_sig_mcx_spear_68x51_container.bundle",
                 "rcid": ""
