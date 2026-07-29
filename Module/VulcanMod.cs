@@ -14,7 +14,7 @@ using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
 using SPTarkov.Server.Core.Utils.Cloners;
-namespace VulcanInfinity
+namespace VulcanMod
 {
     public class VulcanMod
     {

@@ -27,7 +27,7 @@ using System.Xml.Linq;
 using EternalCycleServer;
 using static EternalCycleServer.Utils;
 
-namespace VulcanInfinity
+namespace VulcanMod
 {
     public class ConfigManager
     {

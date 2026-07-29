@@ -31,7 +31,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.Arm;
 using System.Text;
 
-namespace VulcanInfinity
+namespace VulcanMod
 {
     public class BotGeneratorPatch
     {
