@@ -465,7 +465,7 @@ namespace VulcanInfinity
                         });
                     }
                 }
-                if (botNickName == "Obsidian" || botRoleLowercase == "arenafighterevent")
+                if (botNickName == "Obsidian" || botRoleLowercase == "arenafighterevent" || botRoleLowercase == "followerbully" || botRoleLowercase == "bossbully")
                 {
                     if (__result.Inventory != null && __result.Inventory.Items != null && __result.Inventory.Items.Count > 0)
                     {
