@@ -167,6 +167,196 @@
             }
         }
     },
+    "黑阿尔金转换John墨镜": {
+        "$type": "normal",
+        "ID": "黑阿尔金转换John墨镜",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "62a09e410b9d3c46de5b6e78",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5f60c85b58eff926626a60f7": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "白臂带转换Evasion": {
+        "$type": "normal",
+        "ID": "白臂带转换Evasion",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "60b0f988c4449e4cb624c1da",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5b3f16c486f7747c327f55f7": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "无檐帽转换Kotton": {
+        "$type": "normal",
+        "ID": "无檐帽转换Kotton",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5bd073c986f7747f627e796c",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "572b7fa124597762b472f9d2": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "面巾转换Shroud面巾": {
+        "$type": "normal",
+        "ID": "面巾转换Shroud面巾",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5e54f76986f7740366043752",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "572b7fa524597762b747ce82": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "巴拉克拉瓦转换Smoke": {
+        "$type": "normal",
+        "ID": "巴拉克拉瓦转换Smoke",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5fd8d28367cb5e077335170f",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "572b7f1624597762ae139822": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "古董斧转换": {
+        "$type": "normal",
+        "ID": "古董斧转换",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5bc9c1e2d4351e00367fbcf0",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5c012ffc0db834001d23f03f": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "叉车钥匙": {
+        "$type": "normal",
+        "ID": "叉车钥匙",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "62a09ec84f842e1bd12da3f2",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5448ba0b4bdc2d02308b456c": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "大胡子换小胡子": {
+        "$type": "normal",
+        "ID": "大胡子换小胡子",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "5bd073a586f7747e6f135799",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "62a09dd4621468534a797ac7": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "小胡子换大胡子": {
+        "$type": "normal",
+        "ID": "小胡子换大胡子",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "62a09dd4621468534a797ac7",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5bd073a586f7747e6f135799": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "手册换烹饪书": {
+        "$type": "normal",
+        "ID": "手册换烹饪书",
+        "Area": 11,
+        "AreaLevel": 3,
+        "Output": "62a09e73af34e73a266d932a",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "590c639286f774151567fa95": 1,
+                "英雄之证": 1
+            }
+        }
+    },
     "3x3转换2x5": {
         "$type": "normal",
         "ID": "3x3转换2x5",
@@ -572,6 +762,25 @@
             }
         }
     },
+    "Tigz骨折环转换": {
+        "$type": "normal",
+        "ID": "Tigz骨折环转换",
+        "Area": 7,
+        "AreaLevel": 3,
+        "Output": "Tigz的骨折环",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "5af0454c86f7746bf20992e8": 1,
+                "英雄之证": 1
+            }
+        }
+    },
     "崭新33搓战痕": {
         "$type": "normal",
         "ID": "崭新33搓战痕",
@@ -750,6 +959,263 @@
             }
         }
     },
+    "哑铃转换": {
+        "$type": "normal",
+        "ID": "哑铃转换",
+        "Area": 23,
+        "AreaLevel": 1,
+        "Output": "黄金哑铃",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "列车凭证转换": {
+        "$type": "normal",
+        "ID": "列车凭证转换",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "列车凭证",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "金锭": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Prapor小人": {
+        "$type": "normal",
+        "ID": "黄金Prapor小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Prapor小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Prapor小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Therapist小人": {
+        "$type": "normal",
+        "ID": "黄金Therapist小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Therapist小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Therapist小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Fence小人": {
+        "$type": "normal",
+        "ID": "黄金Fence小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Fence小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Fence小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Skier小人": {
+        "$type": "normal",
+        "ID": "黄金Skier小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Skier小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Skier小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Peacekeeper小人": {
+        "$type": "normal",
+        "ID": "黄金Peacekeeper小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Peacekeeper小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Peacekeeper小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Mechanic小人": {
+        "$type": "normal",
+        "ID": "黄金Mechanic小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Mechanic小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Mechanic小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Ragman小人": {
+        "$type": "normal",
+        "ID": "黄金Ragman小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Ragman小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Ragman小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Jaeger小人": {
+        "$type": "normal",
+        "ID": "黄金Jaeger小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Jaeger小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Jaeger小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Lightkeeper小人": {
+        "$type": "normal",
+        "ID": "黄金Lightkeeper小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Lightkeeper小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Lightkeeper小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金Ref小人": {
+        "$type": "normal",
+        "ID": "黄金Ref小人",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "纯金Ref小人",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "Ref小人": 1,
+                "金块": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黄金TT": {
+        "$type": "normal",
+        "ID": "黄金TT",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "5b3b713c5acfc4330140bd8d",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "571a12c42459771f627b58a0": 1,
+                "金块": 1
+            }
+        }
+    },
     "英雄之证重置DSPT": {
         "$type": "locked",
         "ID": "英雄之证重置DSPT",
@@ -768,6 +1234,84 @@
             "Tool": {},
             "Item": {
                 "62e910aaf957f2915e0a5e36": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "黑狐甲复制品": {
+        "$type": "normal",
+        "ID": "黑狐甲复制品",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "SiegeR复制品",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "SiegeR": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "典狱长甲复制品": {
+        "$type": "normal",
+        "ID": "典狱长甲复制品",
+        "Area": 2,
+        "AreaLevel": 3,
+        "Output": "灰美重复制品",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "灰美重": 1,
+                "英雄之证": 1
+            }
+        }
+    },
+    "250PKP弹盒": {
+        "$type": "normal",
+        "ID": "250PKP弹盒",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "PKP250发弹盒",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+            },
+            "Item": {
+                "646372518610c40fc20204e8": 3,
+                "英雄之证": 1
+            }
+        }
+    },
+    "40发Ash弹匣": {
+        "$type": "normal",
+        "ID": "40发Ash弹匣",
+        "Area": 10,
+        "AreaLevel": 3,
+        "Output": "Ash40发弹匣",
+        "OutputCount": 1,
+        "Time": 3600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+            },
+            "Item": {
+                "5caf1109ae9215753c44119f": 3,
                 "英雄之证": 1
             }
         }

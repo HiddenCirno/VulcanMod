@@ -1,69 +1,51 @@
 using EternalCycleServer;
-using SPTarkov.Server.Core.DI;
-using SPTarkov.Server.Core.Helpers;
-using SPTarkov.Server.Core.Loaders;
+using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Config;
-using SPTarkov.Server.Core.Models.Utils;
-using SPTarkov.Server.Core.Routers;
-using SPTarkov.Server.Core.Servers;
-using SPTarkov.Server.Core.Services;
-using SPTarkov.Server.Core.Services.Mod;
-using SPTarkov.Server.Core.Utils;
-using SPTarkov.Server.Core.Utils.Cloners;
+using static EternalCycleServer.ContextManager;
 namespace VulcanMod
 {
     public class VulcanMod
     {
         public static VulcanModConfigClass modConfig = ConfigManager.GetConfig();
-        public static void Init(
-            DatabaseService databaseService,
-            CustomItemService customItemService,
-            ModHelper modHelper,
-            JsonUtil jsonutil,
-            ICloner cloner,
-            ConfigServer configServer,
-            ImageRouter imageRouter
-            )
+        public static void Init(LoadModContext context)
         {
-            var preSptModLoader = ServiceLocator.ServiceProvider.GetService<PreSptModLoader>();
-            var globals = databaseService.GetGlobals();
-            var items = databaseService.GetItems();
-            var prices = databaseService.GetPrices();
-            var zhCNLang = databaseService.GetLocales().Global["ch"];
+            var globals = context.DB.GetGlobals();
+            var items = context.DB.GetItems();
+            var prices = context.DB.GetPrices();
+            var zhCNLang = context.DB.GetLocales().Global["ch"];
             globals.Configuration.ItemsCommonSettings.MaxBackpackInserting = 99999999;
-            InitVanillaItemEdit(databaseService);
-            RemoveBlackAltynLockedCondition(databaseService);
-            InitModBaseData(databaseService, customItemService, modHelper, jsonutil, cloner, configServer, imageRouter);
+            InitVanillaItemEdit(context.DB);
+            RemoveBlackAltynLockedCondition(context.DB);
+            InitModBaseData(context);
             //var botConfig = configServer.GetConfig<BotConfig>();
             //botConfig.BotRolesWithDogTags.Add("assault");
-            new BotGeneratorPatch.GenerateBotPatch().Enable();
-            new BotGeneratorPatch.AddDogtagToBotPatch().Enable();
+            //new BotGeneratorPatch.AddDogtagToBotPatch().Enable();
             if (modConfig.EnableReshalaEdit)
             {
-                InitReshalaEdit(modConfig, databaseService, modHelper);
+                InitReshalaEdit(modConfig, context);
             }
             if (modConfig.EnableBlackDivision)
             {
-                InitBDReplace(databaseService, modHelper, cloner);
+                InitBDReplace(context);
             }
-            InitBotEdit(databaseService, modHelper);
-                InitHideoutAreaEdit(databaseService);
+            InitBotEdit(context.DB, context.ModHelper);
+            InitHideoutAreaEdit(context.DB);
             if (modConfig.EnableRecipeEdit)
             {
-                InitHideoutRecipeEdit(databaseService);
+                InitHideoutRecipeEdit(context.DB);
             }
                 items[ItemTpl.CONTAINER_STREAMER_ITEM_CASE].Properties.Grids.First().Properties.CellsH = 16;
                 items[ItemTpl.CONTAINER_STREAMER_ITEM_CASE].Properties.Grids.First().Properties.CellsV = 16;
 
             if (modConfig.EnableKabanInShoreline)
             {
-                AddKabanToShoreline(modConfig, databaseService);
+                AddKabanToShoreline(modConfig, context.DB);
             }
-            ForcedUnlockEventQuest(databaseService, configServer);
+            ForcedUnlockEventQuest(context.DB, context.ConfigServer);
 
         }
         public static void InitEquipmentChest(MongoId itemid, ContextManager.LoadModContext context)
@@ -118,33 +100,8 @@ namespace VulcanMod
                 ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.容器, filter, context, 1);
             }
         }
-        public static void InitModBaseData(
-            DatabaseService databaseService,
-            CustomItemService customItemService,
-            ModHelper modHelper,
-            JsonUtil jsonUtil,
-            ICloner cloner,
-            ConfigServer configServer,
-            ImageRouter imageRouter
-            )
+        public static void InitModBaseData(LoadModContext context)
         {
-
-            var itemHelper = ServiceLocator.ServiceProvider.GetService<ItemHelper>();
-            var presetHelper = ServiceLocator.ServiceProvider.GetService<PresetHelper>();
-            var logger = new ECLogger("PostRagfairLoadEvent", true);
-            var context = new ContextManager.LoadModContext
-            {
-                DB = databaseService,
-                JsonUtil = jsonUtil,
-                ConfigServer = configServer,
-                ModHelper = modHelper,
-                Logger = Utils.commonLogger,
-                ImageRouter = imageRouter,
-                PresetHelper = presetHelper,
-                ItemHelper = itemHelper,
-                Cloner = cloner
-            };
-
             var creator = "<color=#55FFFF>火神重工</color>";
             var modName = creator;
             var modpath = System.IO.Path.Combine(ConfigManager.modPath, $"{ConfigManager.dataPath}");
@@ -208,7 +165,7 @@ namespace VulcanMod
             {
                 try
                 {
-                    InitOracleQuestData();
+                    //InitOracleQuestData(loadContext);
                 }
                 catch (Exception ex)
                 {
@@ -270,13 +227,13 @@ namespace VulcanMod
                 }
             };
         }
-        public static void InitReshalaEdit(VulcanModConfigClass config, DatabaseService databaseService, ModHelper modHelper)
+        public static void InitReshalaEdit(VulcanModConfigClass config, LoadModContext context)
         {
-            var bots = databaseService.GetBots();
+            var bots = context.DB.GetBots();
             var reshala = bots.Types["bossbully"];
             var followerreshala = bots.Types["followerbully"];
-            var botReshala = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/Reshala.json");
-            var botFollowerReshala = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/ReshalaFollower.json");
+            var botReshala = context.ModHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/Reshala.json");
+            var botFollowerReshala = context.ModHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/ReshalaFollower.json");
             reshala.BotChances.EquipmentChances = botReshala.BotChances.EquipmentChances;
             reshala.BotChances.WeaponModsChances = botReshala.BotChances.WeaponModsChances;
             reshala.BotChances.EquipmentModsChances = botReshala.BotChances.EquipmentModsChances;
@@ -294,10 +251,10 @@ namespace VulcanMod
             followerreshala.BotSkills = botFollowerReshala.BotSkills;
             followerreshala.BotGeneration = botFollowerReshala.BotGeneration;
         }
-        public static void InitBDReplace(DatabaseService databaseService, ModHelper modHelper, ICloner cloner)
+        public static void InitBDReplace(LoadModContext context)
         {
-            var bots = databaseService.GetBots();
-            var getedlocations = databaseService.GetLocations();
+            var bots = context.DB.GetBots();
+            var getedlocations = context.DB.GetLocations();
             var locations = new List<SPTarkov.Server.Core.Models.Eft.Common.Location> {
                 getedlocations.Bigmap,
                 getedlocations.Woods,
@@ -312,10 +269,9 @@ namespace VulcanMod
                 getedlocations.Sandbox,
                 getedlocations.SandboxHigh
             };
-            var jsonUtil = ServiceLocator.ServiceProvider.GetService<JsonUtil>();
             var bloodhound = bots.Types["arenafighterevent"];
-            var zhCNLang = databaseService.GetLocales().Global["ch"];
-            var botBDOperator = modHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/BDOperator.json");
+            var zhCNLang = context.DB.GetLocales().Global["ch"];
+            var botBDOperator = context.ModHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/BDOperator.json");
             bloodhound.BotAppearance = botBDOperator.BotAppearance;
             bloodhound.BotChances.EquipmentChances = botBDOperator.BotChances.EquipmentChances;
             bloodhound.BotChances.WeaponModsChances = botBDOperator.BotChances.WeaponModsChances;
@@ -343,7 +299,7 @@ namespace VulcanMod
                     InitBDEditForMap(map.BossLocationSpawn);
                 }
             }
-            var bdspawn = cloner.Clone(getedlocations.Bigmap.Base.BossLocationSpawn.Find(x => x.BossName == "bossKillaAgro" || x.BossName == "arenaFighterEvent"));
+            var bdspawn = context.Cloner.Clone(getedlocations.Bigmap.Base.BossLocationSpawn.Find(x => x.BossName == "bossKillaAgro" || x.BossName == "arenaFighterEvent"));
             if (bdspawn != null)
             {
                 if (bdspawn.BossName != "bossKillaAgro")
@@ -358,29 +314,29 @@ namespace VulcanMod
                 //VulcanLog.Debug("进入添加流程", logger);
                 if (modConfig.BlackDivisionMapConfig["Lighthouse"] == true)
                 {
-                    var lighthouse = cloner.Clone(bdspawn);
+                    var lighthouse = context.Cloner.Clone(bdspawn);
                     lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
-                    databaseService.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
+                    context.DB.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
                 }
                 if (modConfig.BlackDivisionMapConfig["Labs"] == true)
                 {
-                    var labs = cloner.Clone(bdspawn);
+                    var labs = context.Cloner.Clone(bdspawn);
                     labs.BossZone = "BotZoneFloor1";
-                    databaseService.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
+                    context.DB.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
                 }
                 if (modConfig.BlackDivisionMapConfig["Shoreline"] == true)
                 {
-                    var shoreline = cloner.Clone(bdspawn);
+                    var shoreline = context.Cloner.Clone(bdspawn);
                     shoreline.BossZone = "ZoneSanatorium1,ZoneSanatorium2,ZoneSmuglers";
-                    databaseService.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
+                    context.DB.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
                 }
                 if (modConfig.BlackDivisionMapConfig["Streets"] == true)
                 {
-                    var street = cloner.Clone(bdspawn);
+                    var street = context.Cloner.Clone(bdspawn);
                     street.BossZone = "ZoneFactory,ZoneConcordiaParking";
-                    databaseService.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
+                    context.DB.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
                 }
-                //VulcanLog.Log(jsonUtil.Serialize(databaseService.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
+                //VulcanLog.Log(jsonUtil.Serialize(context.DB.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
             }
         }
         public static void InitBDEditForMap(List<BossLocationSpawn> locationSpawns)
@@ -829,30 +785,9 @@ namespace VulcanMod
             recipesblackalytn.Locked = false;
             quests["60e71b62a0beca400d69efc4"].Rewards["Success"].RemoveAll(reward => reward.Type == RewardType.ProductionScheme);
         }
-        public static void InitOracleQuestData()
+        public static void InitOracleQuestData(LoadModContext context)
         {
-            var jsonUtil = ServiceLocator.ServiceProvider.GetService<JsonUtil>();
-            var databaseService = ServiceLocator.ServiceProvider.GetService<DatabaseService>();
-            var configServer = ServiceLocator.ServiceProvider.GetService<ConfigServer>();
-            var modHelper = ServiceLocator.ServiceProvider.GetService<ModHelper>();
-            var cloner = ServiceLocator.ServiceProvider.GetService<ICloner>();
-            var itemHelper = ServiceLocator.ServiceProvider.GetService<ItemHelper>();
-            var imageRouter = ServiceLocator.ServiceProvider.GetService<ImageRouter>();
-            var presetHelper = ServiceLocator.ServiceProvider.GetService<PresetHelper>();
-            var logger = new ECLogger("PostRagfairLoadEvent", true);
-            var context = new ContextManager.LoadModContext
-            {
-                DB = databaseService,
-                JsonUtil = jsonUtil,
-                ConfigServer = configServer,
-                ModHelper = modHelper,
-                Logger = Utils.commonLogger,
-                ImageRouter = imageRouter,
-                PresetHelper = presetHelper,
-                ItemHelper = itemHelper,
-                Cloner = cloner
-            };
-            var quests = databaseService.GetQuests();
+            var quests = context.DB.GetQuests();
             var oraclequest = quests["永寂孤芒".ConvertHashID()];
             var conditions = oraclequest.Conditions.AvailableForFinish;
             var foodsanddrinks = conditions[1].Target.List;

@@ -3846,17 +3846,28 @@
                     "enemyequip": []
                 },
                 {
-                    "$type": "hand",
+                    "$type": "handgroup",
                     "id": "永寂孤芒-饥荒",
                     "inraid": true,
-                    "itemid": "5857a8bc2459772bad15db29",
+                    "itemgroup": [],
+                    "tags":[
+                        "食物",
+                        "饮品"
+                    ],
                     "count": 100
                 },
                 {
-                    "$type": "hand",
+                    "$type": "handgroup",
                     "id": "永寂孤芒-瘟疫",
                     "inraid": true,
-                    "itemid": "5857a8bc2459772bad15db29",
+                    "itemgroup": [],
+                    "tags":[
+                        "医疗用品",
+                        "创伤处理",
+                        "急救包",
+                        "注射器",
+                        "药品"
+                    ],
                     "count": 100
                 },
                 {
@@ -4312,6 +4323,14 @@
                     "id": "支持者纪念币收集要求33",
                     "inraid": true,
                     "itemid": "支持纪念币_Creeper",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求34",
+                    "inraid": true,
+                    "itemid": "支持纪念币_阮梅",
                     "count": 1
                 }
             ],

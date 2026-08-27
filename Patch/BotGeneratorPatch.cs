@@ -1,38 +1,27 @@
 using EternalCycleServer;
-using HarmonyLib;
-using JetBrains.Annotations;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Razor.TagHelpers;
-using SPTarkov.DI.Annotations;
 using SPTarkov.Reflection.Patching;
-using SPTarkov.Server.Core.Constants;
-using SPTarkov.Server.Core.DI;
-using SPTarkov.Server.Core.Generators;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Helpers.Items;
+using SPTarkov.Server.Core.Helpers.Server;
+using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.Models.Common;
-using SPTarkov.Server.Core.Models.Eft.Bot;
-using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Bots;
 using SPTarkov.Server.Core.Models.Spt.Config;
-using SPTarkov.Server.Core.Models.Spt.Mod;
-using SPTarkov.Server.Core.Models.Utils;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Routers;
-using SPTarkov.Server.Core.Servers;
-using SPTarkov.Server.Core.Services;
-using SPTarkov.Server.Core.Services.Mod;
+using SPTarkov.Server.Core.Services.Locales;
 using SPTarkov.Server.Core.Utils;
 using SPTarkov.Server.Core.Utils.Cloners;
-using System;
 using System.Reflection;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Runtime.Intrinsics.Arm;
 using System.Text;
+using static EternalCycleServer.ContextManager;
+using SPTarkov.Server.Core.Generators.Bot;
+using SPTarkov.Server.Core.Models.Enums;
 
 namespace VulcanMod
 {
+
     public class BotGeneratorPatch
     {
         public static VulcanModConfigClass modConfig = ConfigManager.GetConfig();
@@ -44,6 +33,7 @@ namespace VulcanMod
                 "Ghroth",
                 "Punisher"
                 };
+        [Injectable]
         public class GenerateBotPatch : AbstractPatch
         {
             public static AlterBossCounter SanitarCounter = new AlterBossCounter
@@ -76,6 +66,57 @@ namespace VulcanMod
                 Access = false
             };
             public static string BotLoation = "";
+
+            private static TemplateTable _templateTable = default!;
+            private static LocaleTable _localeTable = default!;
+            private static GlobalTable _globalTable = default!;
+            private static TradersTable _tradersTable = default!;
+            private static HideoutTable _hideoutTable = default!;
+            private static LocationTable _locationTable = default!;
+            private static BotTable _botTable = default!;
+            private static JsonUtil _jsonUtil = default!;
+            private static ConfigServer _configServer = default!;
+            private static ModHelper _modHelper = default!;
+            private static ItemHelper _itemHelper = default!;
+            private static LocaleService _localeService = default!;
+            private static ICloner _cloner = default!;
+            private static PresetHelper _presetHelper = default!;
+            private static ImageRouter _imageRouter = default!;
+            private static ECLogger _logger = default!;
+            public GenerateBotPatch(
+            TemplateTable templateTable,
+            LocaleTable localeTable,
+            GlobalTable globalTable,
+            TradersTable tradersTable,
+            HideoutTable hideoutTable,
+            LocationTable locationTable,
+            BotTable botTable,
+            JsonUtil jsonUtil,
+            ConfigServer configServer,
+            ModHelper modHelper,
+            ItemHelper itemHelper,
+            LocaleService localeService,
+            ICloner cloner,
+            PresetHelper presetHelper,
+            ImageRouter imageRouter)
+            {
+                _templateTable = templateTable;
+                _localeTable = localeTable;
+                _globalTable = globalTable;
+                _tradersTable = tradersTable;
+                _hideoutTable = hideoutTable;
+                _locationTable = locationTable;
+                _botTable = botTable;
+                _jsonUtil = jsonUtil;
+                _configServer = configServer;
+                _modHelper = modHelper;
+                _itemHelper = itemHelper;
+                _localeService = localeService;
+                _cloner = cloner;
+                _presetHelper = presetHelper;
+                _imageRouter = imageRouter;
+                _logger = new ECLogger("BotGenerator", true);
+            }
             protected override MethodBase GetTargetMethod()
             {
                 return typeof(BotGenerator).GetMethod("GenerateBot", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
@@ -83,28 +124,16 @@ namespace VulcanMod
             [PatchPrefix]
             public static bool Prefix(BotGenerator __instance, MongoId sessionId, BotBase bot, BotType botJsonTemplate, BotGenerationDetails botGenerationDetails, ref BotBase __result)
             {
-
-                var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
-                var botLevelGenerator = ServiceLocator.ServiceProvider.GetService<BotLevelGenerator>();
-                var botEquipmentFilterService = ServiceLocator.ServiceProvider.GetService<BotEquipmentFilterService>();
-                var botNameService = ServiceLocator.ServiceProvider.GetService<BotNameService>();
-                var databaseService = ServiceLocator.ServiceProvider.GetService<DatabaseService>();
-                var seasonalEventService = ServiceLocator.ServiceProvider.GetService<SeasonalEventService>();
-                var weightedRandomHelper = ServiceLocator.ServiceProvider.GetService<WeightedRandomHelper>();
-                var botInventoryGenerator = ServiceLocator.ServiceProvider.GetService<BotInventoryGenerator>();
-                var modHelper = ServiceLocator.ServiceProvider.GetService<ModHelper>();
-                var configServer = ServiceLocator.ServiceProvider.GetService<ConfigServer>();
-                var botConfig = configServer.GetConfig<BotConfig>();
-
+                var botConfig = _configServer.GetConfig<BotConfig>();
                 var botRoleLowercase = botGenerationDetails.Role.ToLowerInvariant();
                 var modpath = System.IO.Path.Combine(ConfigManager.modPath, $"{ConfigManager.dataPath}");
-                var botSanitar = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Sanitar.json");
-                var botKnight = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Knight.json");
-                var botBigPipe = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/BigPipe.json");
-                var botBirdeye = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Birdeye.json");
-                var botGluhar = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Gluhar.json");
-                var botKolontay = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Kolontay.json");
-                var botObsidian = modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Obsidian.json");
+                var botSanitar = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Sanitar.json");
+                var botKnight = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Knight.json");
+                var botBigPipe = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/BigPipe.json");
+                var botBirdeye = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Birdeye.json");
+                var botGluhar = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Gluhar.json");
+                var botKolontay = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Kolontay.json");
+                var botObsidian = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Obsidian.json");
                 try
                 {
                     if (!botConfig.BotRolesWithDogTags.Contains(botRoleLowercase))
@@ -146,7 +175,7 @@ namespace VulcanMod
                             GoonsCounter.KnightCounter++;
                             if (GoonsCounter.KnightCounter >= 5 && GoonsCounter.KnightAccess != true)
                             {
-                                logger.LogWithColor("转化失败复位", LogTextColor.Gray);
+                                _logger.Debug("转化失败复位");
                                 //转化失败复位
                                 GoonsCounter.Chance = 0;
                                 GoonsCounter.KnightCounter = 0;
@@ -177,7 +206,7 @@ namespace VulcanMod
                             GoonsCounter.PipeCounter++;
                             if (GoonsCounter.PipeCounter >= 5 && GoonsCounter.EyesCounter >= 5)
                             {
-                                logger.LogWithColor("转化完成复位, from bigpipe", LogTextColor.Gray);
+                                _logger.Debug("转化完成复位, from bigpipe");
                                 //转化完成复位
                                 //大管和鸟眼双计数, 防止提前复位
                                 GoonsCounter.Chance = 0;
@@ -208,7 +237,7 @@ namespace VulcanMod
                             GoonsCounter.EyesCounter++;
                             if (GoonsCounter.PipeCounter >= 5 && GoonsCounter.EyesCounter >= 5)
                             {
-                                logger.LogWithColor("转化完成复位, from birdeye", LogTextColor.Gray);
+                                _logger.Debug("转化完成复位, from birdeye");
                                 //转化完成复位
                                 //大管和鸟眼双计数, 防止提前复位
                                 GoonsCounter.Chance = 0;
@@ -359,7 +388,7 @@ namespace VulcanMod
                 }
                 catch (Exception ex)
                 {
-                    logger.LogWithColor(ex.StackTrace, LogTextColor.Yellow, LogBackgroundColor.Default);
+                    _logger.Error("错误: BotGeneratorPatch运行时出现问题: ", ex);
                 }
 
                 return true;
@@ -368,34 +397,17 @@ namespace VulcanMod
             [PatchPostfix]
             public static void Postfix(BotGenerator __instance, MongoId sessionId, BotBase bot, BotType botJsonTemplate, BotGenerationDetails botGenerationDetails, ref BotBase __result)
             {
-                var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
-                var botLevelGenerator = ServiceLocator.ServiceProvider.GetService<BotLevelGenerator>();
-                var botEquipmentFilterService = ServiceLocator.ServiceProvider.GetService<BotEquipmentFilterService>();
-                var botNameService = ServiceLocator.ServiceProvider.GetService<BotNameService>();
-                var databaseService = ServiceLocator.ServiceProvider.GetService<DatabaseService>();
-                var seasonalEventService = ServiceLocator.ServiceProvider.GetService<SeasonalEventService>();
-                var weightedRandomHelper = ServiceLocator.ServiceProvider.GetService<WeightedRandomHelper>();
-                var botInventoryGenerator = ServiceLocator.ServiceProvider.GetService<BotInventoryGenerator>();
-                var presetHelper = ServiceLocator.ServiceProvider.GetService<PresetHelper>();
-                var jsonUtil = ServiceLocator.ServiceProvider.GetService<JsonUtil>();
-                var imageRouter = ServiceLocator.ServiceProvider.GetService<ImageRouter>();
-                var itemHelper = ServiceLocator.ServiceProvider.GetService<ItemHelper>();
-                var cloner = ServiceLocator.ServiceProvider.GetService<ICloner>();
-                var modHelper = ServiceLocator.ServiceProvider.GetService<ModHelper>();
-                var configServer = ServiceLocator.ServiceProvider.GetService<ConfigServer>();
-                var botConfig = configServer.GetConfig<BotConfig>();
-
-                var context = new ContextManager.LoadModContext
+                var context = new LoadModContext
                 {
-                    DB = databaseService,
-                    JsonUtil = jsonUtil,
-                    ConfigServer = configServer,
-                    ModHelper = modHelper,
+                    DB = new DatabaseService(_templateTable, _localeTable, _globalTable, _tradersTable, _hideoutTable, _locationTable, _botTable),
+                    JsonUtil = _jsonUtil,
+                    ConfigServer = _configServer,
+                    ModHelper = _modHelper,
                     Logger = Utils.commonLogger,
-                    ImageRouter = imageRouter,
-                    PresetHelper = presetHelper,
-                    ItemHelper = itemHelper,
-                    Cloner = cloner
+                    PresetHelper = _presetHelper,
+                    ImageRouter = _imageRouter,
+                    ItemHelper = _itemHelper,
+                    Cloner = _cloner
                 };
 
                 var botRoleLowercase = botGenerationDetails.Role.ToLowerInvariant();
@@ -484,8 +496,61 @@ namespace VulcanMod
                 }
             }
         }
+
+        [Injectable]
         public class AddDogtagToBotPatch : AbstractPatch
         {
+
+            private static TemplateTable _templateTable = default!;
+            private static LocaleTable _localeTable = default!;
+            private static GlobalTable _globalTable = default!;
+            private static TradersTable _tradersTable = default!;
+            private static HideoutTable _hideoutTable = default!;
+            private static LocationTable _locationTable = default!;
+            private static BotTable _botTable = default!;
+            private static JsonUtil _jsonUtil = default!;
+            private static ConfigServer _configServer = default!;
+            private static ModHelper _modHelper = default!;
+            private static ItemHelper _itemHelper = default!;
+            private static LocaleService _localeService = default!;
+            private static ICloner _cloner = default!;
+            private static PresetHelper _presetHelper = default!;
+            private static ImageRouter _imageRouter = default!;
+            private static ECLogger _logger = default!;
+            public AddDogtagToBotPatch(
+            TemplateTable templateTable,
+            LocaleTable localeTable,
+            GlobalTable globalTable,
+            TradersTable tradersTable,
+            HideoutTable hideoutTable,
+            LocationTable locationTable,
+            BotTable botTable,
+            JsonUtil jsonUtil,
+            ConfigServer configServer,
+            ModHelper modHelper,
+            ItemHelper itemHelper,
+            LocaleService localeService,
+            ICloner cloner,
+            PresetHelper presetHelper,
+            ImageRouter imageRouter)
+            {
+                _templateTable = templateTable;
+                _localeTable = localeTable;
+                _globalTable = globalTable;
+                _tradersTable = tradersTable;
+                _hideoutTable = hideoutTable;
+                _locationTable = locationTable;
+                _botTable = botTable;
+                _jsonUtil = jsonUtil;
+                _configServer = configServer;
+                _modHelper = modHelper;
+                _itemHelper = itemHelper;
+                _localeService = localeService;
+                _cloner = cloner;
+                _presetHelper = presetHelper;
+                _imageRouter = imageRouter;
+                _logger = new ECLogger("AddDogtagToBot", true);
+            }
             protected override MethodBase GetTargetMethod()
             {
                 return typeof(BotGenerator).GetMethod("AddDogtagToBot", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
@@ -661,7 +726,6 @@ namespace VulcanMod
         }
         public static void AddLootToInventory(BotBaseInventory inventory, MongoId itemid, string slot, BotBase bot, ContextManager.LoadModContext context)
         {
-            var logger = ServiceLocator.ServiceProvider.GetService<ISptLogger<BotGenerator>>();
             //这个方法默认只支持1x1战利品, 因此不再做旋转检测
             var container = inventory.Items.FirstOrDefault(x => x.SlotId == slot);
             var haveitem = inventory.Items.FirstOrDefault(x => x.Template == itemid);
@@ -709,7 +773,7 @@ namespace VulcanMod
                     }
                 }
             }
-            var targetlocation = FindPlacementSpace(containerMap, logger);
+            var targetlocation = FindPlacementSpace(containerMap);
             if (targetlocation == null)
             {
                 //logger.LogWithColor($"警告: 无法在{bot.Info.Settings.Role}的{slot}上找到有效空间", LogTextColor.Yellow);
@@ -730,7 +794,7 @@ namespace VulcanMod
                 Location = targetlocation.Value.Value
             });
         }
-        public static KeyValuePair<string, ItemLocation>? FindPlacementSpace(Dictionary<string, int[,]> containerMap, ISptLogger<BotGenerator> logger)
+        public static KeyValuePair<string, ItemLocation>? FindPlacementSpace(Dictionary<string, int[,]> containerMap)
         {
             foreach (var container in containerMap)
             {
