@@ -59,7 +59,7 @@ namespace VulcanMod
         /// <summary>
         ///  The version of the mod, follows SEMVER rules (https://semver.org/)
         /// </summary>
-        public  SemanticVersioning.Version Version { get; init; } = new("1.1.1");
+        public  SemanticVersioning.Version Version { get; init; } = new("1.1.2");
 
         /// <summary>
         /// What version of SPT is your mod made for, follows SEMVER rules (https://semver.org/)

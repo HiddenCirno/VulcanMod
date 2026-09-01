@@ -65,6 +65,8 @@ namespace VulcanMod
                 EyesAccess = false,
                 Access = false
             };
+            private static readonly object _dogTagLock = new object();
+
             public static string BotLoation = "";
 
             private static TemplateTable _templateTable = default!;
@@ -136,9 +138,12 @@ namespace VulcanMod
                 var botObsidian = _modHelper.GetJsonDataFromFile<BotType>(modpath, "bots/Obsidian.json");
                 try
                 {
-                    if (!botConfig.BotRolesWithDogTags.Contains(botRoleLowercase))
+                    lock (_dogTagLock)
                     {
-                        botConfig.BotRolesWithDogTags.Add(botRoleLowercase);
+                        if (!botConfig.BotRolesWithDogTags.Contains(botRoleLowercase))
+                        {
+                            botConfig.BotRolesWithDogTags.Add(botRoleLowercase);
+                        }
                     }
 
                     if (BotLoation != botGenerationDetails.Location)
