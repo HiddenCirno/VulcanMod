@@ -48,6 +48,7 @@ namespace VulcanMod
             ForcedUnlockEventQuest(context.DB, context.ConfigServer);
 
         }
+
         public static void InitEquipmentChest(MongoId itemid, ContextManager.LoadModContext context)
         {
             context.DB.GetItems().TryGetValue(itemid, out var targetfilter);
@@ -177,6 +178,7 @@ namespace VulcanMod
                 {
                     var kappa = QuestUtils.GetQuest(QuestTpl.COLLECTOR, loadContext);
                     var conditions = kappa.Conditions.AvailableForFinish;
+                    var 英雄之证 = "英雄之证".ConvertHashID();
                     if (!conditions.Any(x =>(x.Target.IsList && x.Target.List.Contains("6937ecf8628ee476240c07cb")) || (x.Target.IsItem && x.Target.Item == "6937ecf8628ee476240c07cb")))
                     {
                         var twitchcase = ItemUtils.GetItem(ItemTpl.CONTAINER_STREAMER_ITEM_CASE, loadContext);
@@ -220,6 +222,16 @@ namespace VulcanMod
                             {
                             }
                         };
+                    }
+                    foreach(var condition in conditions)
+                    {
+                        if (condition?.Target?.IsList == true && condition?.Target?.List!=null && condition.Target.List.Count>0)
+                        {
+                            if(!condition.Target.List.Contains(英雄之证))
+                            {
+                                condition.Target.List.Add(英雄之证);
+                            }
+                        }
                     }
                 }
                 catch (Exception ex)

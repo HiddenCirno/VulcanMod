@@ -4332,6 +4332,22 @@
                     "inraid": true,
                     "itemid": "支持纪念币_阮梅",
                     "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求35",
+                    "inraid": true,
+                    "itemid": "支持纪念币_射命丸政",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "autolocale": true,
+                    "id": "支持者纪念币收集要求36",
+                    "inraid": true,
+                    "itemid": "支持纪念币_某某某",
+                    "count": 1
                 }
             ],
             "Failed": []

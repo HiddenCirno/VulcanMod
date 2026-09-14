@@ -3622,6 +3622,62 @@
             ]
         }
     },
+    "支持纪念币_射命丸政": {
+        "_id": "支持纪念币_射命丸政",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "支持纪念币_射命丸政",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_shameimaru.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币\"射命丸政\"",
+            "ShortName": "纪念币",
+            "Description": "火神集团三部发行的「支持者」系列纪念币中的一枚，为本Mod的支持者特别定制，使用纯金一次性压锻成型，纳米蚀刻技术绘制防伪图案，内置微型气体操纵场发生器，能够在硬币表面形成氮气保护层，能保存数万年依然光洁如新。",
+            "DefaultPrice": 202404,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
+    "支持纪念币_某某某": {
+        "_id": "支持纪念币_某某某",
+        "_targetid": "59faff1d86f7746c51718c9c",
+        "_name": "支持纪念币_某某某",
+        "_props": {
+            "BackgroundColor": "yellow",
+            "Prefab": {
+                "path": "coin_moumoumou.pack",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "纪念币\"某某某\"",
+            "ShortName": "纪念币",
+            "Description": "火神集团三部发行的「支持者」系列纪念币中的一枚，为本Mod的支持者特别定制，使用纯金一次性压锻成型，纳米蚀刻技术绘制防伪图案，内置微型气体操纵场发生器，能够在硬币表面形成氮气保护层，能保存数万年依然光洁如新。",
+            "DefaultPrice": 202404,
+            "RagfairType": "5b47574386f77428ca22b2f1",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "FixType": [
+                "Mods",
+                "Container"
+            ]
+        }
+    },
     "开拓纪念币_AT": {
         "_id": "开拓纪念币_AT",
         "_targetid": "59faff1d86f7746c51718c9c",
@@ -31100,6 +31156,18 @@
                         "name": "支持纪念币_阮梅",
                         "itemid": "支持纪念币_阮梅",
                         "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_射命丸政",
+                        "itemid": "支持纪念币_射命丸政",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "支持纪念币_某某某",
+                        "itemid": "支持纪念币_某某某",
+                        "stackcount": 1
                     }
                 ]
             }
@@ -32607,6 +32675,132 @@
             "FixType": [
                 "None"
             ]
+        }
+    },
+    "野生狗奶": {
+        "_id": "野生狗奶",
+        "_targetid": "575146b724597720a27126d5",
+        "_name": "野生狗奶",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "foodEffectType": "afterUse",
+            "StimulatorBuffs": "",
+            "foodUseTime": 100000,
+            "Prefab": {
+                "path": "assets/GouNai/item_tetrapak_loot.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "assets/GouNai/item_tetrapak_container.bundle",
+                "rcid": ""
+            },
+            "CanSellOnRagfair": false,
+            "effects_health": {
+                "Hydration": {
+                    "value": 1000000
+                }
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "野生狗奶",
+            "ShortName": "野生狗奶",
+            "Description": "一盒保质期「无限」的……奶？爱会过期，但野生狗奶不会。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "5b47574386f77428ca22b335",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "川流浩瀚之水": {
+        "_id": "川流浩瀚之水",
+        "_targetid": "5d1b33a686f7742523398398",
+        "_name": "川流浩瀚之水",
+        "_props": {
+            "Width": 4,
+            "Height": 4,
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "foodEffectType": "afterUse",
+            "StimulatorBuffs": "",
+            "foodUseTime": 99999999,
+            "CanSellOnRagfair": false,
+            "effects_health": {
+                "Hydration": {
+                    "value": 999999999
+                }
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "川流浩瀚之水",
+            "ShortName": "川流浩瀚之水",
+            "Description": "川流不息，浩瀚无穷。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "5b47574386f77428ca22b335",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
+        }
+    },
+    "大力丸": {
+        "_id": "大力丸",
+        "_targetid": "5af0548586f7743a532b7e99",
+        "_name": "大力丸",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "foodEffectType": "afterUse",
+            "StimulatorBuffs": "",
+            "MaxHpResource": 100000,
+            "CanSellOnRagfair": false,
+            "effects_health": {
+                "Hydration": {
+                    "value": -10
+                },
+                "Energy": {
+                    "value": 10
+                }
+            },
+            "Prefab": {
+                "path": "assets/DaLi/item_ibuprofen_loot.bundle",
+                "rcid": ""
+            },
+            "UsePrefab": {
+                "path": "assets/DaLi/item_ibuprofen_container.bundle",
+                "rcid": ""
+            },
+            "effects_damage": {
+                "Contusion": {
+                    "delay": 0,
+                    "duration": 0,
+                    "fadeOut": 0
+                },
+                "Pain": {
+                    "delay": 0,
+                    "duration": 300,
+                    "fadeOut": 10
+                }
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "大力丸",
+            "ShortName": "大力丸",
+            "Description": "“大力出奇迹”的大力。这个世界上丛来就没有什么奇迹，有的只是刻苦和努力。",
+            "DefaultPrice": 1000000,
+            "RagfairType": "5b47574386f77428ca22b337",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 63
         }
     }
 }

@@ -59,7 +59,7 @@ namespace VulcanMod
         /// <summary>
         ///  The version of the mod, follows SEMVER rules (https://semver.org/)
         /// </summary>
-        public  SemanticVersioning.Version Version { get; init; } = new("1.1.2");
+        public  SemanticVersioning.Version Version { get; init; } = new("1.2.0");
 
         /// <summary>
         /// What version of SPT is your mod made for, follows SEMVER rules (https://semver.org/)
@@ -76,7 +76,7 @@ namespace VulcanMod
         /// </summary>
         public  Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
 {
-    { "projectspark.hiddenhiragi.eternalcycleserver", new SemanticVersioning.Range(">=1.2.0") }
+    { "projectspark.hiddenhiragi.eternalcycleserver", new SemanticVersioning.Range(">=1.6.6") }
 };
         /// <summary>
         /// Where to find your mod online

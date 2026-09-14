@@ -9878,11 +9878,11 @@
     },
     {
         "$type": "normal",
-        "ID": "异格Boss狗牌_符号钥匙礼包",
+        "ID": "邪教徒狗牌_符号钥匙礼包",
         "Trader": "Persicaria",
         "Item": [
             {
-                "_id": "异格Boss狗牌_符号钥匙礼包",
+                "_id": "邪教徒狗牌_符号钥匙礼包",
                 "_tpl": "储备站符号钥匙礼包",
                 "parentId": "hideout",
                 "slotId": "hideout",
@@ -9895,10 +9895,10 @@
             }
         ],
         "DogTag": {
-            "水晶狗牌_红": {
+            "邪教徒狗牌": {
                 "count": 10,
-                "level": 200,
-                "side": 2
+                "level": 99,
+                "side": 1
             }
         },
         "Barter": {},
