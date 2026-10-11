@@ -460,7 +460,7 @@ namespace VulcanMod
                 Count = 50000,
                 IsFunctional = false,
                 IsEncoded = false,
-                IsSpawnedInSession = true,
+                IsSpawnedInSession = false,
                 Type = "Item"
             });
             solarpowerrequirement.Add(new SPTarkov.Server.Core.Models.Eft.Hideout.StageRequirement
