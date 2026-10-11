@@ -39,8 +39,8 @@
     },
     {
       "Bot": [
-        "bear",
-        "usec"
+        "pmcbear",
+        "pmcusec"
       ],
       "Data": [
         [
@@ -154,17 +154,19 @@
     //异格Gluhar的生成概率
     "Gluhar": 50,
     //异格Kolontay的生成概率
-    "Kolontay": 50
+    "Kolontay": 50,
+    //异格黑曜石(Obsidian)的生成概率 —— 黑曜石现在是伟哥小队本尊(bossWedgeLab)的异格变体
+    "Obsidian": 50
   },
   //是否允许Kaban在海岸线的走私者营地生成, 此选项是为了让低配电脑在难以流畅运行街区的情况下能够完成Kaban的Boss任务
   "EnableKabanInShoreline": true,
   //Kaban在海岸线的走私者营地生成的概率
   "KabanInShorelineChance": 40,
-  //是否允许黑色军团生成, 此选项将替换原版的寻血猎犬AI, 默认生成概率为40
+  //是否允许伟哥小队生成(原黑色军团/寻血猎犬), 此选项会在下列地图替换并注入伟哥小队本尊(bossWedgeLab)+小弟(followerWedgeLab), 默认生成概率为40
   "EnableBlackDivision": true,
-  //黑色军团生成概率
+  //伟哥小队生成概率
   "BlackDivisionChance": 40,
-  //黑色军团的独立地图配置, 分别对应森林海关海岸线灯塔街区, 如果遇到迷宫内刷新Obsidian的问题可以禁用海岸线的黑色军团刷新以解决
+  //伟哥小队的独立地图配置, 分别对应森林海关海岸线灯塔街区实验室, 如果遇到迷宫内刷新Obsidian的问题可以禁用海岸线的伟哥小队刷新以解决
   "BlackDivisionMapConfig": {
     "Woods": true,
     "Custom": true,

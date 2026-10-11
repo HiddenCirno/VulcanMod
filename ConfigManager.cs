@@ -75,5 +75,8 @@ namespace VulcanMod
 
         [JsonPropertyName("Kolontay")]
         public int Kolontay { get; set; }
+
+        [JsonPropertyName("Obsidian")]
+        public int Obsidian { get; set; }
     }
 }

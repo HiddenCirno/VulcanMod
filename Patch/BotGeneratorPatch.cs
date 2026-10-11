@@ -18,6 +18,7 @@ using System.Text;
 using static EternalCycleServer.ContextManager;
 using SPTarkov.Server.Core.Generators.Bot;
 using SPTarkov.Server.Core.Models.Enums;
+using SPTarkov.Server.Core.Services.InRaid;
 
 namespace VulcanMod
 {
@@ -31,40 +32,16 @@ namespace VulcanMod
                 "Argus",
                 "Sanitar",
                 "Ghroth",
-                "Punisher"
+                "Punisher",
+                "Obsidian"
                 };
         [Injectable]
         public class GenerateBotPatch : AbstractPatch
         {
-            public static AlterBossCounter SanitarCounter = new AlterBossCounter
-            {
-                Chance = 0,
-                Counter = 0,
-                Access = false
-            };
-            public static AlterBossCounter GluharCocunter = new AlterBossCounter
-            {
-                Chance = 0,
-                Counter = 0,
-                Access = false
-            };
-            public static AlterBossCounter KolontayCocunter = new AlterBossCounter
-            {
-                Chance = 0,
-                Counter = 0,
-                Access = false
-            };
-            public static AlterGoonsCounter GoonsCounter = new AlterGoonsCounter
-            {
-                Chance = 0,
-                KnightCounter = 0,
-                PipeCounter = 0,
-                EyesCounter = 0,
-                KnightAccess = false,
-                PipeAccess = false,
-                EyesAccess = false,
-                Access = false
-            };
+            // 异格判定状态原先在这里（SanitarCounter / GluharCocunter / KolontayCocunter /
+            // ObsidianCounter / GoonsCounter）。已统一改为 AlterBossDecision（见文件末尾）：
+            // 旧的「每 5 次调用无条件复位 + 无锁 static」会让同一局里异格和原版混着出场，
+            // 而战利品池是按角色每局缓存一次的 —— 混出场时异格会抽到原版的池子。
             private static readonly object _dogTagLock = new object();
 
             public static string BotLoation = "";
@@ -156,15 +133,8 @@ namespace VulcanMod
                     {
                         if (botRoleLowercase == "bossknight")
                         {
-                            if (GoonsCounter.Chance == 0)
-                            {
-                                GoonsCounter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
-                            }
-                            if (GoonsCounter.Chance <= modConfig.AlterBossChance.Goons)
-                            {
-                                GoonsCounter.Access = true;
-                            }
-                            if (GoonsCounter.Access)
+                            // Goons 三只共用 "goons" 这个 key —— 小队同进同退
+                            if (AlterBossDecision.IsAltered("goons", modConfig.AlterBossChance.Goons, out _))
                             {
                                 botJsonTemplate.BotAppearance = botKnight.BotAppearance;
                                 botJsonTemplate.BotExperience = botKnight.BotExperience;
@@ -175,26 +145,12 @@ namespace VulcanMod
                                 botJsonTemplate.FirstNames = botKnight.FirstNames;
                                 botJsonTemplate.BotGeneration = botKnight.BotGeneration;
                                 //唱片和箭头预留部分
-                                GoonsCounter.KnightAccess = true;
-                            }
-                            GoonsCounter.KnightCounter++;
-                            if (GoonsCounter.KnightCounter >= 5 && GoonsCounter.KnightAccess != true)
-                            {
-                                _logger.Debug("转化失败复位");
-                                //转化失败复位
-                                GoonsCounter.Chance = 0;
-                                GoonsCounter.KnightCounter = 0;
-                                GoonsCounter.PipeCounter = 0;
-                                GoonsCounter.EyesCounter = 0;
-                                GoonsCounter.KnightAccess = false;
-                                GoonsCounter.PipeAccess = false;
-                                GoonsCounter.EyesAccess = false;
-                                GoonsCounter.Access = false;
                             }
                         }
                         if (botRoleLowercase == "followerbigpipe")
                         {
-                            if (GoonsCounter.Access)
+                            // Goons 三只共用 "goons" 这个 key —— 小队同进同退
+                            if (AlterBossDecision.IsAltered("goons", modConfig.AlterBossChance.Goons, out _))
                             {
                                 botJsonTemplate.BotAppearance = botBigPipe.BotAppearance;
                                 botJsonTemplate.BotExperience = botBigPipe.BotExperience;
@@ -205,28 +161,13 @@ namespace VulcanMod
                                 botJsonTemplate.FirstNames = botBigPipe.FirstNames;
                                 botJsonTemplate.LastNames = botBigPipe.LastNames;
                                 botJsonTemplate.BotGeneration = botBigPipe.BotGeneration;
-                                GoonsCounter.PipeAccess = true;
                                 //唱片预留
-                            }
-                            GoonsCounter.PipeCounter++;
-                            if (GoonsCounter.PipeCounter >= 5 && GoonsCounter.EyesCounter >= 5)
-                            {
-                                _logger.Debug("转化完成复位, from bigpipe");
-                                //转化完成复位
-                                //大管和鸟眼双计数, 防止提前复位
-                                GoonsCounter.Chance = 0;
-                                GoonsCounter.KnightCounter = 0;
-                                GoonsCounter.PipeCounter = 0;
-                                GoonsCounter.EyesCounter = 0;
-                                GoonsCounter.KnightAccess = false;
-                                GoonsCounter.PipeAccess = false;
-                                GoonsCounter.EyesAccess = false;
-                                GoonsCounter.Access = false;
                             }
                         }
                         if (botRoleLowercase == "followerbirdeye")
                         {
-                            if (GoonsCounter.Access)
+                            // Goons 三只共用 "goons" 这个 key —— 小队同进同退
+                            if (AlterBossDecision.IsAltered("goons", modConfig.AlterBossChance.Goons, out _))
                             {
                                 botJsonTemplate.BotAppearance = botBirdeye.BotAppearance;
                                 botJsonTemplate.BotExperience = botBirdeye.BotExperience;
@@ -236,42 +177,13 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botBirdeye.BotChances;
                                 botJsonTemplate.FirstNames = botBirdeye.FirstNames;
                                 botJsonTemplate.BotGeneration = botBirdeye.BotGeneration;
-                                GoonsCounter.EyesAccess = true;
                                 //唱片预留
-                            }
-                            GoonsCounter.EyesCounter++;
-                            if (GoonsCounter.PipeCounter >= 5 && GoonsCounter.EyesCounter >= 5)
-                            {
-                                _logger.Debug("转化完成复位, from birdeye");
-                                //转化完成复位
-                                //大管和鸟眼双计数, 防止提前复位
-                                GoonsCounter.Chance = 0;
-                                GoonsCounter.KnightCounter = 0;
-                                GoonsCounter.PipeCounter = 0;
-                                GoonsCounter.EyesCounter = 0;
-                                GoonsCounter.KnightAccess = false;
-                                GoonsCounter.PipeAccess = false;
-                                GoonsCounter.EyesAccess = false;
-                                GoonsCounter.Access = false;
                             }
                         }
                         if (botRoleLowercase == "bosssanitar")
                         {
-                            //从文件读取AI数据
-                            if (SanitarCounter.Chance == 0)
+                            if (AlterBossDecision.IsAltered("bosssanitar", modConfig.AlterBossChance.Sanitar, out _))
                             {
-                                //初始化生成概率
-                                SanitarCounter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
-                            }
-                            if (SanitarCounter.Chance <= modConfig.AlterBossChance.Sanitar)
-                            {
-                                //命中概率
-                                //这里的100是测试, 实际从配置读取
-                                SanitarCounter.Access = true;
-                            }
-                            if (SanitarCounter.Access)
-                            {
-                                //概率命中, 使用文件的数据覆盖原数据
                                 botJsonTemplate.BotAppearance = botSanitar.BotAppearance;
                                 botJsonTemplate.BotExperience = botSanitar.BotExperience;
                                 botJsonTemplate.BotHealth = botSanitar.BotHealth;
@@ -280,35 +192,12 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botSanitar.BotChances;
                                 botJsonTemplate.FirstNames = botSanitar.FirstNames;
                                 botJsonTemplate.BotGeneration = botSanitar.BotGeneration;
-                                //配置器计数+1
-                            }
-                            SanitarCounter.Counter++;
-                            //AI生成完成(每个AI的生成会调用5次
-                            if (SanitarCounter.Counter >= 5)
-                            {
-                                //配置器复位
-                                SanitarCounter.Chance = 0;
-                                SanitarCounter.Counter = 0;
-                                SanitarCounter.Access = false;
                             }
                         }
                         if (botRoleLowercase == "bossgluhar")
                         {
-                            //从文件读取AI数据
-                            if (GluharCocunter.Chance == 0)
+                            if (AlterBossDecision.IsAltered("bossgluhar", modConfig.AlterBossChance.Gluhar, out _))
                             {
-                                //初始化生成概率
-                                GluharCocunter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
-                            }
-                            if (GluharCocunter.Chance <= modConfig.AlterBossChance.Gluhar)
-                            {
-                                //命中概率
-                                //这里的100是测试, 实际从配置读取
-                                GluharCocunter.Access = true;
-                            }
-                            if (GluharCocunter.Access)
-                            {
-                                //概率命中, 使用文件的数据覆盖原数据
                                 botJsonTemplate.BotAppearance = botGluhar.BotAppearance;
                                 botJsonTemplate.BotExperience = botGluhar.BotExperience;
                                 botJsonTemplate.BotHealth = botGluhar.BotHealth;
@@ -317,35 +206,12 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botGluhar.BotChances;
                                 botJsonTemplate.FirstNames = botGluhar.FirstNames;
                                 botJsonTemplate.BotGeneration = botGluhar.BotGeneration;
-                                //配置器计数+1
-                            }
-                            GluharCocunter.Counter++;
-                            //AI生成完成(每个AI的生成会调用5次
-                            if (GluharCocunter.Counter >= 5)
-                            {
-                                //配置器复位
-                                GluharCocunter.Chance = 0;
-                                GluharCocunter.Counter = 0;
-                                GluharCocunter.Access = false;
                             }
                         }
                         if (botRoleLowercase == "bosskolontay")
                         {
-                            //从文件读取AI数据
-                            if (KolontayCocunter.Chance == 0)
+                            if (AlterBossDecision.IsAltered("bosskolontay", modConfig.AlterBossChance.Kolontay, out _))
                             {
-                                //初始化生成概率
-                                KolontayCocunter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
-                            }
-                            if (KolontayCocunter.Chance <= modConfig.AlterBossChance.Kolontay)
-                            {
-                                //命中概率
-                                //这里的100是测试, 实际从配置读取
-                                KolontayCocunter.Access = true;
-                            }
-                            if (KolontayCocunter.Access)
-                            {
-                                //概率命中, 使用文件的数据覆盖原数据
                                 botJsonTemplate.BotAppearance = botKolontay.BotAppearance;
                                 botJsonTemplate.BotExperience = botKolontay.BotExperience;
                                 botJsonTemplate.BotHealth = botKolontay.BotHealth;
@@ -354,40 +220,26 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botKolontay.BotChances;
                                 botJsonTemplate.FirstNames = botKolontay.FirstNames;
                                 botJsonTemplate.BotGeneration = botKolontay.BotGeneration;
-                                //配置器计数+1
-                            }
-                            KolontayCocunter.Counter++;
-                            //AI生成完成(每个AI的生成会调用5次
-                            if (KolontayCocunter.Counter >= 5)
-                            {
-                                //配置器复位
-                                KolontayCocunter.Chance = 0;
-                                KolontayCocunter.Counter = 0;
-                                KolontayCocunter.Access = false;
                             }
                         }
-                    }
-                    if (modConfig.EnableBlackDivision)
-                    {
-                        if (botRoleLowercase == "bosskillaagro" && botGenerationDetails.Location != "Labyrinth")
+                        if (botRoleLowercase == "bosswedgelab")
                         {
-                            //测试代码, 数据部分暂时搁置
-                            //打个时间戳看看我能鸽多久
-                            //12.10.2025
-                            //从文件读取AI数据
-                            botJsonTemplate.BotAppearance = botObsidian.BotAppearance;
-                            botJsonTemplate.BotExperience = botObsidian.BotExperience;
-                            botJsonTemplate.BotHealth = botObsidian.BotHealth;
-                            botJsonTemplate.BotSkills = botObsidian.BotSkills;
-                            botJsonTemplate.BotInventory = botObsidian.BotInventory;
-                            botJsonTemplate.BotChances = botObsidian.BotChances;
-                            botJsonTemplate.FirstNames = botObsidian.FirstNames;
-                            botJsonTemplate.LastNames = botObsidian.LastNames;
-                            botJsonTemplate.BotGeneration = botObsidian.BotGeneration;
-                            //bot.Health.BodyParts;
-                            //3c6269d6143b2cf96fb0224f //BD1
-                            //3c6269d6143b2cf96fb0224f //BD2
-                            //logger.LogWithColor($"Debug: {bot.Customization.Voice}", LogTextColor.Gray);
+                            // 黑曜石(Obsidian) = 伟哥小队本尊(bossWedgeLab) 的异格变体。
+                            // 一局只判定一次：当局内要么全是黑曜石、要么全是原版伟哥，
+                            // 否则战利品池缓存（按角色、每局一次）会和模板错配。
+                            if (AlterBossDecision.IsAltered("bosswedgelab", modConfig.AlterBossChance.Obsidian, out _))
+                            {
+                                // 本局命中：用文件数据覆盖原版模板
+                                botJsonTemplate.BotAppearance = botObsidian.BotAppearance;
+                                botJsonTemplate.BotExperience = botObsidian.BotExperience;
+                                botJsonTemplate.BotHealth = botObsidian.BotHealth;
+                                botJsonTemplate.BotSkills = botObsidian.BotSkills;
+                                botJsonTemplate.BotInventory = botObsidian.BotInventory;
+                                botJsonTemplate.BotChances = botObsidian.BotChances;
+                                botJsonTemplate.FirstNames = botObsidian.FirstNames;
+                                botJsonTemplate.LastNames = botObsidian.LastNames;
+                                botJsonTemplate.BotGeneration = botObsidian.BotGeneration;
+                            }
                         }
                     }
                 }
@@ -596,7 +448,8 @@ namespace VulcanMod
             "bosstagilla", "bosstagillaagro", "bossbully", "bossboar",
             "bossgluhar", "bosssanitar", "bosskilla", "bosskillaagro",
             "bosskojaniy", "bosszryachiy", "bosskolontay", "bossknight",
-            "followerbigpipe", "followerbirdeye", "bosspartisan"
+            "followerbigpipe", "followerbirdeye", "bosspartisan",
+            "bosswedgelab"
         };
 
             var botRole = bot.Info.Settings.Role;
@@ -633,6 +486,9 @@ namespace VulcanMod
                         case "bossknight":
                         case "followerbigpipe":
                         case "followerbirdeye":
+                        case "bosswedgelab":
+                            // bossWedgeLab 的代号来自名字池（池里只有 "Wedge"），
+                            // 保留本体名字，不要按角色名派生
                             botName = bot.Info.Nickname; break;
                         case "bossgluhar":
                             botName = bot.Info.Nickname == "Ghroth" ? bot.Info.Nickname : botRole.Substring(4); break;
@@ -825,22 +681,97 @@ namespace VulcanMod
             // 如果没有找到空格子，则返回 null
             return null;
         }
-        public class AlterGoonsCounter
+        /// <summary>
+        /// 异格判定器 —— 每局只摇一次，当局内同组角色共用同一个结论。
+        ///
+        /// 为什么不沿用「每 5 次调用复位」的老写法（踩坑记录）：
+        ///
+        ///  ① SPT 的 bot 战利品池是按「角色」缓存的（BotLootCacheService）：
+        ///     每局只建一次，由该角色这一局**第一个**跑到「生成战利品」那一步的 bot 来建，
+        ///     且 EndLocalRaid 才 ClearCache。所以同一局里这个角色必须只有一种模板，
+        ///     否则池子会和模板错配 —— 错配时异格抽到的是原版的池子。
+        ///     原版 bosswedgelab 的 inventory.items.Backpack 是空对象（且 Backpack 装备几率= 0，
+        ///     本尊根本不背背包），而黑曜石的身家全在背包池 → 一旦错配，黑曜石背包全空。
+        ///
+        ///  ② BotController.GenerateBotWave 用 .AsParallel() 并发生成，而客户端是
+        ///     **一波一个 /client/game/bot/generate 请求**（日志实测同一局里有
+        ///     08:54:10 与 08:54:13 两个 bossWedgeLab 请求）。旧的 no-lock static
+        ///     Chance / Counter / Access 既会丢计数，又会让复位点落在波中间
+        ///     → 同一局里一半异格一半原版 → 战利品缓存被原版抢先。
+        ///
+        ///  ③ 现改为：在 LocationLifecycleService.StartLocalRaidAsync 之前复位（即每局一次），
+        ///     之后「首次判定即定局」，当局内只读、不再累加。
+        /// </summary>
+        public static class AlterBossDecision
         {
-            public int Chance { get; set; }
-            public int KnightCounter { get; set; }
-            public int PipeCounter { get; set; }
-            public int EyesCounter { get; set; }
-            public bool Access { get; set; }
-            public bool KnightAccess { get; set; }
-            public bool PipeAccess { get; set; }
-            public bool EyesAccess { get; set; }
+            private static readonly object Gate = new object();
+
+            /// <summary>本局已定的结论：key（角色或角色组）→ 是否异格</summary>
+            private static readonly Dictionary<string, bool> Decided = new Dictionary<string, bool>();
+
+            /// <summary>本局摇出的点数，仅用于排查</summary>
+            private static readonly Dictionary<string, int> Rolls = new Dictionary<string, int>();
+
+            /// <summary>每局开局复位（挂在 LocationLifecycleService.StartLocalRaidAsync 的前缀上）</summary>
+            public static void ResetForNewRaid()
+            {
+                lock (Gate)
+                {
+                    Decided.Clear();
+                    Rolls.Clear();
+                }
+            }
+
+            /// <summary>
+            /// 取本局该组的异格结论；本局第一次被问到时摇一次，之后固定不变。
+            /// </summary>
+            /// <param name="groupKey">角色或角色组（Goons 三只共用同一个 key，保证小队同进同退）</param>
+            /// <param name="chancePercent">命中概率（0-100）</param>
+            /// <param name="roll">本局摇出的点数</param>
+            public static bool IsAltered(string groupKey, int chancePercent, out int roll)
+            {
+                lock (Gate)
+                {
+                    if (!Decided.TryGetValue(groupKey, out bool hit))
+                    {
+                        roll = (int)Math.Floor(new Random().NextDouble() * 100);
+                        hit = roll <= chancePercent;
+                        Decided[groupKey] = hit;
+                        Rolls[groupKey] = roll;
+                    }
+                    else
+                    {
+                        roll = Rolls[groupKey];
+                    }
+
+                    return hit;
+                }
+            }
         }
-        public class AlterBossCounter
+
+        /// <summary>
+        /// 每局开局复位异格判定。
+        /// 战利品池缓存（BotLootCacheService）的寿命是「按角色 + 每局一次」，在 EndLocalRaid 清；
+        /// 本复位的时机（StartLocalRaid）与它的生命周期对齐 —— 保证一局内判定只有一份。
+        /// </summary>
+        [Injectable]
+        public class ResetAlterBossDecisionPatch : AbstractPatch
         {
-            public int Chance { get; set; }
-            public int Counter { get; set; }
-            public bool Access { get; set; }
+            private static readonly MethodBase Target =
+                typeof(LocationLifecycleService).GetMethod(
+                    "StartLocalRaidAsync",
+                    BindingFlags.Public | BindingFlags.Instance);
+
+            protected override MethodBase GetTargetMethod()
+            {
+                return Target!;
+            }
+
+            [PatchPrefix]
+            public static void Prefix()
+            {
+                AlterBossDecision.ResetForNewRaid();
+            }
         }
     }
 }

@@ -8,7 +8,8 @@
             "traderdata/quest/init.json",
             "traderdata/quest/achievement.json"
         ],
-        "第二批_结局实体": "幸存者/堕入黑暗/灯塔 臂带+海报（结局实体已全部改用官方 ID）；结局藏身处装饰仍保留自制"
+        "第二批_结局实体": "幸存者/堕入黑暗/灯塔 臂带+海报（结局实体已全部改用官方 ID）；结局藏身处装饰仍保留自制",
+        "第三批_3x4主播物品": "黄金哑铃(Mazoni金色哑铃) / Tigz的骨折环(Tigzresq夹板) —— 原版收藏家任务必需物品，模组复刻品删除，配方/兑换改用官方 ID"
     },
     "items": {
         "正式版纪念臂带": {
@@ -341,6 +342,66 @@
                     "Mods"
                 ],
                 "BlackListType": 63
+            }
+        },
+        "黄金哑铃": {
+            "_id": "黄金哑铃",
+            "_targetid": "59e3639286f7741777737013",
+            "_name": "黄金哑铃",
+            "_props": {
+                "Width": 2,
+                "Height": 2,
+                "Weight": 46,
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dumbbell_golden/item_barter_dumbbell_golden.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "lootable",
+                "Name": "Mazoni 金色哑铃",
+                "ShortName": "Mazoni",
+                "Description": "知名运动器材制造商推出的限量版“健身工厂”系列哑铃，据说这个系列的器材是在某位哈萨克斯坦运动员启发之下而设计的。",
+                "DefaultPrice": 666666,
+                "RagfairType": "5b47574386f77428ca22b2f1",
+                "CanFindInRaid": true,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "addToKappa": false,
+                "FixType": [
+                    "Mods"
+                ]
+            }
+        },
+        "Tigz的骨折环": {
+            "_id": "Tigz的骨折环",
+            "_targetid": "5af0454c86f7746bf20992e8",
+            "_name": "Tigz的骨折环",
+            "_props": {
+                "BackgroundColor": "violet",
+                "Prefab": {
+                    "path": "assets/content/items/meds/item_meds_alusplint/item_meds_alusplint_tigzresq.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "assets/content/weapons/usable_items/item_alusplint/item_alusplint_tigzresq_container.bundle",
+                    "rcid": ""
+                },
+                "MaxHpResource": 7
+            },
+            "_customprops": {
+                "$type": "lootable",
+                "Name": "Tigzresq 夹板",
+                "ShortName": "Tigzresq",
+                "Description": "紧急情况下，没有任何东西能比随手可得的骨折夹板更能解燃眉之急，Tigzresq 的创始人 Tigz 对此有着切身体验。",
+                "DefaultPrice": 80000,
+                "RagfairType": "5b47574386f77428ca22b339",
+                "CanFindInRaid": true,
+                "addToKappa": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false
             }
         }
     }

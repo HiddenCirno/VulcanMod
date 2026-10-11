@@ -102,8 +102,22 @@ namespace VulcanMod
     {
         public Task OnLoadAsync(CancellationToken cancellationToken)
         {
+            // ⚠ AbstractPatch.Enable() 在 GetTargetMethod() 返回 null 时会抛 PatchException。
+            //   原来是裸循环 —— 一个补丁的目标方法上游改名/消失，就会中断整个循环，
+            //   后面所有补丁都不会被启用，而且**一句日志都不留**（静默失效）。
+            //   这里改为逐个容错：失败的补丁记名报错，其余照常启用。
             foreach (var patch in patches)
-                patch.Enable();
+            {
+                try
+                {
+                    patch.Enable();
+                }
+                catch (Exception ex)
+                {
+                    Utils.commonLogger.Error(
+                        $"[火神重工] 补丁启用失败，已跳过（其余补丁继续）：{patch.GetType().Name}", ex);
+                }
+            }
             return Task.CompletedTask;
         }
     }

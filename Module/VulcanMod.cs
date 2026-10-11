@@ -33,6 +33,7 @@ namespace VulcanMod
                 InitBDReplace(context);
             }
             InitBotEdit(context.DB, context.ModHelper);
+            InitWedgeLabFix(context);
             InitHideoutAreaEdit(context.DB);
             if (modConfig.EnableRecipeEdit)
             {
@@ -45,7 +46,6 @@ namespace VulcanMod
             {
                 AddKabanToShoreline(modConfig, context.DB);
             }
-            ForcedUnlockEventQuest(context.DB, context.ConfigServer);
 
         }
 
@@ -172,6 +172,9 @@ namespace VulcanMod
                 {
                 }
             }; 
+            // 把模组自制的「英雄之证」加进收藏家(3x4)任务的必需物品列表。
+            // 注意：原来这里还顺带把复刻的 Mazoni 金色哑铃 / Tigzresq 夹板 也注入了同一份条件，
+            // 那段已按需求删除 —— 原版 5.0 的收藏家任务自身就包含这两件物品，无需再注入。
             EventManager.DataLoadEvent.LoadItemEvent += (loadContext) =>
             {
                 try
@@ -179,50 +182,6 @@ namespace VulcanMod
                     var kappa = QuestUtils.GetQuest(QuestTpl.COLLECTOR, loadContext);
                     var conditions = kappa.Conditions.AvailableForFinish;
                     var 英雄之证 = "英雄之证".ConvertHashID();
-                    if (!conditions.Any(x =>(x.Target.IsList && x.Target.List.Contains("6937ecf8628ee476240c07cb")) || (x.Target.IsItem && x.Target.Item == "6937ecf8628ee476240c07cb")))
-                    {
-                        var twitchcase = ItemUtils.GetItem(ItemTpl.CONTAINER_STREAMER_ITEM_CASE, loadContext);
-                        var itemid = Utils.ConvertHashID("黄金哑铃");
-                        var questid = $"Kappa_黄金哑铃".ConvertHashID();
-                        var itemid2 = Utils.ConvertHashID("Tigz的骨折环");
-                        var questid2 = $"Kappa_Tigz的骨折环".ConvertHashID();
-                        EventManager.DataLoadEvent.LoadQuestDataEvent += (eventContext) =>
-                        {
-                            try
-                            {
-                                QuestUtils.InitHandoverItemDataConditions(conditions, new HandoverItemData
-                                {
-                                    Id = questid,
-                                    FindInRaid = true,
-                                    ItemId = itemid,
-                                    Count = 1,
-                                    AutoLocale = true
-                                },
-                                eventContext); 
-                                QuestUtils.InitHandoverItemDataConditions(conditions, new HandoverItemData
-                                {
-                                    Id = questid2,
-                                    FindInRaid = true,
-                                    ItemId = itemid2,
-                                    Count = 1,
-                                    AutoLocale = true
-                                },
-                                eventContext);
-                                var twitchcasecontainer = twitchcase.Properties.Grids.First().Properties.Filters.First().Filter;
-                                if (!twitchcasecontainer.Contains(itemid))
-                                {
-                                    twitchcasecontainer.Add(itemid);
-                                }
-                                if (!twitchcasecontainer.Contains(itemid2))
-                                {
-                                    twitchcasecontainer.Add(itemid2);
-                                }
-                            }
-                            catch (Exception ex)
-                            {
-                            }
-                        };
-                    }
                     foreach(var condition in conditions)
                     {
                         if (condition?.Target?.IsList == true && condition?.Target?.List!=null && condition.Target.List.Count>0)
@@ -265,92 +224,82 @@ namespace VulcanMod
         }
         public static void InitBDReplace(LoadModContext context)
         {
-            var bots = context.DB.GetBots();
             var getedlocations = context.DB.GetLocations();
-            var locations = new List<SPTarkov.Server.Core.Models.Eft.Common.Location> {
-                getedlocations.Bigmap,
-                getedlocations.Woods,
-                getedlocations.Factory4Day,
-                getedlocations.Factory4Night,
-                getedlocations.Laboratory,
-                getedlocations.Shoreline,
-                getedlocations.RezervBase,
-                getedlocations.Interchange,
-                getedlocations.Lighthouse,
-                getedlocations.TarkovStreets,
-                getedlocations.Sandbox,
-                getedlocations.SandboxHigh
-            };
-            var bloodhound = bots.Types["arenafighterevent"];
             var zhCNLang = context.DB.GetLocales().Global["ch"];
-            var botBDOperator = context.ModHelper.GetJsonDataFromFile<BotType>(ConfigManager.modPath, "moddata/bots/BDOperator.json");
-            bloodhound.BotAppearance = botBDOperator.BotAppearance;
-            bloodhound.BotChances.EquipmentChances = botBDOperator.BotChances.EquipmentChances;
-            bloodhound.BotChances.WeaponModsChances = botBDOperator.BotChances.WeaponModsChances;
-            bloodhound.BotChances.EquipmentModsChances = botBDOperator.BotChances.EquipmentModsChances;
-            bloodhound.BotExperience.Reward = botBDOperator.BotExperience.Reward;
-            bloodhound.BotHealth = botBDOperator.BotHealth;
-            bloodhound.BotInventory = botBDOperator.BotInventory;
-            bloodhound.BotSkills = botBDOperator.BotSkills;
-            bloodhound.BotGeneration = botBDOperator.BotGeneration;
+            // 【已废弃】原 BDOperator.json 覆盖已删除：文件保留在 moddata/bots/ 备查，但不再被引用；
+            // 伟哥小队小弟 followerWedgeLab 改用原版数据，不再套任何自制兵种。
+            // 角色名本地化：原「寻血猎犬/黑色军团」的 ScavRole/ArenaFighterEvent 改为 Wedge 小队。
+            // 经核对 SPT_Data/database/locales/global/ch.json，5.0 的全局本地化表只有 16 个通用
+            // ScavRole/* 键（其中并没有 ScavRole/BossWedgeLab、ScavRole/FollowerWedgeLab 这类逐
+            // Boss 键），逐 Boss 的角色名由客户端内置；这里按 EFT 的 ScavRole/<角色名> 约定补上
+            // 小弟键，交客户端本地化表合并覆盖。
             zhCNLang.AddTransformer(lang =>
             {
-                lang["ScavRole/ArenaFighterEvent"] = "黑色军团";
+                lang["ScavRole/FollowerWedgeLab"] = "伟哥小队";
                 return lang;
             });
-            foreach (var location in locations)
+            // 克隆模板改为原版 Wedge 本尊(bossWedgeLab)。它只静态存在于 laboratory_dark
+            // （普通 laboratory 原版没有 Wedge 刷点），因此从 LaboratoryDark 的刷点表里取模板。
+            // 取不到就整体跳过（不再依赖海关/森林的 arenaFighterEvent 事件刷点）。
+            var wedgeTemplate = getedlocations.LaboratoryDark?.Base?.BossLocationSpawn?.Find(x => x.BossName == "bossWedgeLab");
+            if (wedgeTemplate == null)
             {
-                var map = location.Base;
-                if (map == null) continue;
-                if (map == getedlocations.Woods.Base && modConfig.BlackDivisionMapConfig["Woods"] == true)
-                {
-                    InitBDEditForMap(map.BossLocationSpawn);
-                }
-                if (map == getedlocations.Bigmap.Base && modConfig.BlackDivisionMapConfig["Custom"] == true)
-                {
-                    InitBDEditForMap(map.BossLocationSpawn);
-                }
+                Utils.commonLogger.Warn("[火神重工] laboratory_dark 中找不到 bossWedgeLab 模板，跳过伟哥小队多地图注入");
+                return;
             }
-            var bdspawn = context.Cloner.Clone(getedlocations.Bigmap.Base.BossLocationSpawn.Find(x => x.BossName == "bossKillaAgro" || x.BossName == "arenaFighterEvent"));
-            if (bdspawn != null)
+            var bdspawn = context.Cloner.Clone(wedgeTemplate);
+            bdspawn.BossName = "bossWedgeLab";
+            bdspawn.BossEscortType = "followerWedgeLab";
+            bdspawn.BossEscortAmount = "3";
+            bdspawn.BossChance = (double)modConfig.BlackDivisionChance;
+            bdspawn.ForceSpawn = true;
+            bdspawn.IgnoreMaxBots = true;
+            bdspawn.Supports = null;
+            //VulcanLog.Debug("进入添加流程", logger);
+            if (modConfig.BlackDivisionMapConfig["Lighthouse"] == true)
             {
-                if (bdspawn.BossName != "bossKillaAgro")
-                {
-                    bdspawn.BossName = "bossKillaAgro";
-                    bdspawn.BossEscortAmount = "3";
-                    bdspawn.BossChance = (double)modConfig.BlackDivisionChance;
-                }
-                bdspawn.ForceSpawn = true;
-                bdspawn.IgnoreMaxBots = true;
-                bdspawn.Supports = null;
-                //VulcanLog.Debug("进入添加流程", logger);
-                if (modConfig.BlackDivisionMapConfig["Lighthouse"] == true)
-                {
-                    var lighthouse = context.Cloner.Clone(bdspawn);
-                    lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
-                    context.DB.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
-                }
-                if (modConfig.BlackDivisionMapConfig["Labs"] == true)
-                {
-                    var labs = context.Cloner.Clone(bdspawn);
-                    labs.BossZone = "BotZoneFloor1";
-                    context.DB.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
-                }
-                if (modConfig.BlackDivisionMapConfig["Shoreline"] == true)
-                {
-                    var shoreline = context.Cloner.Clone(bdspawn);
-                    shoreline.BossZone = "ZoneSanatorium1,ZoneSanatorium2,ZoneSmuglers";
-                    context.DB.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
-                }
-                if (modConfig.BlackDivisionMapConfig["Streets"] == true)
-                {
-                    var street = context.Cloner.Clone(bdspawn);
-                    street.BossZone = "ZoneFactory,ZoneConcordiaParking";
-                    context.DB.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
-                }
-                //VulcanLog.Log(jsonUtil.Serialize(context.DB.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
+                var lighthouse = context.Cloner.Clone(bdspawn);
+                lighthouse.BossZone = "Zone_OldHouse,Zone_Village";
+                context.DB.GetLocations().Lighthouse.Base.BossLocationSpawn.Add(lighthouse);
             }
+            // 普通 laboratory 原版只有 laboratory_dark 才有 Wedge，这里补一条本尊注入。
+            if (modConfig.BlackDivisionMapConfig["Labs"] == true)
+            {
+                var labs = context.Cloner.Clone(bdspawn);
+                labs.BossZone = "BotZoneFloor1";
+                context.DB.GetLocations().Laboratory.Base.BossLocationSpawn.Add(labs);
+            }
+            if (modConfig.BlackDivisionMapConfig["Shoreline"] == true)
+            {
+                var shoreline = context.Cloner.Clone(bdspawn);
+                shoreline.BossZone = "ZoneSanatorium1,ZoneSanatorium2,ZoneSmuglers";
+                context.DB.GetLocations().Shoreline.Base.BossLocationSpawn.Add(shoreline);
+            }
+            if (modConfig.BlackDivisionMapConfig["Streets"] == true)
+            {
+                var street = context.Cloner.Clone(bdspawn);
+                street.BossZone = "ZoneFactory,ZoneConcordiaParking";
+                context.DB.GetLocations().TarkovStreets.Base.BossLocationSpawn.Add(street);
+            }
+            // 海关/森林原先走 InitBDEditForMap 就地改名，但那两张图的 BossLocationSpawn 里根本
+            // 没有 arenaFighterEvent（海关只有 bossBully/bossKnight/bossPartisan，森林只有
+            // bossKojaniy/bossKnight/bossPartisan），那两条调用从未生效过。现在统一改为与其它
+            // 四张图一致的克隆注入，BossZone 取各自本图原版 Boss 的区名。
+            if (modConfig.BlackDivisionMapConfig["Woods"] == true)
+            {
+                var woods = context.Cloner.Clone(bdspawn);
+                woods.BossZone = "ZoneWoodCutter";                       // 取自森林本图 bossKojaniy 的区名
+                context.DB.GetLocations().Woods.Base.BossLocationSpawn.Add(woods);
+            }
+            if (modConfig.BlackDivisionMapConfig["Custom"] == true)
+            {
+                var custom = context.Cloner.Clone(bdspawn);
+                custom.BossZone = "ZoneDormitory,ZoneGasStation,ZoneScavBase";   // 取自海关本图 bossBully 的区名
+                context.DB.GetLocations().Bigmap.Base.BossLocationSpawn.Add(custom);
+            }
+            //VulcanLog.Log(jsonUtil.Serialize(context.DB.GetLocations().Shoreline.Base.BossLocationSpawn, true), logger);
         }
+        // 【已废弃】海关/森林改为克隆注入后，本方法不再被任何地方调用，保留备查。
         public static void InitBDEditForMap(List<BossLocationSpawn> locationSpawns)
         {
             if (locationSpawns == null) return;
@@ -359,7 +308,12 @@ namespace VulcanMod
                 if (boss == null) return;
                 if (boss.BossName == "arenaFighterEvent")
                 {
-                    boss.BossName = "bossKillaAgro";
+                    // 原逻辑把寻血猎犬事件点就地改名成黑色军团本尊(bossKillaAgro)。
+                    // 现在整体换装为 Wedge 小队：本尊 bossWedgeLab + 小弟 followerWedgeLab。
+                    // 注意：这里没有按字面只把 BossName 改成 followerWedgeLab —— 那样该刷点会
+                    // 只剩小弟、本尊缺席；等价处理为「本尊 + 小弟护卫」，与其它地图的克隆体一致。
+                    boss.BossName = "bossWedgeLab";
+                    boss.BossEscortType = "followerWedgeLab";
                     boss.BossEscortAmount = "3";
                     boss.BossChance = (double)modConfig.BlackDivisionChance;
                 }
@@ -376,7 +330,16 @@ namespace VulcanMod
             {
                 foreach (var name in data.Bot)
                 {
-                    var bot = bots.Types[name];
+                    // ⚠ 5.0 把 bots/types.json 拆成了 bots/types/*.json（文件名即键），
+                    //   且 PMC 类型由 bear / usec 改名为 pmcbear / pmcusec。
+                    //   名字对不上时原来的索引器会抛 KeyNotFoundException，而 InitBotEdit
+                    //   只是 Init() 的第 4 步 —— 一炸，后面藏身处/配方/卡班/活动任务
+                    //   等全部步骤都不会执行。这里改为容错跳过。
+                    if (!bots.Types.TryGetValue(name, out var bot))
+                    {
+                        Utils.commonLogger.Warn($"[火神重工] bots.Types 缺少 '{name}'，跳过（5.0 的 PMC 类型名为 pmcbear / pmcusec）");
+                        continue;
+                    }
                     foreach (var equip in data.Data)
                     {
                         bot.BotInventory.Equipment[SPTarkov.Server.Core.Models.Enums.EquipmentSlots.FaceCover].TryAdd(equip[0].ConvertHashID(), double.Parse(equip[1]));
@@ -384,6 +347,73 @@ namespace VulcanMod
                 }
             }
         }
+        /// <summary>
+        /// 黑曜石（异格伟哥）与伟哥小弟名字池的两处修补 —— 全部在数据层完成，不碰 SPT_Data 文件
+        /// （改 SPT_Data/database 下的 json 会破坏 checks.dat 的完整性校验）。
+        ///
+        /// ① 把黑曜石的「背包」池并入角色模板 bosswedgelab。
+        ///    SPT 的 bot 战利品池是按「角色」缓存的（BotLootCacheService，每局只建一次、
+        ///    EndLocalRaid 才清），由该角色这一局第一个跑到「生成战利品」那一步的 bot 建。
+        ///    异格和原版共用同一个角色名，所以谁先建缓存谁说了算 ——
+        ///    原版 bosswedgelab 的 inventory.items.Backpack 是空对象，而黑曜石的身家
+        ///    （实验室钥匙卡 / LEDX / TerraGroup 蓝色文件夹 …）全在背包池，
+        ///    于是缓存被原版抢先时黑曜石背包全空。
+        ///    只并 Backpack：原版伟哥的 chances.equipment.Backpack 是 0（本尊根本不背背包），
+        ///    并进去的池子对它完全无效 —— 对原版零影响，却保证黑曜石无论谁建缓存都拿得到背包战利品。
+        ///
+        /// ② 删掉 followerwedgelab 名字池里的 "Obsidian"。
+        ///    原版伟哥小弟的名字池有 150 个随机名，其中就含 "Obsidian"
+        ///    （其它 boss / 小弟的名字池都只有 1 个名字，所以只有这一处会撞）。
+        ///    于是普通小弟会随机叫黑曜石，而 BotGeneratorPatch 的 Postfix 是按**昵称**判定的
+        ///    （塞实验室管理员钥匙卡、发水晶狗牌_红、塞英雄之证）——
+        ///    玩家就会看到一个「一贫如洗的黑曜石」（原版小弟 Backpack 几率 0、Pockets 池只有 7 条）。
+        /// </summary>
+        public static void InitWedgeLabFix(LoadModContext context)
+        {
+            var bots = context.DB.GetBots();
+
+            // ① 只把背包池并入角色 bosswedgelab
+            if (!bots.Types.TryGetValue("bosswedgelab", out var wedgeLab))
+            {
+                Utils.commonLogger.Warn("[火神重工] bots.Types 缺少 'bosswedgelab'，跳过黑曜石背包池合并");
+            }
+            else
+            {
+                var obsidian = context.ModHelper.GetJsonDataFromFile<BotType>(
+                    ConfigManager.modPath, "moddata/bots/Obsidian.json");
+                if (obsidian?.BotInventory?.Items?.Backpack == null)
+                {
+                    Utils.commonLogger.Warn("[火神重工] 读不到 Obsidian.json 的背包池，跳过合并");
+                }
+                else
+                {
+                    var added = 0;
+                    foreach (var kv in obsidian.BotInventory.Items.Backpack)
+                    {
+                        if (wedgeLab.BotInventory.Items.Backpack.ContainsKey(kv.Key))
+                        {
+                            continue;
+                        }
+
+                        wedgeLab.BotInventory.Items.Backpack.Add(kv.Key, kv.Value);
+                        added++;
+                    }
+
+                    Utils.commonLogger.Info($"[火神重工] 黑曜石背包池已并入角色 bosswedgelab：新增 {added} 条（原版伟哥 Backpack 装备几率为 0，不受影响）");
+                }
+            }
+
+            // ② 小弟名字池里的 "Obsidian"
+            if (bots.Types.TryGetValue("followerwedgelab", out var follower) && follower.FirstNames != null)
+            {
+                var removed = follower.FirstNames.RemoveAll(n => n == "Obsidian");
+                if (removed > 0)
+                {
+                    Utils.commonLogger.Info($"[火神重工] followerwedgelab 名字池已移除 {removed} 个 'Obsidian'（防止普通小弟冒充异格黑曜石）");
+                }
+            }
+        }
+
         public static void InitHideoutAreaEdit(DatabaseService databaseService)
         {
             var items = databaseService.GetItems();
@@ -498,56 +528,6 @@ namespace VulcanMod
                 Type = "Item"
             }); recipes.Find(x => x.EndProduct == "5a0c27731526d80618476ac4").Requirements.Find(r => r.TemplateId == "590c5a7286f7747884343aea").TemplateId = "荧石粉".ConvertHashID();
 
-        }
-        public static void ForcedUnlockEventQuest(DatabaseService databaseService, ConfigServer configServer)
-        {
-            var eventlist = new List<string>
-        {
-            "641dbfd7f43eda9d810d7137", //重要伤员
-            "64764abcd125ab430a14ccb5", //寻血猎犬
-            "647710905320c660d91c15a5", //杀鸡儆猴
-            "64916da7ad4e722c106f2345", //东窗事发
-            "649af47d717cb30e7e4b5e26", //品酒师
-            "655e427b64d09b4122018228", //惩罚者大丰收
-            "6672ec2a2b6f3b71be794cc5"  //大妈彩色卡
-        };
-            var questconfig = configServer.GetConfig<QuestConfig>();
-            var quests = databaseService.GetQuests();
-            var zhCNLang = databaseService.GetLocales().Global["ch"];
-            foreach (var key in eventlist)
-            {
-                questconfig.EventQuests.Remove(key);
-            }
-            var 重要伤员 = quests["641dbfd7f43eda9d810d7137"];
-            var 寻血猎犬 = quests["64764abcd125ab430a14ccb5"];
-            var 东窗事发 = quests["64916da7ad4e722c106f2345"];
-            var 品酒师 = quests["649af47d717cb30e7e4b5e26"];
-            var 大丰收 = quests["655e427b64d09b4122018228"];
-            var smnjtlist = new List<string>
-        {
-            "59f32bb586f774757e1e8442",
-            "59f32c3b86f77472a31742f0",
-            "6662ea05f6259762c56f3189",
-            "6662e9cda7e0b43baa3d5f76",
-            "6662e9f37fa79a6d83730fa0",
-            "6662e9aca7e0b43baa3d5f74",
-            "6764207f2fa5e32733055c4a",
-            "675dc9d37ae1a8792107ca96",
-            "6764202ae307804338014c1a",
-            "675dcb0545b1a2d108011b2b"
-        };
-            重要伤员.Conditions.AvailableForFinish[0].OnlyFoundInRaid = true;
-            重要伤员.Conditions.AvailableForFinish[0].Value = 100;
-            重要伤员.Conditions.AvailableForFinish[1].OnlyFoundInRaid = true;
-            重要伤员.Conditions.AvailableForFinish[1].Value = 100;
-            寻血猎犬.Conditions.AvailableForFinish[0].Counter.Conditions[0].SavageRole = new List<string> { "exUsec", "pmcBot" };
-            东窗事发.Conditions.Fail.Clear();
-            品酒师.Conditions.Fail.Clear();
-            大丰收.Conditions.AvailableForFinish[1].Target.List.Clear();
-            foreach (var key in smnjtlist)
-            {
-                大丰收.Conditions.AvailableForFinish[1].Target.List.Add(key);
-            }
         }
         public static void InitVanillaItemEdit(DatabaseService databaseService)
         {
