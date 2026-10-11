@@ -6449,7 +6449,7 @@
                 "Items": [
                     {
                         "_id": "正式版赠礼_奖励_物品_1",
-                        "_tpl": "正式版纪念臂带",
+                        "_tpl": "68f25b772605ccea240dd684",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -6469,7 +6469,7 @@
                 "Items": [
                     {
                         "_id": "正式版赠礼_奖励_物品_2",
-                        "_tpl": "头眼祷文臂带",
+                        "_tpl": "68f8ccb11cc53ada67036e27",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -6489,7 +6489,7 @@
                 "Items": [
                     {
                         "_id": "正式版赠礼_奖励_物品_3",
-                        "_tpl": "搜刮祷文臂带",
+                        "_tpl": "68f8ccbc4c78615ba6079b20",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -6509,7 +6509,7 @@
                 "Items": [
                     {
                         "_id": "正式版赠礼_奖励_物品_4",
-                        "_tpl": "防护祷文臂带",
+                        "_tpl": "68f8ccf06a6869fe97026c3b",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -6535,7 +6535,7 @@
             },
             {
                 "$type": "customization",
-                "Target": "蓝边预购狗牌",
+                "Target": "67471928d17d6431550563b5",
                 "Quest": "正式版赠礼",
                 "AvailableGameEdition": 16,
                 "Stage": 1,
@@ -6546,7 +6546,18 @@
             },
             {
                 "$type": "customization",
-                "Target": "黑边预购狗牌",
+                "Target": "6747193f170146228c0d2226",
+                "Quest": "正式版赠礼",
+                "AvailableGameEdition": 16,
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "正式版赠礼_蓝边预购狗牌_USEC"
+            },
+            {
+                "$type": "customization",
+                "Target": "6746fd09bafff85008048838",
                 "Quest": "正式版赠礼",
                 "AvailableGameEdition": 8,
                 "Stage": 1,
@@ -6554,6 +6565,17 @@
                 "Unknown": false,
                 "IsAchievement": false,
                 "ID": "正式版赠礼_黑边预购狗牌"
+            },
+            {
+                "$type": "customization",
+                "Target": "67471938bafff850080488b7",
+                "Quest": "正式版赠礼",
+                "AvailableGameEdition": 8,
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "正式版赠礼_黑边预购狗牌_USEC"
             }
         ]
     },

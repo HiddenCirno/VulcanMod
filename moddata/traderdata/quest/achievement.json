@@ -1973,7 +1973,7 @@
                 "Items": [
                     {
                         "_id": "星辰之路_臂带奖励_物品",
-                        "_tpl": "为了全人类臂带",
+                        "_tpl": "68d41fde2937f3f17c04864d",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -1993,7 +1993,7 @@
                 "Items": [
                     {
                         "_id": "星辰之路_海报奖励_物品",
-                        "_tpl": "为了全人类海报",
+                        "_tpl": "68df9785beba86572e097ce8",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -2009,7 +2009,7 @@
             },
             {
                 "$type": "customization",
-                "Target": "救世主狗牌",
+                "Target": "68dfb00742e96f583d042bd2",
                 "Quest": "星辰之路纪念币收集",
                 "Stage": 1,
                 "Hidden": false,
@@ -3377,7 +3377,7 @@
         "rewards": [
             {
                 "$type": "customization",
-                "Target": "熔融狗牌",
+                "Target": "68f15ed4edf2ab313f093498",
                 "Quest": "正式版发售成就",
                 "Stage": 1,
                 "Hidden": false,
@@ -3387,7 +3387,7 @@
             },
             {
                 "$type": "customization",
-                "Target": "四方狗牌",
+                "Target": "68f15e9fcacd763bbc0e2bd8",
                 "Quest": "正式版发售成就",
                 "Stage": 1,
                 "Hidden": false,

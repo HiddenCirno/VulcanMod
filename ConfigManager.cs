@@ -1,4 +1,4 @@
-using System.Reflection;
+ï»¿using System.Reflection;
 using System.Text.Json.Serialization;
 using System.Text.Json;
 
@@ -13,7 +13,7 @@ namespace VulcanMod
         {
             return JsonSerializer.Deserialize<VulcanModConfigClass>(configJsoncContent, new JsonSerializerOptions
             {
-                ReadCommentHandling = JsonCommentHandling.Skip // ÆôÓÃ×¢ÊÍ½âÎö
+                ReadCommentHandling = JsonCommentHandling.Skip // å¯ç”¨æ³¨é‡Šè§£æ
             });
         }
     }

@@ -1,4 +1,4 @@
-using EternalCycleServer;
+ï»¿using EternalCycleServer;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Reflection.Patching;
 using SPTarkov.Server.Core.Controllers;
@@ -44,7 +44,7 @@ namespace VulcanMod
         /// <summary>
         /// The name of your mod
         /// </summary>
-        public  string Name { get; init; } = "»ğÉñÖØ¹¤";
+        public  string Name { get; init; } = "ç«ç¥é‡å·¥";
 
         /// <summary>
         /// Who created the mod (you!)
@@ -64,7 +64,9 @@ namespace VulcanMod
         /// <summary>
         /// What version of SPT is your mod made for, follows SEMVER rules (https://semver.org/)
         /// </summary>
-        public  SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
+        // âš  5.0ï¼šæœåŠ¡ç«¯ ModValidatorï¼ˆSPTushonka.Server/Modding/ModValidator.cs:160ï¼‰
+        //   ä¼šç”¨ semVer.Satisfies(å½“å‰SPTç‰ˆæœ¬, SptVersion) æ ¡éªŒï¼Œå£°æ˜ ~4.1.0 ä¼šè¢«ç›´æ¥æ‹’è½½ã€‚
+        public  SemanticVersioning.Range SptVersion { get; init; } = new("~5.0.0");
 
         /// <summary>
         /// ModIds that you know cause problems with your mod
@@ -132,8 +134,8 @@ namespace VulcanMod
         public string modPath = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         public async Task OnLoadAsync(CancellationToken cancellationToken)
         {
-            Utils.commonLogger.Info("²»ÆÆÆä¾É£¬ÎŞÒÔÁ¢ĞÂ£¡");
-            Utils.commonLogger.Info("ÎÒÖªÏşËùÓĞµÄµÀÂ·£¬ËüÃÇ¶¼Í¨ÍùÍ¬Ò»¸öµØ·½¡£");
+            Utils.commonLogger.Info("ä¸ç ´å…¶æ—§ï¼Œæ— ä»¥ç«‹æ–°ï¼");
+            Utils.commonLogger.Info("æˆ‘çŸ¥æ™“æ‰€æœ‰çš„é“è·¯ï¼Œå®ƒä»¬éƒ½é€šå¾€åŒä¸€ä¸ªåœ°æ–¹ã€‚");
             //coreconfigs.Fixes.RemoveInvalidTradersFromProfile = true;
             //coreconfigs.Fixes.RemoveModItemsFromProfile = true;
             //coreconfigs.Fixes.FixProfileBreakingInventoryItemIssues = true;

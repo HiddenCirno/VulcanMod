@@ -1,4 +1,4 @@
-using EternalCycleServer;
+ï»¿using EternalCycleServer;
 using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common;
@@ -56,14 +56,14 @@ namespace VulcanMod
             {
                 var filter = targetfilter.Properties.Grids.First().Properties.Filters.First().Filter;
                 filter.Clear();
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Í·²¿×°±¸, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Õ½ÊõĞØ¹Ò, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÑÛ²¿×°±¸, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.¶ú»ú, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.±³°ü, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.×°±¸×é¼ş, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.·Àµ¯ÒÂ, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ãæ²¿×°±¸, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.å¤´éƒ¨è£…å¤‡, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æˆ˜æœ¯èƒ¸æŒ‚, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.çœ¼éƒ¨è£…å¤‡, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.è€³æœº, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.èƒŒåŒ…, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.è£…å¤‡ç»„ä»¶, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.é˜²å¼¹è¡£, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.é¢éƒ¨è£…å¤‡, filter, context);
             }
         }
 
@@ -74,36 +74,36 @@ namespace VulcanMod
             {
                 var filter = targetfilter.Properties.Grids.First().Properties.Filters.First().Filter;
                 filter.Clear();
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÆäËû, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.µØÍ¼, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.»õ±Ò, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Çé±¨ÎïÆ·, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.»úĞµÔ¿³×, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.µç×ÓÔ¿³×, filter, context);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÌØÊâÎïÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÌØÊâ×°±¸, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.´ÎÔª²©Îï, filter, context, 4);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.¹óÖØÎïÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ò½ÁÆÓÃÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.¹¤¾ß, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.½¨Öş²ÄÁÏ, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÈÕ³£ÓÃÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ò×È¼ÎïÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.µç×Ó²úÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÄÜÔ´ÎïÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.×Óµ¯, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ê³Îï, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÒûÆ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.´´ÉË´¦Àí, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.¼±¾È°ü, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.×¢ÉäÆ÷, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ò©Æ·, filter, context, 1);
-                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÈİÆ÷, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.å…¶ä»–, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.åœ°å›¾, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.è´§å¸, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æƒ…æŠ¥ç‰©å“, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æœºæ¢°é’¥åŒ™, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ç”µå­é’¥åŒ™, filter, context);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ç‰¹æ®Šç‰©å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ç‰¹æ®Šè£…å¤‡, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ¬¡å…ƒåšç‰©, filter, context, 4);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.è´µé‡ç‰©å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.åŒ»ç–—ç”¨å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.å·¥å…·, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.å»ºç­‘ææ–™, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ—¥å¸¸ç”¨å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ˜“ç‡ƒç‰©å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ç”µå­äº§å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.èƒ½æºç‰©å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.å­å¼¹, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.é£Ÿç‰©, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.é¥®å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.åˆ›ä¼¤å¤„ç†, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ€¥æ•‘åŒ…, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ³¨å°„å™¨, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.è¯å“, filter, context, 1);
+                ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.å®¹å™¨, filter, context, 1);
             }
         }
         public static void InitModBaseData(LoadModContext context)
         {
-            var creator = "<color=#55FFFF>»ğÉñÖØ¹¤</color>";
+            var creator = "<color=#55FFFF>ç«ç¥é‡å·¥</color>";
             var modName = creator;
             var modpath = System.IO.Path.Combine(ConfigManager.modPath, $"{ConfigManager.dataPath}");
             var imagepath = System.IO.Path.Combine(modpath, "res/");
@@ -148,15 +148,15 @@ namespace VulcanMod
             {
                 try
                 {
-                    ItemUtils.GetItem("ºĞ×°ÉÁ¹â×Óµ¯".ConvertHashID(), loadContext).Properties.StackSlots.First().MaxCount = 10;
+                    ItemUtils.GetItem("ç›’è£…é—ªå…‰å­å¼¹".ConvertHashID(), loadContext).Properties.StackSlots.First().MaxCount = 10;
 
-                    var pocketsjaney = ItemUtils.GetItem("1x2x4¿Ú´ü".ConvertHashID(), loadContext).Properties.Grids;
+                    var pocketsjaney = ItemUtils.GetItem("1x2x4å£è¢‹".ConvertHashID(), loadContext).Properties.Grids;
                     foreach (var grid in pocketsjaney)
                     {
                         grid.Properties.CellsV = 2;
                     }
-                    InitEquipmentChest("THICC×°±¸Ïä".ConvertHashID(), loadContext);
-                    InitFilePackage("ÍâÇÚ¹«ÎÄ°ü".ConvertHashID(), loadContext);
+                    InitEquipmentChest("THICCè£…å¤‡ç®±".ConvertHashID(), loadContext);
+                    InitFilePackage("å¤–å‹¤å…¬æ–‡åŒ…".ConvertHashID(), loadContext);
                 }
                 catch (Exception ex)
                 {
@@ -178,14 +178,14 @@ namespace VulcanMod
                 {
                     var kappa = QuestUtils.GetQuest(QuestTpl.COLLECTOR, loadContext);
                     var conditions = kappa.Conditions.AvailableForFinish;
-                    var Ó¢ĞÛÖ®Ö¤ = "Ó¢ĞÛÖ®Ö¤".ConvertHashID();
+                    var è‹±é›„ä¹‹è¯ = "è‹±é›„ä¹‹è¯".ConvertHashID();
                     if (!conditions.Any(x =>(x.Target.IsList && x.Target.List.Contains("6937ecf8628ee476240c07cb")) || (x.Target.IsItem && x.Target.Item == "6937ecf8628ee476240c07cb")))
                     {
                         var twitchcase = ItemUtils.GetItem(ItemTpl.CONTAINER_STREAMER_ITEM_CASE, loadContext);
-                        var itemid = Utils.ConvertHashID("»Æ½ğÑÆÁå");
-                        var questid = $"Kappa_»Æ½ğÑÆÁå".ConvertHashID();
-                        var itemid2 = Utils.ConvertHashID("TigzµÄ¹ÇÕÛ»·");
-                        var questid2 = $"Kappa_TigzµÄ¹ÇÕÛ»·".ConvertHashID();
+                        var itemid = Utils.ConvertHashID("é»„é‡‘å“‘é“ƒ");
+                        var questid = $"Kappa_é»„é‡‘å“‘é“ƒ".ConvertHashID();
+                        var itemid2 = Utils.ConvertHashID("Tigzçš„éª¨æŠ˜ç¯");
+                        var questid2 = $"Kappa_Tigzçš„éª¨æŠ˜ç¯".ConvertHashID();
                         EventManager.DataLoadEvent.LoadQuestDataEvent += (eventContext) =>
                         {
                             try
@@ -227,9 +227,9 @@ namespace VulcanMod
                     {
                         if (condition?.Target?.IsList == true && condition?.Target?.List!=null && condition.Target.List.Count>0)
                         {
-                            if(!condition.Target.List.Contains(Ó¢ĞÛÖ®Ö¤))
+                            if(!condition.Target.List.Contains(è‹±é›„ä¹‹è¯))
                             {
-                                condition.Target.List.Add(Ó¢ĞÛÖ®Ö¤);
+                                condition.Target.List.Add(è‹±é›„ä¹‹è¯);
                             }
                         }
                     }
@@ -295,7 +295,7 @@ namespace VulcanMod
             bloodhound.BotGeneration = botBDOperator.BotGeneration;
             zhCNLang.AddTransformer(lang =>
             {
-                lang["ScavRole/ArenaFighterEvent"] = "ºÚÉ«¾üÍÅ";
+                lang["ScavRole/ArenaFighterEvent"] = "é»‘è‰²å†›å›¢";
                 return lang;
             });
             foreach (var location in locations)
@@ -323,7 +323,7 @@ namespace VulcanMod
                 bdspawn.ForceSpawn = true;
                 bdspawn.IgnoreMaxBots = true;
                 bdspawn.Supports = null;
-                //VulcanLog.Debug("½øÈëÌí¼ÓÁ÷³Ì", logger);
+                //VulcanLog.Debug("è¿›å…¥æ·»åŠ æµç¨‹", logger);
                 if (modConfig.BlackDivisionMapConfig["Lighthouse"] == true)
                 {
                     var lighthouse = context.Cloner.Clone(bdspawn);
@@ -388,14 +388,14 @@ namespace VulcanMod
         {
             var items = databaseService.GetItems();
             var areas = databaseService.GetHideout().Areas;
-            var Ğîµç³Ø = items["5733279d245977289b77ec24"];
-            var Ì¹¿Ëµç³Ø = items["5d03794386f77420415576f5"];
-            Ğîµç³Ø.Properties.MaxResource = 40;
-            Ğîµç³Ø.Properties.Resource = 40;
-            Ğîµç³Ø.Parent = "5d650c3e815116009f6201d2";
-            Ì¹¿Ëµç³Ø.Properties.MaxResource = 150;
-            Ì¹¿Ëµç³Ø.Properties.Resource = 150;
-            Ì¹¿Ëµç³Ø.Parent = "5d650c3e815116009f6201d2";
+            var è“„ç”µæ±  = items["5733279d245977289b77ec24"];
+            var å¦å…‹ç”µæ±  = items["5d03794386f77420415576f5"];
+            è“„ç”µæ± .Properties.MaxResource = 40;
+            è“„ç”µæ± .Properties.Resource = 40;
+            è“„ç”µæ± .Parent = "5d650c3e815116009f6201d2";
+            å¦å…‹ç”µæ± .Properties.MaxResource = 150;
+            å¦å…‹ç”µæ± .Properties.Resource = 150;
+            å¦å…‹ç”µæ± .Parent = "5d650c3e815116009f6201d2";
             var solarpower = areas.Find(x => x.Type == SPTarkov.Server.Core.Models.Enums.Hideout.HideoutAreas.SolarPower);
             solarpower.Stages["1"].Bonuses.First().Value = -60;
             var solarpowerrequirement = solarpower.Stages["1"].Requirements;
@@ -447,7 +447,7 @@ namespace VulcanMod
             });
             solarpowerrequirement.Add(new SPTarkov.Server.Core.Models.Eft.Hideout.StageRequirement
             {
-                TemplateId = "Ì«ÑôÄÜÄ£¿é".ConvertHashID(),
+                TemplateId = "å¤ªé˜³èƒ½æ¨¡å—".ConvertHashID(),
                 Count = 1,
                 IsFunctional = false,
                 IsEncoded = false,
@@ -491,25 +491,25 @@ namespace VulcanMod
             var recipes = databaseService.GetHideout().Production.Recipes;
             recipes.Find(x => x.EndProduct == "5e85a9f4add9fe03027d9bf1").Requirements.Add(new SPTarkov.Server.Core.Models.Eft.Hideout.Requirement
             {
-                TemplateId = "Ó«Ê¯·Û".ConvertHashID(),
+                TemplateId = "è§çŸ³ç²‰".ConvertHashID(),
                 Count = 1,
                 IsFunctional = false,
                 IsEncoded = false,
                 Type = "Item"
-            }); recipes.Find(x => x.EndProduct == "5a0c27731526d80618476ac4").Requirements.Find(r => r.TemplateId == "590c5a7286f7747884343aea").TemplateId = "Ó«Ê¯·Û".ConvertHashID();
+            }); recipes.Find(x => x.EndProduct == "5a0c27731526d80618476ac4").Requirements.Find(r => r.TemplateId == "590c5a7286f7747884343aea").TemplateId = "è§çŸ³ç²‰".ConvertHashID();
 
         }
         public static void ForcedUnlockEventQuest(DatabaseService databaseService, ConfigServer configServer)
         {
             var eventlist = new List<string>
         {
-            "641dbfd7f43eda9d810d7137", //ÖØÒªÉËÔ±
-            "64764abcd125ab430a14ccb5", //Ñ°ÑªÁÔÈ®
-            "647710905320c660d91c15a5", //É±¼¦ÙÓºï
-            "64916da7ad4e722c106f2345", //¶«´°ÊÂ·¢
-            "649af47d717cb30e7e4b5e26", //Æ·¾ÆÊ¦
-            "655e427b64d09b4122018228", //³Í·£Õß´ó·áÊÕ
-            "6672ec2a2b6f3b71be794cc5"  //´óÂè²ÊÉ«¿¨
+            "641dbfd7f43eda9d810d7137", //é‡è¦ä¼¤å‘˜
+            "64764abcd125ab430a14ccb5", //å¯»è¡€çŒçŠ¬
+            "647710905320c660d91c15a5", //æ€é¸¡å„†çŒ´
+            "64916da7ad4e722c106f2345", //ä¸œçª—äº‹å‘
+            "649af47d717cb30e7e4b5e26", //å“é…’å¸ˆ
+            "655e427b64d09b4122018228", //æƒ©ç½šè€…å¤§ä¸°æ”¶
+            "6672ec2a2b6f3b71be794cc5"  //å¤§å¦ˆå½©è‰²å¡
         };
             var questconfig = configServer.GetConfig<QuestConfig>();
             var quests = databaseService.GetQuests();
@@ -518,11 +518,11 @@ namespace VulcanMod
             {
                 questconfig.EventQuests.Remove(key);
             }
-            var ÖØÒªÉËÔ± = quests["641dbfd7f43eda9d810d7137"];
-            var Ñ°ÑªÁÔÈ® = quests["64764abcd125ab430a14ccb5"];
-            var ¶«´°ÊÂ·¢ = quests["64916da7ad4e722c106f2345"];
-            var Æ·¾ÆÊ¦ = quests["649af47d717cb30e7e4b5e26"];
-            var ´ó·áÊÕ = quests["655e427b64d09b4122018228"];
+            var é‡è¦ä¼¤å‘˜ = quests["641dbfd7f43eda9d810d7137"];
+            var å¯»è¡€çŒçŠ¬ = quests["64764abcd125ab430a14ccb5"];
+            var ä¸œçª—äº‹å‘ = quests["64916da7ad4e722c106f2345"];
+            var å“é…’å¸ˆ = quests["649af47d717cb30e7e4b5e26"];
+            var å¤§ä¸°æ”¶ = quests["655e427b64d09b4122018228"];
             var smnjtlist = new List<string>
         {
             "59f32bb586f774757e1e8442",
@@ -536,17 +536,17 @@ namespace VulcanMod
             "6764202ae307804338014c1a",
             "675dcb0545b1a2d108011b2b"
         };
-            ÖØÒªÉËÔ±.Conditions.AvailableForFinish[0].OnlyFoundInRaid = true;
-            ÖØÒªÉËÔ±.Conditions.AvailableForFinish[0].Value = 100;
-            ÖØÒªÉËÔ±.Conditions.AvailableForFinish[1].OnlyFoundInRaid = true;
-            ÖØÒªÉËÔ±.Conditions.AvailableForFinish[1].Value = 100;
-            Ñ°ÑªÁÔÈ®.Conditions.AvailableForFinish[0].Counter.Conditions[0].SavageRole = new List<string> { "exUsec", "pmcBot" };
-            ¶«´°ÊÂ·¢.Conditions.Fail.Clear();
-            Æ·¾ÆÊ¦.Conditions.Fail.Clear();
-            ´ó·áÊÕ.Conditions.AvailableForFinish[1].Target.List.Clear();
+            é‡è¦ä¼¤å‘˜.Conditions.AvailableForFinish[0].OnlyFoundInRaid = true;
+            é‡è¦ä¼¤å‘˜.Conditions.AvailableForFinish[0].Value = 100;
+            é‡è¦ä¼¤å‘˜.Conditions.AvailableForFinish[1].OnlyFoundInRaid = true;
+            é‡è¦ä¼¤å‘˜.Conditions.AvailableForFinish[1].Value = 100;
+            å¯»è¡€çŒçŠ¬.Conditions.AvailableForFinish[0].Counter.Conditions[0].SavageRole = new List<string> { "exUsec", "pmcBot" };
+            ä¸œçª—äº‹å‘.Conditions.Fail.Clear();
+            å“é…’å¸ˆ.Conditions.Fail.Clear();
+            å¤§ä¸°æ”¶.Conditions.AvailableForFinish[1].Target.List.Clear();
             foreach (var key in smnjtlist)
             {
-                ´ó·áÊÕ.Conditions.AvailableForFinish[1].Target.List.Add(key);
+                å¤§ä¸°æ”¶.Conditions.AvailableForFinish[1].Target.List.Add(key);
             }
         }
         public static void InitVanillaItemEdit(DatabaseService databaseService)
@@ -554,13 +554,13 @@ namespace VulcanMod
             var items = databaseService.GetItems();
             var prices = databaseService.GetPrices();
 
-            //Ô­°æĞŞ¸Ä
-            //»ğÉñÍ·ÄÚ³Ä
+            //åŸç‰ˆä¿®æ”¹
+            //ç«ç¥å¤´å†…è¡¬
             items["657bbe73a1c61ee0c303632b"].Properties.ArmorClass = 6;
             items["657bbed0aab96fccee08be96"].Properties.ArmorClass = 6;
             items["657bbefeb30eca9763051189"].Properties.ArmorClass = 6;
             /*
-            //ÊĞ³¡µ÷Õû
+            //å¸‚åœºè°ƒæ•´
             //762bp
             items["59e0d99486f7744a32234762"].Properties.CanSellOnRagfair = true;
             prices["59e0d99486f7744a32234762"] = 1751;
@@ -637,8 +637,8 @@ namespace VulcanMod
             //APSX
             items["5ba26835d4351e0035628ff5"].Properties.CanSellOnRagfair = true;
             prices["5ba26835d4351e0035628ff5"] = 2699;
-            //ÎäÆ÷µ÷Õû
-            //ºÚdt
+            //æ­¦å™¨è°ƒæ•´
+            //é»‘dt
             items["5dcbd56fdbd3d91b3e5468d5"].Properties.CanSellOnRagfair = true;
             prices["65290f395ae2ae97b80fdf2d"] = 186666;
             //spear
@@ -650,83 +650,83 @@ namespace VulcanMod
             //M10
             items["673cab3e03c6a20581028bc1"].Properties.CanSellOnRagfair = true;
             prices["673cab3e03c6a20581028bc1"] = 299999;
-            //Åä¼ş
-            //ÖæË¹ÈÈ³ÉÏñ 
+            //é…ä»¶
+            //å®™æ–¯çƒ­æˆåƒ 
             items["63fc44e2429a8a166c7f61e6"].Properties.CanSellOnRagfair = true;
             prices["63fc44e2429a8a166c7f61e6"] = 699999;
             //Trijicon 
             items["5a1eaa87fcdbcb001865f75e"].Properties.CanSellOnRagfair = true;
             prices["5a1eaa87fcdbcb001865f75e"] = 799999;
-            //ËÄÑÛÒ¹ÊÓÒÇ 
+            //å››çœ¼å¤œè§†ä»ª 
             items["5c0558060db834001b735271"].Properties.CanSellOnRagfair = true;
             prices["5c0558060db834001b735271"] = 199999;
-            //6.8µ¯¹Ä 
+            //6.8å¼¹é¼“ 
             items["6761770e48fa5c377e06fc3c"].Properties.CanSellOnRagfair = true;
-            //556µ¯¹Ä 
+            //556å¼¹é¼“ 
             items["59c1383d86f774290a37e0ca"].Properties.CanSellOnRagfair = true;
-            //55660·¢µ¯Ï»
+            //55660å‘å¼¹åŒ£
             items["544a37c44bdc2d25388b4567"].Properties.CanSellOnRagfair = true;
-            //RS32ÈÈ³ÉÏñ 
+            //RS32çƒ­æˆåƒ 
             items["5d1b5e94d7ad1a2b865a96b0"].Properties.CanSellOnRagfair = true;
             prices["5d1b5e94d7ad1a2b865a96b0"] = 799999;
-            //²å°å
-            //Ô­É«KillaÃæ
+            //æ’æ¿
+            //åŸè‰²Killaé¢
             items["5c0919b50db834001b7ce3b9"].Properties.CanSellOnRagfair = true;
             prices["5c0919b50db834001b7ce3b9"] = 89999;
-            //»ğÉñÃæ
+            //ç«ç¥é¢
             items["5ca2113f86f7740b2547e1d2"].Properties.CanSellOnRagfair = true;
-            //ºÚ°¢¶û½ğÃæÕÖ 
+            //é»‘é˜¿å°”é‡‘é¢ç½© 
             items["5f60c85b58eff926626a60f7"].Properties.CanSellOnRagfair = true;
             prices["5f60c85b58eff926626a60f7"] = 129999;
-            //5¼¶Killa±³°å
+            //5çº§KillaèƒŒæ¿
             items["654a4a964b446df1ad03f192"].Properties.CanSellOnRagfair = true;
             prices["654a4a964b446df1ad03f192"] = 119999;
-            //BR4 55ÄÍ5¼¶ÌÕ´ÉÃÀ°å
+            //BR4 55è€5çº§é™¶ç“·ç¾æ¿
             items["65573fa5655447403702a816"].Properties.CanSellOnRagfair = true;
             prices["65573fa5655447403702a816"] = 99999;
-            //Cult 5¼¶îÑÃÀ°å
+            //Cult 5çº§é’›ç¾æ¿
             items["656fa8d700d62bcd2e024084"].Properties.CanSellOnRagfair = true;
             prices["656fa8d700d62bcd2e024084"] = 119999;
-            //5¼¶¸´ºÏÃÀ°å
+            //5çº§å¤åˆç¾æ¿
             items["656fa53d94b480b8a500c0e4"].Properties.CanSellOnRagfair = true;
             prices["656fa53d94b480b8a500c0e4"] = 139999;
-            //45ÄÍ5¼¶PEÃÀ°å
+            //45è€5çº§PEç¾æ¿
             items["656fae5f7c2d57afe200c0d7"].Properties.CanSellOnRagfair = true;
             prices["656fae5f7c2d57afe200c0d7"] = 169999;
-            //5¼¶¶í¼×±³°å
+            //5çº§ä¿„ç”²èƒŒæ¿
             items["657b2797c3dbcb01d60c35ea"].Properties.CanSellOnRagfair = true;
             prices["657b2797c3dbcb01d60c35ea"] = 69999;
-            //5¼¶¶í¼×Ç°°å
+            //5çº§ä¿„ç”²å‰æ¿
             items["656f664200d62bcd2e024077"].Properties.CanSellOnRagfair = true;
             prices["656f664200d62bcd2e024077"] = 69999;
-            //5¼¶¶í¼×ÁâĞÎ°å
+            //5çº§ä¿„ç”²è±å½¢æ¿
             items["656f611f94b480b8a500c0db"].Properties.CanSellOnRagfair = true;
             prices["656f611f94b480b8a500c0db"] = 79999;
-            //5¼¶Ìøµ¯°å
+            //5çº§è·³å¼¹æ¿
             items["5c0e66e2d174af02a96252f4"].Properties.CanSellOnRagfair = true;
             prices["5c0e66e2d174af02a96252f4"] = 149999;
-            //Galvion3¼¶Í·
+            //Galvion3çº§å¤´
             items["5f60b34a41e30a4ab12a6947"].Properties.CanSellOnRagfair = true;
             prices["5f60b34a41e30a4ab12a6947"] = 69999;
-            //ĞÂ×êÊ¯Í· 
+            //æ–°é’»çŸ³å¤´ 
             items["65709d2d21b9f815e208ff95"].Properties.CanSellOnRagfair = true;
             prices["65709d2d21b9f815e208ff95"] = 99999;
-            //»Æfastmt
+            //é»„fastmt
             items["5ac8d6885acfc400180ae7b0"].Properties.CanSellOnRagfair = true;
             prices["5ac8d6885acfc400180ae7b0"] = 129999;
             //fastmt
             items["5a154d5cfcdbcb001a3b00da"].Properties.CanSellOnRagfair = true;
             prices["5a154d5cfcdbcb001a3b00da"] = 149999;
-            //ÃæÕÖÎÂµÏ
+            //é¢ç½©æ¸©è¿ª
             items["5e01ef6886f77445f643baa4"].Properties.CanSellOnRagfair = true;
             prices["5e01ef6886f77445f643baa4"] = 233333;
-            //ÎÂµÏ
+            //æ¸©è¿ª
             items["5e00c1ad86f774747333222c"].Properties.CanSellOnRagfair = true;
             prices["5e00c1ad86f774747333222c"] = 139999;
-            //»ÆÎÂµÏÃæ
+            //é»„æ¸©è¿ªé¢
             items["5e01f37686f774773c6f6c15"].Properties.CanSellOnRagfair = true;
             prices["5e01f37686f774773c6f6c15"] = 59999;
-            //ºÚÎÂµÏÃæ
+            //é»‘æ¸©è¿ªé¢
             items["5e00cdd986f7747473332240"].Properties.CanSellOnRagfair = true;
             prices["5e00cdd986f7747473332240"] = 69999;
             */
@@ -792,7 +792,10 @@ namespace VulcanMod
         {
             var recipes = databaseService.GetHideout().Production.Recipes;
             var quests = databaseService.GetQuests();
-            var recipesblackalytn = recipes.Find(recipe => recipe.EndProduct == ItemTpl.HEADWEAR_RYST_BULLETPROOF_HELMET_BLACK);
+            // âš  5.0 æ”¹åï¼šBSG æŠŠè¿™ä¸€ç±»ç‰©å“çš„ "Bulletproof Helmet" ç»Ÿä¸€æ”¹æˆ "Assault Helmet"ï¼Œ
+            //   4.1 çš„ HEADWEAR_RYST_BULLETPROOF_HELMET_BLACK â†’ 5.0 çš„ HEADWEAR_RYST_ASSAULT_HELMET_BLACK
+            //   ï¼ˆåŒå‚åŒè‰²ï¼Œå·²å¯¹ç…§ 5.0 çš„ ItemTpl æšä¸¾ç¡®è®¤ï¼š5.0 é‡Œå·²æ— ä»»ä½• *_RYST_BULLETPROOF_* æˆå‘˜ï¼‰
+            var recipesblackalytn = recipes.Find(recipe => recipe.EndProduct == ItemTpl.HEADWEAR_RYST_ASSAULT_HELMET_BLACK);
             recipesblackalytn.Requirements.RemoveAll(requirement => requirement.Type == "QuestComplete");
             recipesblackalytn.Locked = false;
             quests["60e71b62a0beca400d69efc4"].Rewards["Success"].RemoveAll(reward => reward.Type == RewardType.ProductionScheme);
@@ -800,17 +803,17 @@ namespace VulcanMod
         public static void InitOracleQuestData(LoadModContext context)
         {
             var quests = context.DB.GetQuests();
-            var oraclequest = quests["ÓÀ¼Å¹ÂÃ¢".ConvertHashID()];
+            var oraclequest = quests["æ°¸å¯‚å­¤èŠ’".ConvertHashID()];
             var conditions = oraclequest.Conditions.AvailableForFinish;
             var foodsanddrinks = conditions[1].Target.List;
             var medicines = conditions[2].Target.List;
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ê³Îï, foodsanddrinks, context);
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.ÒûÆ·, foodsanddrinks, context);
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.´´ÉË´¦Àí, medicines, context);
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.¼±¾È°ü, medicines, context);
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.×¢ÉäÆ÷, medicines, context);
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ò©Æ·, medicines, context);
-            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.Ò½ÁÆÓÃÆ·, medicines, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.é£Ÿç‰©, foodsanddrinks, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.é¥®å“, foodsanddrinks, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.åˆ›ä¼¤å¤„ç†, medicines, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ€¥æ•‘åŒ…, medicines, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.æ³¨å°„å™¨, medicines, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.è¯å“, medicines, context);
+            ItemUtils.AddItemToListByRagfairTag(ERagfairTagsType.åŒ»ç–—ç”¨å“, medicines, context);
         }
     }
 }

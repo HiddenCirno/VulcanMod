@@ -1,4 +1,4 @@
-using EternalCycleServer;
+ï»¿using EternalCycleServer;
 using SPTarkov.Reflection.Patching;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Helpers.Items;
@@ -174,14 +174,14 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botKnight.BotChances;
                                 botJsonTemplate.FirstNames = botKnight.FirstNames;
                                 botJsonTemplate.BotGeneration = botKnight.BotGeneration;
-                                //³ªÆ¬ºÍ¼ıÍ·Ô¤Áô²¿·Ö
+                                //å”±ç‰‡å’Œç®­å¤´é¢„ç•™éƒ¨åˆ†
                                 GoonsCounter.KnightAccess = true;
                             }
                             GoonsCounter.KnightCounter++;
                             if (GoonsCounter.KnightCounter >= 5 && GoonsCounter.KnightAccess != true)
                             {
-                                _logger.Debug("×ª»¯Ê§°Ü¸´Î»");
-                                //×ª»¯Ê§°Ü¸´Î»
+                                _logger.Debug("è½¬åŒ–å¤±è´¥å¤ä½");
+                                //è½¬åŒ–å¤±è´¥å¤ä½
                                 GoonsCounter.Chance = 0;
                                 GoonsCounter.KnightCounter = 0;
                                 GoonsCounter.PipeCounter = 0;
@@ -206,14 +206,14 @@ namespace VulcanMod
                                 botJsonTemplate.LastNames = botBigPipe.LastNames;
                                 botJsonTemplate.BotGeneration = botBigPipe.BotGeneration;
                                 GoonsCounter.PipeAccess = true;
-                                //³ªÆ¬Ô¤Áô
+                                //å”±ç‰‡é¢„ç•™
                             }
                             GoonsCounter.PipeCounter++;
                             if (GoonsCounter.PipeCounter >= 5 && GoonsCounter.EyesCounter >= 5)
                             {
-                                _logger.Debug("×ª»¯Íê³É¸´Î», from bigpipe");
-                                //×ª»¯Íê³É¸´Î»
-                                //´ó¹ÜºÍÄñÑÛË«¼ÆÊı, ·ÀÖ¹ÌáÇ°¸´Î»
+                                _logger.Debug("è½¬åŒ–å®Œæˆå¤ä½, from bigpipe");
+                                //è½¬åŒ–å®Œæˆå¤ä½
+                                //å¤§ç®¡å’Œé¸Ÿçœ¼åŒè®¡æ•°, é˜²æ­¢æå‰å¤ä½
                                 GoonsCounter.Chance = 0;
                                 GoonsCounter.KnightCounter = 0;
                                 GoonsCounter.PipeCounter = 0;
@@ -237,14 +237,14 @@ namespace VulcanMod
                                 botJsonTemplate.FirstNames = botBirdeye.FirstNames;
                                 botJsonTemplate.BotGeneration = botBirdeye.BotGeneration;
                                 GoonsCounter.EyesAccess = true;
-                                //³ªÆ¬Ô¤Áô
+                                //å”±ç‰‡é¢„ç•™
                             }
                             GoonsCounter.EyesCounter++;
                             if (GoonsCounter.PipeCounter >= 5 && GoonsCounter.EyesCounter >= 5)
                             {
-                                _logger.Debug("×ª»¯Íê³É¸´Î», from birdeye");
-                                //×ª»¯Íê³É¸´Î»
-                                //´ó¹ÜºÍÄñÑÛË«¼ÆÊı, ·ÀÖ¹ÌáÇ°¸´Î»
+                                _logger.Debug("è½¬åŒ–å®Œæˆå¤ä½, from birdeye");
+                                //è½¬åŒ–å®Œæˆå¤ä½
+                                //å¤§ç®¡å’Œé¸Ÿçœ¼åŒè®¡æ•°, é˜²æ­¢æå‰å¤ä½
                                 GoonsCounter.Chance = 0;
                                 GoonsCounter.KnightCounter = 0;
                                 GoonsCounter.PipeCounter = 0;
@@ -257,21 +257,21 @@ namespace VulcanMod
                         }
                         if (botRoleLowercase == "bosssanitar")
                         {
-                            //´ÓÎÄ¼ş¶ÁÈ¡AIÊı¾İ
+                            //ä»æ–‡ä»¶è¯»å–AIæ•°æ®
                             if (SanitarCounter.Chance == 0)
                             {
-                                //³õÊ¼»¯Éú³É¸ÅÂÊ
+                                //åˆå§‹åŒ–ç”Ÿæˆæ¦‚ç‡
                                 SanitarCounter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
                             }
                             if (SanitarCounter.Chance <= modConfig.AlterBossChance.Sanitar)
                             {
-                                //ÃüÖĞ¸ÅÂÊ
-                                //ÕâÀïµÄ100ÊÇ²âÊÔ, Êµ¼Ê´ÓÅäÖÃ¶ÁÈ¡
+                                //å‘½ä¸­æ¦‚ç‡
+                                //è¿™é‡Œçš„100æ˜¯æµ‹è¯•, å®é™…ä»é…ç½®è¯»å–
                                 SanitarCounter.Access = true;
                             }
                             if (SanitarCounter.Access)
                             {
-                                //¸ÅÂÊÃüÖĞ, Ê¹ÓÃÎÄ¼şµÄÊı¾İ¸²¸ÇÔ­Êı¾İ
+                                //æ¦‚ç‡å‘½ä¸­, ä½¿ç”¨æ–‡ä»¶çš„æ•°æ®è¦†ç›–åŸæ•°æ®
                                 botJsonTemplate.BotAppearance = botSanitar.BotAppearance;
                                 botJsonTemplate.BotExperience = botSanitar.BotExperience;
                                 botJsonTemplate.BotHealth = botSanitar.BotHealth;
@@ -280,13 +280,13 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botSanitar.BotChances;
                                 botJsonTemplate.FirstNames = botSanitar.FirstNames;
                                 botJsonTemplate.BotGeneration = botSanitar.BotGeneration;
-                                //ÅäÖÃÆ÷¼ÆÊı+1
+                                //é…ç½®å™¨è®¡æ•°+1
                             }
                             SanitarCounter.Counter++;
-                            //AIÉú³ÉÍê³É(Ã¿¸öAIµÄÉú³É»áµ÷ÓÃ5´Î
+                            //AIç”Ÿæˆå®Œæˆ(æ¯ä¸ªAIçš„ç”Ÿæˆä¼šè°ƒç”¨5æ¬¡
                             if (SanitarCounter.Counter >= 5)
                             {
-                                //ÅäÖÃÆ÷¸´Î»
+                                //é…ç½®å™¨å¤ä½
                                 SanitarCounter.Chance = 0;
                                 SanitarCounter.Counter = 0;
                                 SanitarCounter.Access = false;
@@ -294,21 +294,21 @@ namespace VulcanMod
                         }
                         if (botRoleLowercase == "bossgluhar")
                         {
-                            //´ÓÎÄ¼ş¶ÁÈ¡AIÊı¾İ
+                            //ä»æ–‡ä»¶è¯»å–AIæ•°æ®
                             if (GluharCocunter.Chance == 0)
                             {
-                                //³õÊ¼»¯Éú³É¸ÅÂÊ
+                                //åˆå§‹åŒ–ç”Ÿæˆæ¦‚ç‡
                                 GluharCocunter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
                             }
                             if (GluharCocunter.Chance <= modConfig.AlterBossChance.Gluhar)
                             {
-                                //ÃüÖĞ¸ÅÂÊ
-                                //ÕâÀïµÄ100ÊÇ²âÊÔ, Êµ¼Ê´ÓÅäÖÃ¶ÁÈ¡
+                                //å‘½ä¸­æ¦‚ç‡
+                                //è¿™é‡Œçš„100æ˜¯æµ‹è¯•, å®é™…ä»é…ç½®è¯»å–
                                 GluharCocunter.Access = true;
                             }
                             if (GluharCocunter.Access)
                             {
-                                //¸ÅÂÊÃüÖĞ, Ê¹ÓÃÎÄ¼şµÄÊı¾İ¸²¸ÇÔ­Êı¾İ
+                                //æ¦‚ç‡å‘½ä¸­, ä½¿ç”¨æ–‡ä»¶çš„æ•°æ®è¦†ç›–åŸæ•°æ®
                                 botJsonTemplate.BotAppearance = botGluhar.BotAppearance;
                                 botJsonTemplate.BotExperience = botGluhar.BotExperience;
                                 botJsonTemplate.BotHealth = botGluhar.BotHealth;
@@ -317,13 +317,13 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botGluhar.BotChances;
                                 botJsonTemplate.FirstNames = botGluhar.FirstNames;
                                 botJsonTemplate.BotGeneration = botGluhar.BotGeneration;
-                                //ÅäÖÃÆ÷¼ÆÊı+1
+                                //é…ç½®å™¨è®¡æ•°+1
                             }
                             GluharCocunter.Counter++;
-                            //AIÉú³ÉÍê³É(Ã¿¸öAIµÄÉú³É»áµ÷ÓÃ5´Î
+                            //AIç”Ÿæˆå®Œæˆ(æ¯ä¸ªAIçš„ç”Ÿæˆä¼šè°ƒç”¨5æ¬¡
                             if (GluharCocunter.Counter >= 5)
                             {
-                                //ÅäÖÃÆ÷¸´Î»
+                                //é…ç½®å™¨å¤ä½
                                 GluharCocunter.Chance = 0;
                                 GluharCocunter.Counter = 0;
                                 GluharCocunter.Access = false;
@@ -331,21 +331,21 @@ namespace VulcanMod
                         }
                         if (botRoleLowercase == "bosskolontay")
                         {
-                            //´ÓÎÄ¼ş¶ÁÈ¡AIÊı¾İ
+                            //ä»æ–‡ä»¶è¯»å–AIæ•°æ®
                             if (KolontayCocunter.Chance == 0)
                             {
-                                //³õÊ¼»¯Éú³É¸ÅÂÊ
+                                //åˆå§‹åŒ–ç”Ÿæˆæ¦‚ç‡
                                 KolontayCocunter.Chance = (int)Math.Floor(new Random().NextDouble() * 100);
                             }
                             if (KolontayCocunter.Chance <= modConfig.AlterBossChance.Kolontay)
                             {
-                                //ÃüÖĞ¸ÅÂÊ
-                                //ÕâÀïµÄ100ÊÇ²âÊÔ, Êµ¼Ê´ÓÅäÖÃ¶ÁÈ¡
+                                //å‘½ä¸­æ¦‚ç‡
+                                //è¿™é‡Œçš„100æ˜¯æµ‹è¯•, å®é™…ä»é…ç½®è¯»å–
                                 KolontayCocunter.Access = true;
                             }
                             if (KolontayCocunter.Access)
                             {
-                                //¸ÅÂÊÃüÖĞ, Ê¹ÓÃÎÄ¼şµÄÊı¾İ¸²¸ÇÔ­Êı¾İ
+                                //æ¦‚ç‡å‘½ä¸­, ä½¿ç”¨æ–‡ä»¶çš„æ•°æ®è¦†ç›–åŸæ•°æ®
                                 botJsonTemplate.BotAppearance = botKolontay.BotAppearance;
                                 botJsonTemplate.BotExperience = botKolontay.BotExperience;
                                 botJsonTemplate.BotHealth = botKolontay.BotHealth;
@@ -354,13 +354,13 @@ namespace VulcanMod
                                 botJsonTemplate.BotChances = botKolontay.BotChances;
                                 botJsonTemplate.FirstNames = botKolontay.FirstNames;
                                 botJsonTemplate.BotGeneration = botKolontay.BotGeneration;
-                                //ÅäÖÃÆ÷¼ÆÊı+1
+                                //é…ç½®å™¨è®¡æ•°+1
                             }
                             KolontayCocunter.Counter++;
-                            //AIÉú³ÉÍê³É(Ã¿¸öAIµÄÉú³É»áµ÷ÓÃ5´Î
+                            //AIç”Ÿæˆå®Œæˆ(æ¯ä¸ªAIçš„ç”Ÿæˆä¼šè°ƒç”¨5æ¬¡
                             if (KolontayCocunter.Counter >= 5)
                             {
-                                //ÅäÖÃÆ÷¸´Î»
+                                //é…ç½®å™¨å¤ä½
                                 KolontayCocunter.Chance = 0;
                                 KolontayCocunter.Counter = 0;
                                 KolontayCocunter.Access = false;
@@ -371,10 +371,10 @@ namespace VulcanMod
                     {
                         if (botRoleLowercase == "bosskillaagro" && botGenerationDetails.Location != "Labyrinth")
                         {
-                            //²âÊÔ´úÂë, Êı¾İ²¿·ÖÔİÊ±¸éÖÃ
-                            //´ò¸öÊ±¼ä´Á¿´¿´ÎÒÄÜ¸ë¶à¾Ã
+                            //æµ‹è¯•ä»£ç , æ•°æ®éƒ¨åˆ†æš‚æ—¶æç½®
+                            //æ‰“ä¸ªæ—¶é—´æˆ³çœ‹çœ‹æˆ‘èƒ½é¸½å¤šä¹…
                             //12.10.2025
-                            //´ÓÎÄ¼ş¶ÁÈ¡AIÊı¾İ
+                            //ä»æ–‡ä»¶è¯»å–AIæ•°æ®
                             botJsonTemplate.BotAppearance = botObsidian.BotAppearance;
                             botJsonTemplate.BotExperience = botObsidian.BotExperience;
                             botJsonTemplate.BotHealth = botObsidian.BotHealth;
@@ -393,7 +393,7 @@ namespace VulcanMod
                 }
                 catch (Exception ex)
                 {
-                    _logger.Error("´íÎó: BotGeneratorPatchÔËĞĞÊ±³öÏÖÎÊÌâ: ", ex);
+                    _logger.Error("é”™è¯¯: BotGeneratorPatchè¿è¡Œæ—¶å‡ºç°é—®é¢˜: ", ex);
                 }
 
                 return true;
@@ -422,25 +422,25 @@ namespace VulcanMod
                 switch (botRoleLower)
                 {
                     case "bossbully":
-                        AddLootToInventory(__result.Inventory, "ËŞÉáÂ¥¹ÜÀíÔ±Ô¿³×".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, "å®¿èˆæ¥¼ç®¡ç†å‘˜é’¥åŒ™".ConvertHashID(), "Pockets", __result, context);
                         AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_VORON, "Pockets", __result, context);
                         break;
                     case "bosstagilla":
-                        AddLootToInventory(__result.Inventory, "·ÂÖÆ¹¤³§Ô¿³×".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, "ä»¿åˆ¶å·¥å‚é’¥åŒ™".ConvertHashID(), "Pockets", __result, context);
                         AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_ARK, "Pockets", __result, context);
                         break;
                     case "bosstagillaagro":
                         AddLootToInventory(__result.Inventory, ItemTpl.KEY_ARIADNE_SYMBOL, "Pockets", __result, context);
                         break;
                     case "bosssanitar":
-                        AddLootToInventory(__result.Inventory, "ÁÆÑøÔº¹ÜÀíÔ±Ô¿³×".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, "ç–—å…»é™¢ç®¡ç†å‘˜é’¥åŒ™".ConvertHashID(), "Pockets", __result, context);
                         AddLootToInventory(__result.Inventory, ItemTpl.INFO_NOTE_WITH_CODE_WORD_HEARTBEAT, "Pockets", __result, context);
                         break;
                     case "bosskilla":
-                        AddLootToInventory(__result.Inventory, "·ÂÖÆ11SR".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, "ä»¿åˆ¶11SR".ConvertHashID(), "Pockets", __result, context);
                         break;
                     case "bossgluhar":
-                        AddLootToInventory(__result.Inventory, "´¢±¸Õ¾¹ÜÀíÔ±Ô¿³×".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, "å‚¨å¤‡ç«™ç®¡ç†å‘˜é’¥åŒ™".ConvertHashID(), "Pockets", __result, context);
                         AddLootToInventory(__result.Inventory, ItemTpl.INFO_MINEFIELD_MAP_RESERVE, "Pockets", __result, context);
                         break;
                     case "bosskojaniy":
@@ -454,19 +454,19 @@ namespace VulcanMod
                         }
                         break;
                     case "sectantpriest":
-                        AddLootToInventory(__result.Inventory, "Í¨ÓÃ·ûºÅÔ¿³×".ConvertHashID(), "Pockets", __result, context);
+                        AddLootToInventory(__result.Inventory, "é€šç”¨ç¬¦å·é’¥åŒ™".ConvertHashID(), "Pockets", __result, context);
                         break;
                 }
                 if (botNickName == "Obsidian")
                 {
-                    AddLootToInventory(__result.Inventory, "ÊµÑéÊÒ¹ÜÀíÔ±Ô¿³×¿¨".ConvertHashID(), "Pockets", __result, context);
-                    AddLootToInventory(__result.Inventory, "ºÚL4G24Ò¹ÊÓÒÇÖ§¼Ü".ConvertHashID(), "Backpack", __result, context);
+                    AddLootToInventory(__result.Inventory, "å®éªŒå®¤ç®¡ç†å‘˜é’¥åŒ™å¡".ConvertHashID(), "Pockets", __result, context);
+                    AddLootToInventory(__result.Inventory, "é»‘L4G24å¤œè§†ä»ªæ”¯æ¶".ConvertHashID(), "Backpack", __result, context);
                     AddLootToInventory(__result.Inventory, "PVS31A".ConvertHashID(), "Backpack", __result, context);
 
                 }
                 if (alterBossName.Contains(botNickName))
                 {
-                    AddLootToInventory(__result.Inventory, "·â×°Ó¢ĞÛÖ®Ö¤".ConvertHashID(), "Pockets", __result, context);
+                    AddLootToInventory(__result.Inventory, "å°è£…è‹±é›„ä¹‹è¯".ConvertHashID(), "Pockets", __result, context);
                     if (__result.Inventory != null && __result.Inventory.Items != null && bot.Inventory.Items.Count > 0)
                     {
                         __result.Inventory.Items.ForEach(item =>
@@ -564,10 +564,10 @@ namespace VulcanMod
             [PatchFinalizer]
             public static Exception Finalizer(Exception __exception, BotBase bot)
             {
-                // Èç¹ûÓĞÒì³££¬ÇÒÊÇÎÒÃÇÔ¤ÆÚµÄ APBS Å×³öµÄ "Unknown side" Òì³£
+                // å¦‚æœæœ‰å¼‚å¸¸ï¼Œä¸”æ˜¯æˆ‘ä»¬é¢„æœŸçš„ APBS æŠ›å‡ºçš„ "Unknown side" å¼‚å¸¸
                 if (__exception is ArgumentException argEx && argEx.Message.Contains("Unknown side"))
                 {
-                    // 1. ³ÔµôÒì³££¬Õü¾ÈÉú³ÉÏß³Ì
+                    // 1. åƒæ‰å¼‚å¸¸ï¼Œæ‹¯æ•‘ç”Ÿæˆçº¿ç¨‹
                     __exception = null;
 
                     GenerateCustomDogtag(bot);
@@ -607,7 +607,7 @@ namespace VulcanMod
             Item dogTagItem = new Item
             {
                 Id = new MongoId(),
-                Template = "Scav¹·ÅÆ".ConvertHashID()
+                Template = "Scavç‹—ç‰Œ".ConvertHashID()
             };
 
             try
@@ -621,7 +621,7 @@ namespace VulcanMod
                     Dogtag = new UpdDogtag()
                 };
 
-                var dogtag = "Scav¹·ÅÆ".ConvertHashID();
+                var dogtag = "Scavç‹—ç‰Œ".ConvertHashID();
 
                 if (bossList.Contains(botRoleLower))
                 {
@@ -641,37 +641,37 @@ namespace VulcanMod
                         case "bosskillaagro":
                             botName = bot.Info.Nickname == "Obsidian" ? bot.Info.Nickname : "Killa"; break;
                         case "bosstagillaagro":
-                            botName = "Tagilla"; break; //Î´À´»áÓĞÊØÃÅÈË
+                            botName = "Tagilla"; break; //æœªæ¥ä¼šæœ‰å®ˆé—¨äºº
                         default:
                             botName = botRole.Substring(4); break;
                     }
-                    dogtag = "Boss¹·ÅÆ".ConvertHashID();
+                    dogtag = "Bossç‹—ç‰Œ".ConvertHashID();
                     dogTagItem.Upd.Dogtag.Nickname = botName;
                     dogTagItem.Upd.Dogtag.Side = SPTarkov.Server.Core.Models.Enums.DogtagSide.Bear;
                     dogTagItem.Upd.Dogtag.Level = 100;
                 }
                 else
                 {
-                    // ÕâÀïµ÷ÓÃÄãµÄ¶íÂŞË¹Óï×ªÀ­¶¡ÓïµÄ·½·¨
+                    // è¿™é‡Œè°ƒç”¨ä½ çš„ä¿„ç½—æ–¯è¯­è½¬æ‹‰ä¸è¯­çš„æ–¹æ³•
                     botName = RussianToLatinApproximation(botNickName);
                     dogTagItem.Upd.Dogtag.Nickname = botName;
                     dogTagItem.Upd.Dogtag.Side = SPTarkov.Server.Core.Models.Enums.DogtagSide.Bear;
                     dogTagItem.Upd.Dogtag.Level = 80;
                 }
 
-                // ÌØÊâÃû×ÖÅĞ¶Ï
+                // ç‰¹æ®Šåå­—åˆ¤æ–­
                 if (alterBossName.Contains(botNickName))
                 {
-                    dogtag = "Ë®¾§¹·ÅÆ_ºì".ConvertHashID();
+                    dogtag = "æ°´æ™¶ç‹—ç‰Œ_çº¢".ConvertHashID();
                     dogTagItem.Upd.Dogtag.Nickname = botName;
                     dogTagItem.Upd.Dogtag.Side = SPTarkov.Server.Core.Models.Enums.DogtagSide.Bear;
                     dogTagItem.Upd.Dogtag.Level = 200;
                 }
 
-                // Ğ°½ÌÍ½ÅĞ¶Ï
+                // é‚ªæ•™å¾’åˆ¤æ–­
                 if (botRoleLower.Contains("sectant"))
                 {
-                    dogtag = "Ğ°½ÌÍ½¹·ÅÆ".ConvertHashID();
+                    dogtag = "é‚ªæ•™å¾’ç‹—ç‰Œ".ConvertHashID();
                     dogTagItem.Upd.Dogtag.Nickname = botName;
                     dogTagItem.Upd.Dogtag.Side = SPTarkov.Server.Core.Models.Enums.DogtagSide.Usec;
                     dogTagItem.Upd.Dogtag.Level = 99;
@@ -687,42 +687,42 @@ namespace VulcanMod
         }
         public static string RussianToLatinApproximation(string russianString)
         {
-            // ¶íÎÄ×ÖÄ¸µ½À­¶¡×ÖÄ¸µÄÓ³Éä±í
+            // ä¿„æ–‡å­—æ¯åˆ°æ‹‰ä¸å­—æ¯çš„æ˜ å°„è¡¨
             var russianToLatinMap = new Dictionary<char, string>
                 {
-                    {'§Ñ', "a"}, {'§Ò', "b"}, {'§Ó', "v"}, {'§Ô', "g"}, {'§Õ', "d"},
-                    {'§Ö', "e"}, {'§×', "yo"}, {'§Ø', "zh"}, {'§Ù', "z"}, {'§Ú', "i"},
-                    {'§Û', "j"}, {'§Ü', "k"}, {'§İ', "l"}, {'§Ş', "m"}, {'§ß', "n"},
-                    {'§à', "o"}, {'§á', "p"}, {'§â', "r"}, {'§ã', "s"}, {'§ä', "t"},
-                    {'§å', "u"}, {'§æ', "f"}, {'§ç', "h"}, {'§è', "c"}, {'§é', "ch"},
-                    {'§ê', "sh"}, {'§ë', "sch"}, {'§ì', "j"}, {'§í', "i"}, {'§î', "j"},
-                    {'§ï', "e"}, {'§ğ', "yu"}, {'§ñ', "ya"},
-                    {'§¡', "A"}, {'§¢', "B"}, {'§£', "V"}, {'§¤', "G"}, {'§¥', "D"},
-                    {'§¦', "E"}, {'§§', "Yo"}, {'§¨', "Zh"}, {'§©', "Z"}, {'§ª', "I"},
-                    {'§«', "Y"}, {'§¬', "K"}, {'§­', "L"}, {'§®', "M"}, {'§¯', "N"},
-                    {'§°', "O"}, {'§±', "P"}, {'§²', "R"}, {'§³', "S"}, {'§´', "T"},
-                    {'§µ', "U"}, {'§¶', "F"}, {'§·', "Kh"}, {'§¸', "Ts"}, {'§¹', "Ch"},
-                    {'§º', "Sh"}, {'§»', "Sch"}, {'§¿', "E"}, {'§À', "Yu"}, {'§Á', "Ya"}
+                    {'Ğ°', "a"}, {'Ğ±', "b"}, {'Ğ²', "v"}, {'Ğ³', "g"}, {'Ğ´', "d"},
+                    {'Ğµ', "e"}, {'Ñ‘', "yo"}, {'Ğ¶', "zh"}, {'Ğ·', "z"}, {'Ğ¸', "i"},
+                    {'Ğ¹', "j"}, {'Ğº', "k"}, {'Ğ»', "l"}, {'Ğ¼', "m"}, {'Ğ½', "n"},
+                    {'Ğ¾', "o"}, {'Ğ¿', "p"}, {'Ñ€', "r"}, {'Ñ', "s"}, {'Ñ‚', "t"},
+                    {'Ñƒ', "u"}, {'Ñ„', "f"}, {'Ñ…', "h"}, {'Ñ†', "c"}, {'Ñ‡', "ch"},
+                    {'Ñˆ', "sh"}, {'Ñ‰', "sch"}, {'ÑŠ', "j"}, {'Ñ‹', "i"}, {'ÑŒ', "j"},
+                    {'Ñ', "e"}, {'Ñ', "yu"}, {'Ñ', "ya"},
+                    {'Ğ', "A"}, {'Ğ‘', "B"}, {'Ğ’', "V"}, {'Ğ“', "G"}, {'Ğ”', "D"},
+                    {'Ğ•', "E"}, {'Ğ', "Yo"}, {'Ğ–', "Zh"}, {'Ğ—', "Z"}, {'Ğ˜', "I"},
+                    {'Ğ™', "Y"}, {'Ğš', "K"}, {'Ğ›', "L"}, {'Ğœ', "M"}, {'Ğ', "N"},
+                    {'Ğ', "O"}, {'ĞŸ', "P"}, {'Ğ ', "R"}, {'Ğ¡', "S"}, {'Ğ¢', "T"},
+                    {'Ğ£', "U"}, {'Ğ¤', "F"}, {'Ğ¥', "Kh"}, {'Ğ¦', "Ts"}, {'Ğ§', "Ch"},
+                    {'Ğ¨', "Sh"}, {'Ğ©', "Sch"}, {'Ğ­', "E"}, {'Ğ®', "Yu"}, {'Ğ¯', "Ya"}
                 };
 
-            // Èç¹û´«Èë×Ö·û´®Îª¿Õ
+            // å¦‚æœä¼ å…¥å­—ç¬¦ä¸²ä¸ºç©º
             if (string.IsNullOrEmpty(russianString))
             {
-                return "²»ÖªµÀ·¢ÉúÁËÊ²Ã´, Õâ¸öAIÃ»ÓĞÃû×Ö, Ò²ĞíÊÇÄá»ùËşËÀÁËÂèÂè";
+                return "ä¸çŸ¥é“å‘ç”Ÿäº†ä»€ä¹ˆ, è¿™ä¸ªAIæ²¡æœ‰åå­—, ä¹Ÿè®¸æ˜¯å°¼åŸºå¡”æ­»äº†å¦ˆå¦ˆ";
             }
 
             var latinString = new StringBuilder();
 
             foreach (var ch in russianString)
             {
-                // Èç¹û×Ö·ûÔÚÓ³Éä±íÖĞ£¬½øĞĞÌæ»»
+                // å¦‚æœå­—ç¬¦åœ¨æ˜ å°„è¡¨ä¸­ï¼Œè¿›è¡Œæ›¿æ¢
                 if (russianToLatinMap.ContainsKey(ch))
                 {
                     latinString.Append(russianToLatinMap[ch]);
                 }
                 else
                 {
-                    // Èç¹û×Ö·û²»ÔÚÓ³Éä±íÖĞ£¬Ö±½ÓÌí¼Ó
+                    // å¦‚æœå­—ç¬¦ä¸åœ¨æ˜ å°„è¡¨ä¸­ï¼Œç›´æ¥æ·»åŠ 
                     latinString.Append(ch);
                 }
             }
@@ -731,13 +731,13 @@ namespace VulcanMod
         }
         public static void AddLootToInventory(BotBaseInventory inventory, MongoId itemid, string slot, BotBase bot, ContextManager.LoadModContext context)
         {
-            //Õâ¸ö·½·¨Ä¬ÈÏÖ»Ö§³Ö1x1Õ½ÀûÆ·, Òò´Ë²»ÔÙ×öĞı×ª¼ì²â
+            //è¿™ä¸ªæ–¹æ³•é»˜è®¤åªæ”¯æŒ1x1æˆ˜åˆ©å“, å› æ­¤ä¸å†åšæ—‹è½¬æ£€æµ‹
             var container = inventory.Items.FirstOrDefault(x => x.SlotId == slot);
             var haveitem = inventory.Items.FirstOrDefault(x => x.Template == itemid);
             var containerMap = new Dictionary<string, int[,]>();
             if (container == null || haveitem != null)
             {
-                //logger.LogWithColor($"¾¯¸æ: ÎŞ·¨ÔÚ{bot.Info.Settings.Role}ÉíÉÏÕÒµ½{slot}, »òÕß{itemid}ÒÑ¾­´æÔÚ", LogTextColor.Yellow);
+                //logger.LogWithColor($"è­¦å‘Š: æ— æ³•åœ¨{bot.Info.Settings.Role}èº«ä¸Šæ‰¾åˆ°{slot}, æˆ–è€…{itemid}å·²ç»å­˜åœ¨", LogTextColor.Yellow);
                 return;
             }
             var containerItem = ItemUtils.GetItem(container.Template, context);
@@ -754,10 +754,10 @@ namespace VulcanMod
             {
                 var itemTemplate = ItemUtils.GetItem(item.Template, context);
                 if (itemTemplate == null) continue;
-                //³öÃÅ
-                //·ÀÖ¹Ë¼Â·¶Ïµô, ´ò¸ö±¸×¢
-                //½ÓÏÂÀ´È¡ÎïÆ·´óĞ¡¸²¸Çµ½mapÉÏÍê³É×îÖÕ³É¹û
-                //»ØÀ´ÁË, ¼ÌĞø
+                //å‡ºé—¨
+                //é˜²æ­¢æ€è·¯æ–­æ‰, æ‰“ä¸ªå¤‡æ³¨
+                //æ¥ä¸‹æ¥å–ç‰©å“å¤§å°è¦†ç›–åˆ°mapä¸Šå®Œæˆæœ€ç»ˆæˆæœ
+                //å›æ¥äº†, ç»§ç»­
                 if (item.Location == null) continue;
                 var location = (ItemLocation)item.Location;
                 containerMap.TryGetValue(item.SlotId, out var map);
@@ -770,10 +770,10 @@ namespace VulcanMod
                 {
                     for (int y = itemlocationx; y < itemlocationx + itemwidth; y++)
                     {
-                        // È·±£²»»á³¬³ö map µÄ±ß½ç
+                        // ç¡®ä¿ä¸ä¼šè¶…å‡º map çš„è¾¹ç•Œ
                         if (x >= 0 && x < map.GetLength(0) && y >= 0 && y < map.GetLength(1))
                         {
-                            map[x, y] = 1; // ±ê¼ÇÎªÒÑÕ¼ÓÃ
+                            map[x, y] = 1; // æ ‡è®°ä¸ºå·²å ç”¨
                         }
                     }
                 }
@@ -781,10 +781,10 @@ namespace VulcanMod
             var targetlocation = FindPlacementSpace(containerMap);
             if (targetlocation == null)
             {
-                //logger.LogWithColor($"¾¯¸æ: ÎŞ·¨ÔÚ{bot.Info.Settings.Role}µÄ{slot}ÉÏÕÒµ½ÓĞĞ§¿Õ¼ä", LogTextColor.Yellow);
+                //logger.LogWithColor($"è­¦å‘Š: æ— æ³•åœ¨{bot.Info.Settings.Role}çš„{slot}ä¸Šæ‰¾åˆ°æœ‰æ•ˆç©ºé—´", LogTextColor.Yellow);
                 return;
             }
-            //logger.LogWithColor($"³É¹¦ÔÚ{bot.Info.Settings.Role}µÄ{slot}Ìí¼ÓÁË{itemid}", LogTextColor.Yellow);
+            //logger.LogWithColor($"æˆåŠŸåœ¨{bot.Info.Settings.Role}çš„{slot}æ·»åŠ äº†{itemid}", LogTextColor.Yellow);
             inventory.Items.Add(new Item
             {
                 Id = new MongoId(),
@@ -810,19 +810,19 @@ namespace VulcanMod
                     {
                         if (map[x, y] == 0)
                         {
-                            //logger.LogWithColor($"×ø±ê²éÕÒ³É¹¦", LogTextColor.Green);
+                            //logger.LogWithColor($"åæ ‡æŸ¥æ‰¾æˆåŠŸ", LogTextColor.Green);
                             return new KeyValuePair<string, ItemLocation>(container.Key, new ItemLocation
                             {
                                 X = y,
                                 Y = x,
-                                R = ItemRotation.Horizontal  // Ä¬ÈÏºáÏò·ÅÖÃ£¬ÎïÆ·ÊÇ 1x1 ËùÒÔĞı×ªÎŞÒâÒå
+                                R = ItemRotation.Horizontal  // é»˜è®¤æ¨ªå‘æ”¾ç½®ï¼Œç‰©å“æ˜¯ 1x1 æ‰€ä»¥æ—‹è½¬æ— æ„ä¹‰
                             });
                         }
                     }
                 }
             }
-            //logger.LogWithColor($"¾¯¸æ: ¿Õ¼äÒÑÂú", LogTextColor.Yellow);
-            // Èç¹ûÃ»ÓĞÕÒµ½¿Õ¸ñ×Ó£¬Ôò·µ»Ø null
+            //logger.LogWithColor($"è­¦å‘Š: ç©ºé—´å·²æ»¡", LogTextColor.Yellow);
+            // å¦‚æœæ²¡æœ‰æ‰¾åˆ°ç©ºæ ¼å­ï¼Œåˆ™è¿”å› null
             return null;
         }
         public class AlterGoonsCounter

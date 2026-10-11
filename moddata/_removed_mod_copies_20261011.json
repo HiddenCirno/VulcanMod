@@ -1,0 +1,347 @@
+{
+    "_meta": {
+        "说明": "从 moddata/items_normal.json 剪除的『模组复制的正式版物品』条目（分两批）",
+        "剪除日期": "2026-10-11",
+        "原因": "对应奖励已全部改用官方物品 ID，这些副本在模组内零引用（无任务/成就/商人/藏身处/代码引用）",
+        "回填": "把 items 下的条目按原样合并回 items_normal.json 顶层即可",
+        "配套改动": [
+            "traderdata/quest/init.json",
+            "traderdata/quest/achievement.json"
+        ],
+        "第二批_结局实体": "幸存者/堕入黑暗/灯塔 臂带+海报（结局实体已全部改用官方 ID）；结局藏身处装饰仍保留自制"
+    },
+    "items": {
+        "正式版纪念臂带": {
+            "_id": "正式版纪念臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "正式版纪念臂带",
+            "_props": {
+                "BackgroundColor": "green",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_release_eft.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "正式版发售纪念臂带",
+                "ShortName": "正式版",
+                "Description": "为等待已久的忠实战士们特地准备的专属臂带。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "头眼祷文臂带": {
+            "_id": "头眼祷文臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "头眼祷文臂带",
+            "_props": {
+                "BackgroundColor": "orange",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_headeyes.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "“头眼退散”臂带",
+                "ShortName": "祷文",
+                "Description": "Gribnik 专门打造的臂带，上面写着的祈祷文据说能保护使用者免受流弹的威胁。看来在走投无路的时候，战士们连这样的心理安慰都来者不拒。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "搜刮祷文臂带": {
+            "_id": "搜刮祷文臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "搜刮祷文臂带",
+            "_props": {
+                "BackgroundColor": "orange",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_loot.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "“搜刮祷文”臂带",
+                "ShortName": "祷文",
+                "Description": "Gribnik 打造的臂带，上面写有祈祷文。据说能让 PMC 们在战斗中保住自己来之不易的战利品。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "防护祷文臂带": {
+            "_id": "防护祷文臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "防护祷文臂带",
+            "_props": {
+                "BackgroundColor": "green",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_sbeukomar.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "臂带（SBEU KOMAR 防护）",
+                "ShortName": "祷文",
+                "Description": "Gribnik 打造的祈祷文臂带，保护使用者免受一种特殊的蚊子亚种侵扰——这种蚊子只在诺文斯克地区有分布。早在契约战争时期，就有新闻报道称当地出现了所谓“危险环境作战特种蚊子”（俄语缩写“SBEU”），但所谓目击者提供的大量证据中只有一小部分能经得起科学验证。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "为了全人类臂带": {
+            "_id": "为了全人类臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "为了全人类臂带",
+            "_props": {
+                "Weight": 0.05,
+                "BackgroundColor": "green",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_story_04_for_humanity.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "臂带（为了全人类）",
+                "ShortName": "臂带",
+                "Description": "为那些揭露了塔科夫残酷真相的 PMC 们打造的专属臂带。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "为了全人类海报": {
+            "_id": "为了全人类海报",
+            "_targetid": "6759e61067c8eb5cd10352f1",
+            "_name": "为了全人类海报",
+            "_props": {
+                "BackgroundColor": "green",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_04_for_humanity.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "lootable",
+                "Name": "为了全人类海报",
+                "ShortName": "为了全人类",
+                "Description": "这张海报展示了在面对正义战士的锋刃时，即使是最为纯粹的邪恶也只有自取灭亡。在这只怪物可耻的尸骸上，人类将以自己的意志建成崭新的未来。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "addToKappa": false,
+                "FixType": [
+                    "Container",
+                    "Mods"
+                ],
+                "BlackListType": 63
+            }
+        },
+        "幸存者臂带": {
+            "_id": "幸存者臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "幸存者臂带",
+            "_props": {
+                "Weight": 0.05,
+                "BackgroundColor": "yellow",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_story_01_and_survived.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "臂带（幸存者）",
+                "ShortName": "臂带",
+                "Description": "臂带的主人从未揭露塔科夫巨变背后的真正原因。但他至少活了下来，到头来这才是唯一要紧的事情。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "堕入黑暗臂带": {
+            "_id": "堕入黑暗臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "堕入黑暗臂带",
+            "_props": {
+                "Weight": 0.05,
+                "BackgroundColor": "red",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_story_02_in_the_darkness.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "臂带（堕入黑暗）",
+                "ShortName": "臂带",
+                "Description": "臂带的佩戴者亲手同意了一项交易，事实证明这一妥协的代价远比想象中更为沉重。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "灯塔臂带": {
+            "_id": "灯塔臂带",
+            "_targetid": "60b0f988c4449e4cb624c1da",
+            "_name": "灯塔臂带",
+            "_props": {
+                "Weight": 0.05,
+                "BackgroundColor": "blue",
+                "CanSellOnRagfair": false,
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armband/item_equipment_armband_story_03_didnt_escape_from_yourself.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "base",
+                "Name": "臂带（灯塔）",
+                "ShortName": "臂带",
+                "Description": "这一臂带宛如枷锁，让佩戴它的 PMC 永远无法逃离自己在塔科夫的过往。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b5f704686f77447ec5d76d7",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63
+            }
+        },
+        "幸存者海报": {
+            "_id": "幸存者海报",
+            "_targetid": "6759e61067c8eb5cd10352f1",
+            "_name": "幸存者海报",
+            "_props": {
+                "BackgroundColor": "yellow",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_01_and_survived.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "lootable",
+                "Name": "幸存者海报",
+                "ShortName": "幸存者",
+                "Description": "描绘了 PMC 逃出塔科夫场面的海报。尽管他置身 TerraGroup 的惊天阴谋以及整场冲突的根源之外，但仍然奇迹般地幸存了下来，最终得以逃离。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "addToKappa": false,
+                "FixType": [
+                    "Container",
+                    "Mods"
+                ],
+                "BlackListType": 63
+            }
+        },
+        "堕入黑暗海报": {
+            "_id": "堕入黑暗海报",
+            "_targetid": "6759e61067c8eb5cd10352f1",
+            "_name": "堕入黑暗海报",
+            "_props": {
+                "BackgroundColor": "red",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_02_in_the_darkness.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "lootable",
+                "Name": "堕入黑暗海报",
+                "ShortName": "堕入黑暗",
+                "Description": "这张海报昭示着：对于那些在诱惑之下放弃了追寻真理之人，唯有一条出路——坠入深渊。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "addToKappa": false,
+                "FixType": [
+                    "Container",
+                    "Mods"
+                ],
+                "BlackListType": 63
+            }
+        },
+        "灯塔海报": {
+            "_id": "灯塔海报",
+            "_targetid": "6759e61067c8eb5cd10352f1",
+            "_name": "灯塔海报",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_flyers/item_barter_flyers_story_03_didnt_escape_from_yourself.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "lootable",
+                "Name": "灯塔海报",
+                "ShortName": "灯塔",
+                "Description": "一张画有灯塔的海报。从不同角度看去，海报上会显现出若有若无的发光图案。在其它地方，这大概会被视为希望的象征，但对你来说，这更像是一则高悬在头顶的警告，昭示着你对某个力量无边之人欠下的一笔永远无法逃避的债务。",
+                "DefaultPrice": 251115,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "addToKappa": false,
+                "FixType": [
+                    "Container",
+                    "Mods"
+                ],
+                "BlackListType": 63
+            }
+        }
+    }
+}

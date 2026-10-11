@@ -1,0 +1,1046 @@
+{
+    "_meta": {
+        "说明": "从 moddata/custom.json 剪除的 11 个狗牌样式 + 从 moddata/items_normal.json 剪除的 22 件对应实体物品",
+        "剪除日期": "2026-10-11",
+        "原因": "这 7 组是官方狗牌实体/样式的复制品（prefab 路径与官方完全一致），官方 5.0 已有对应物",
+        "官方对应": {
+            "熔融狗牌": "68f15ed4edf2ab313f093498",
+            "四方狗牌": "68f15e9fcacd763bbc0e2bd8",
+            "五转狗牌": "68f113af8c147e61f50fb520",
+            "六转狗牌": "68f11478a1e799f1c3027c77",
+            "Twitch狗牌": "68f155ead4bee20384008afc",
+            "黑边预购狗牌": "6746fd09bafff85008048838(BEAR)/67471938bafff850080488b7(USEC)",
+            "蓝边预购狗牌": "67471928d17d6431550563b5(BEAR)/6747193f170146228c0d2226(USEC)",
+            "_注意": "黑边/蓝边预购的美术 prefab 实为 preorder_02/01 (=官方 immortal/acolyte)，与名称 EOD/TUE 不符"
+        },
+        "保留未剪": [
+            "玩家Boss狗牌",
+            "玩家Scav狗牌",
+            "玩家邪教徒狗牌",
+            "玩家蓝水晶狗牌",
+            "玩家红水晶狗牌 (自制美术)",
+            "结局藏身处装饰 4 组 (幸存者/堕入黑暗/灯塔/救世主 × 地板/天花板/墙纸，官方 HiddenByDefault=true 且结局无法触发)"
+        ],
+        "回填": "styles 合并回 custom.json，items 合并回 items_normal.json",
+        "两批": {
+            "第一批 (7 组)": "熔融/四方/五转/六转/Twitch/黑边预购/蓝边预购 —— 官方狗牌实体与样式的纯复制品",
+            "第二批 (4 组)": "幸存者/堕入黑暗/灯塔/救世主 —— 结局狗牌，官方样式已存在；结局藏身处装饰仍保留模组自制版"
+        }
+    },
+    "styles": {
+        "熔融狗牌": {
+            "_id": "熔融狗牌",
+            "_name": "熔融狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "熔铁铸金",
+                "EName": "熔铁铸金",
+                "ShortName": "熔铁铸金",
+                "Description": "熔铁铸金",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR熔融狗牌",
+                "UsecTemplateId": "USEC熔融狗牌"
+            }
+        },
+        "四方狗牌": {
+            "_id": "四方狗牌",
+            "_name": "四方狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "四方平直",
+                "EName": "四方平直",
+                "ShortName": "四方平直",
+                "Description": "四方平直",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR四方狗牌",
+                "UsecTemplateId": "USEC四方狗牌"
+            }
+        },
+        "五转狗牌": {
+            "_id": "五转狗牌",
+            "_name": "五转狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "P-5",
+                "EName": "P-5",
+                "ShortName": "P-5",
+                "Description": "P-5",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR五转狗牌",
+                "UsecTemplateId": "USEC五转狗牌"
+            }
+        },
+        "六转狗牌": {
+            "_id": "六转狗牌",
+            "_name": "六转狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "P-6",
+                "EName": "P-6",
+                "ShortName": "P-6",
+                "Description": "P-6",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR六转狗牌",
+                "UsecTemplateId": "USEC六转狗牌"
+            }
+        },
+        "Twitch狗牌": {
+            "_id": "Twitch狗牌",
+            "_name": "Twitch狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "订阅回馈",
+                "EName": "订阅回馈",
+                "ShortName": "订阅回馈",
+                "Description": "订阅回馈",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEARTwitch狗牌",
+                "UsecTemplateId": "USECTwitch狗牌"
+            }
+        },
+        "黑边预购狗牌": {
+            "_id": "黑边预购狗牌",
+            "_name": "黑边预购狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "黑暗边缘",
+                "EName": "黑暗边缘",
+                "ShortName": "黑暗边缘",
+                "Description": "黑暗边缘",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR黑边预购狗牌",
+                "UsecTemplateId": "USEC黑边预购狗牌"
+            }
+        },
+        "蓝边预购狗牌": {
+            "_id": "蓝边预购狗牌",
+            "_name": "蓝边预购狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "无名之人",
+                "EName": "无名之人",
+                "ShortName": "无名之人",
+                "Description": "无名之人",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR蓝边预购狗牌",
+                "UsecTemplateId": "USEC蓝边预购狗牌"
+            }
+        },
+        "幸存者狗牌": {
+            "_id": "幸存者狗牌",
+            "_name": "幸存者狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": true,
+                "Name": "逃出生天",
+                "EName": "逃出生天",
+                "ShortName": "逃出生天",
+                "Description": "逃出生天",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR幸存者狗牌",
+                "UsecTemplateId": "USEC幸存者狗牌"
+            }
+        },
+        "堕入黑暗狗牌": {
+            "_id": "堕入黑暗狗牌",
+            "_name": "堕入黑暗狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "堕入黑暗",
+                "EName": "堕入黑暗",
+                "ShortName": "堕入黑暗",
+                "Description": "堕入黑暗",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR堕入黑暗狗牌",
+                "UsecTemplateId": "USEC堕入黑暗狗牌"
+            }
+        },
+        "灯塔狗牌": {
+            "_id": "灯塔狗牌",
+            "_name": "灯塔狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "漂泊四海",
+                "EName": "漂泊四海",
+                "ShortName": "漂泊四海",
+                "Description": "漂泊四海",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR灯塔狗牌",
+                "UsecTemplateId": "USEC灯塔狗牌"
+            }
+        },
+        "救世主狗牌": {
+            "_id": "救世主狗牌",
+            "_name": "救世主狗牌",
+            "_parent": "6746fafabafff8500804880e",
+            "_type": "Item",
+            "_props": {
+                "AvailableAsDefault": false,
+                "Name": "人类之光",
+                "EName": "人类之光",
+                "ShortName": "人类之光",
+                "Description": "人类之光",
+                "ProfileVersions": [],
+                "Side": [
+                    "Bear",
+                    "Usec"
+                ],
+                "BearTemplateId": "BEAR救世主狗牌",
+                "UsecTemplateId": "USEC救世主狗牌"
+            }
+        }
+    },
+    "items": {
+        "BEAR熔融狗牌": {
+            "_id": "BEAR熔融狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR熔融狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC熔融狗牌": {
+            "_id": "USEC熔融狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC熔融狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_melted/item_barter_dogtags_melted.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。破旧不堪，却奇迹般地没有散落。只属于那些亲历决定时刻的人。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR四方狗牌": {
+            "_id": "BEAR四方狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR四方狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_square/item_barter_dogtags_square.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。见证传奇诞生者的独有之证。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC四方狗牌": {
+            "_id": "USEC四方狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC四方狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_square/item_barter_dogtags_square.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。见证传奇诞生者的独有之证。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR五转狗牌": {
+            "_id": "BEAR五转狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR五转狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_prestige_05/item_barter_dogtags_prestige_05.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。彰显了佩戴者的独特身份。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC五转狗牌": {
+            "_id": "USEC五转狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC五转狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_prestige_05/item_barter_dogtags_prestige_05.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。彰显了佩戴者的独特身份。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR六转狗牌": {
+            "_id": "BEAR六转狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR六转狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_prestige_06/item_barter_dogtags_prestige_06.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。这一特殊版本的狗牌还能作为 U 盘使用。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC六转狗牌": {
+            "_id": "USEC六转狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC六转狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_prestige_06/item_barter_dogtags_prestige_06.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。这一特殊版本的狗牌还能作为 U 盘使用。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEARTwitch狗牌": {
+            "_id": "BEARTwitch狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEARTwitch狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/dog_tags/item_dogtag_t2.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。唯有最执着者方能获得。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "USECTwitch狗牌": {
+            "_id": "USECTwitch狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USECTwitch狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/dog_tags/item_dogtag_t2.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "不锈钢材质的特制军用身份识别牌，主要用于在战场环境下快速识别死者与伤员的身份。唯有最执着者方能获得。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR黑边预购狗牌": {
+            "_id": "BEAR黑边预购狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR黑边预购狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_preorder_02/item_barter_dogtags_preorder_02.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "BEAR PMC 的身份识别牌，狗牌的主人显然亲身体验过塔科夫的残酷。上面的刻痕标记着这位战士一次次失去一切，却仍然奋不顾身地重返战场，力图逃离塔科夫的经历。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC黑边预购狗牌": {
+            "_id": "USEC黑边预购狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC黑边预购狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_preorder_02/item_barter_dogtags_preorder_02.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "USEC PMC 的身份识别牌，狗牌的主人显然亲身体验过塔科夫的残酷。上面的刻痕标记着这位战士一次次失去一切，却仍然奋不顾身地重返战场，力图逃离塔科夫的经历。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR蓝边预购狗牌": {
+            "_id": "BEAR蓝边预购狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR蓝边预购狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_preorder_01/item_barter_dogtags_preorder_01.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "BEAR PMC 的身份识别牌。从上面的标记来看，狗牌的主人放弃了逃离塔科夫的尝试，成为了所谓真正的信徒中的一员。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC蓝边预购狗牌": {
+            "_id": "USEC蓝边预购狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC蓝边预购狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_preorder_01/item_barter_dogtags_preorder_01.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "USEC PMC 的身份识别牌。从上面的标记来看，狗牌的主人放弃了逃离塔科夫的尝试，成为了所谓真正的信徒中的一员。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": false,
+                "ApplyToEOD": false,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR幸存者狗牌": {
+            "_id": "BEAR幸存者狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR幸存者狗牌",
+            "_props": {
+                "BackgroundColor": "yellow",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC幸存者狗牌": {
+            "_id": "USEC幸存者狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC幸存者狗牌",
+            "_props": {
+                "BackgroundColor": "yellow",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_01_and_survived.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。尽管这块狗牌的主人从未探究过整场冲突背后的原因，但还是在血雨腥风中幸存了下来，最终逃离了塔科夫。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR堕入黑暗狗牌": {
+            "_id": "BEAR堕入黑暗狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR堕入黑暗狗牌",
+            "_props": {
+                "BackgroundColor": "red",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC堕入黑暗狗牌": {
+            "_id": "USEC堕入黑暗狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC堕入黑暗狗牌",
+            "_props": {
+                "BackgroundColor": "red",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_02_in_the_darkness.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。沾满了前主人的斑斑血迹，生存的本能促使他选择了逃离塔科夫的捷径，却连同整个世界一起堕入黑暗渊薮之中。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR灯塔狗牌": {
+            "_id": "BEAR灯塔狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR灯塔狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC灯塔狗牌": {
+            "_id": "USEC灯塔狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC灯塔狗牌",
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_03_didnt_escape_from_yourself.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。弹孔赫然穿透了狗牌中央，几乎要将它分为两半，还留下了铁丝网刮擦的痕迹。也许狗牌的主人逃离了塔科夫，但他永远无法逃离他自己。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "BEAR救世主狗牌": {
+            "_id": "BEAR救世主狗牌",
+            "_targetid": "59f32bb586f774757e1e8442",
+            "_name": "BEAR救世主狗牌",
+            "_props": {
+                "BackgroundColor": "green",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "BEAR 狗牌",
+                "ShortName": "BEAR",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToBEAR": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        },
+        "USEC救世主狗牌": {
+            "_id": "USEC救世主狗牌",
+            "_targetid": "59f32c3b86f77472a31742f0",
+            "_name": "USEC救世主狗牌",
+            "_props": {
+                "BackgroundColor": "green",
+                "Prefab": {
+                    "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
+                    "rcid": ""
+                }
+            },
+            "_customprops": {
+                "$type": "fixed",
+                "Name": "USEC 狗牌",
+                "ShortName": "USEC",
+                "Description": "用于在战场环境下快速识别死者与伤员身份的军用身份识别牌。狗牌的主人将 TerraGroup 在塔科夫进行的所有邪恶勾当公之于众，表面的印记彰显了集团走向覆灭的可耻命运。",
+                "DefaultPrice": 400,
+                "RagfairType": "5b47574386f77428ca22b2f4",
+                "CanFindInRaid": false,
+                "CustomLoot": false,
+                "CustomLootTarget": "59faff1d86f7746c51718c9c",
+                "isMoney": false,
+                "BlackListType": 63,
+                "FixType": [
+                    "Container",
+                    "Mods",
+                    "HandoverItemGroup"
+                ],
+                "CopyPrice": true,
+                "ApplyAsPMCDogTag": true,
+                "ApplyToUSEC": true,
+                "ApplyToStandard": true,
+                "ApplyToEOD": true,
+                "ApplyToUnheard": true
+            }
+        }
+    }
+}

@@ -6,35 +6,73 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-	  <NoWarn>CS0618</NoWarn>
+    <NoWarn>CS0618;CS8622</NoWarn>
     <Version>0.0.1</Version>
-    <!-- The two lines below will set the output path for the binaries -->
-    <OutputPath>I:\TKF\SPT_Runtime\user\mods\$(ProjectName)\$(AssemblyName)\</OutputPath>
+    <!-- 产物直接落到 SPT 5.0 的模组目录（4.1 时期为 I:\TKF\SPT_Runtime，该目录只读，禁止写入） -->
+    <OutputPath>I:\build\SPT_Runtime\user\mods\火神重工\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <!--
+      SPT 5.0 运行时目录。
+
+      ⚠ 这里用 Reference + HintPath 而非 PackageReference 的原因：
+        nuget.org 上的 SPTarkov.* 包目前最高只发布到 4.1.2，5.0.0 尚未上线
+        （已核对 https://api.nuget.org/v3-flatcontainer/sptarkov.server.core/index.json）。
+        直接引用 5.0 运行时程序集可以立刻开工。
+        待上游发布 5.0.0 的 NuGet 包后，可换回 PackageReference 以恢复跨机器可移植性。
+    -->
+    <SptRuntimeDir>I:\build\SPT_Runtime</SptRuntimeDir>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SPTarkov.Common" Version="4.1.1" />
-    <PackageReference Include="SPTarkov.DI" Version="4.1.1" />
-    <PackageReference Include="SPTarkov.Reflection" Version="4.1.1" />
-    <PackageReference Include="SPTarkov.Server.Core" Version="4.1.1" />
+    <Content Include="config.jsonc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <!-- 用 Update 而非 Include：Web SDK 已按默认规则把 moddata\**\* 收进 Content，
+         再 Include 一次会报 NETSDK1022「包含了重复的 Content 项」。 -->
+    <Content Update="moddata\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>I:\TKF\SPT\0Harmony.dll</HintPath>
+    <Reference Include="SPTarkov.Common">
+      <HintPath>$(SptRuntimeDir)\SPTarkov.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="SPTarkov.DI">
+      <HintPath>$(SptRuntimeDir)\SPTarkov.DI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SPTarkov.Reflection">
+      <HintPath>$(SptRuntimeDir)\SPTarkov.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SPTarkov.Server.Core">
+      <HintPath>$(SptRuntimeDir)\SPTarkov.Server.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <!-- 非可选：SPTarkov.Server.Core.dll 的公开签名直接暴露了它们定义的类型 ——
+           · IModMetadata 用到 SemanticVersioning.Version / Range
+             （缺引用报 CS0012：类型 "Version" 在未引用的程序集中定义）
+           · MonoMod.Cil 位于 MonoMod.Utils.dll，并非独立的 MonoMod.Cil.dll -->
+    <Reference Include="SemanticVersioning">
+      <HintPath>$(SptRuntimeDir)\SemanticVersioning.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>$(SptRuntimeDir)\MonoMod.Utils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(SptRuntimeDir)\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <!-- 上游依赖：永恒之环服务端，提供 ContextManager.EventManager.DataLoadEvent 等事件总线 -->
     <Reference Include="EternalCycleServer">
-      <HintPath>I:\TKF\SPT_Runtime\user\mods\EternalCycleServer\EternalCycleServer.dll</HintPath>
+      <HintPath>$(SptRuntimeDir)\user\mods\EternalCycleServer\EternalCycleServer.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
 
-	<ItemGroup>
-		<Content Include="config.jsonc">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-	</ItemGroup>
 </Project>

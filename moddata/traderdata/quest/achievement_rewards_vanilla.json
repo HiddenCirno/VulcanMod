@@ -35,7 +35,7 @@
         "Items": [
             {
                 "_id": "萤火虫_臂带奖励_物品",
-                "_tpl": "灯塔臂带",
+                "_tpl": "68d41fb0a1c275dbaa0798bf",
                 "upd": {
                     "StackObjectsCount": 1
                 }
@@ -55,7 +55,7 @@
         "Items": [
             {
                 "_id": "萤火虫_海报奖励_物品",
-                "_tpl": "灯塔海报",
+                "_tpl": "68df977e972cf1e1ec072568",
                 "upd": {
                     "StackObjectsCount": 1
                 }
@@ -71,7 +71,7 @@
     },
     {
         "$type": "customization",
-        "Target": "灯塔狗牌",
+        "Target": "68dfaffe3c5a40e30f0e55b0",
         "Quest": "6514321bec10ff011f17ccac",
         "Stage": 1,
         "Hidden": false,
@@ -115,7 +115,7 @@
         "Items": [
             {
                 "_id": "名为太阳的星星_臂带奖励_物品",
-                "_tpl": "堕入黑暗臂带",
+                "_tpl": "68d41f017cb8c03da8079004",
                 "upd": {
                     "StackObjectsCount": 1
                 }
@@ -135,7 +135,7 @@
         "Items": [
             {
                 "_id": "名为太阳的星星_海报奖励_物品",
-                "_tpl": "堕入黑暗海报",
+                "_tpl": "68df97792e6cd294e908d1e9",
                 "upd": {
                     "StackObjectsCount": 1
                 }
@@ -151,7 +151,7 @@
     },
     {
         "$type": "customization",
-        "Target": "堕入黑暗狗牌",
+        "Target": "68dfafeadfaadbd4eb06539a",
         "Quest": "67fce0c2f18dc20eae02240b",
         "Stage": 1,
         "Hidden": false,
@@ -195,7 +195,7 @@
         "Items": [
             {
                 "_id": "旅行家_臂带奖励_物品",
-                "_tpl": "幸存者臂带",
+                "_tpl": "68d41e65a706eba9a204ed27",
                 "upd": {
                     "StackObjectsCount": 1
                 }
@@ -215,7 +215,7 @@
         "Items": [
             {
                 "_id": "旅行家_海报奖励_物品",
-                "_tpl": "幸存者海报",
+                "_tpl": "68df97725d4e135b130392c8",
                 "upd": {
                     "StackObjectsCount": 1
                 }
@@ -231,7 +231,7 @@
     },
     {
         "$type": "customization",
-        "Target": "幸存者狗牌",
+        "Target": "68dfafd82d57066c0d011c86",
         "Quest": "6512eb3ddfb0ae1ee75a0376",
         "Stage": 1,
         "Hidden": false,
